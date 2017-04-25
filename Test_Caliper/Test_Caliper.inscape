@@ -1,0 +1,5946 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?>
+<VOA_File_1.0>
+<R>
+<InProject.5 def=" 1 "  name=" Test_Caliper " >
+<InProject>
+5
+</InProject>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Test_Caliper"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{8003600b-f01e-473d-89e6-d419b2068d11}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<HashKey>
+"1bd2675641935fb7fc6145cb53bee7de67f3b6cf"
+</HashKey>
+<Edition>
+Pro
+</Edition>
+<Evaluation>
+0
+</Evaluation>
+<SCORMEnabled>
+0
+</SCORMEnabled>
+<OldDonePinBehaviour>
+0
+</OldDonePinBehaviour>
+<Plugins>
+<R>
+"In3DEntities"0 
+</R>
+</Plugins>
+<As>
+<R>
+<A "S" "Simulation">
+<F "VrObjectField">
+<InSimulation.1 def=" 2 "  name=" Simulation " >
+<InSimulation>
+1
+</InSimulation>
+<AllSimulationEntities>
+<R>
+<OneSimulationEntities>
+<In3DStage.0 def=" 3 "  name=" Stage " >
+<In3DStage>
+0
+</In3DStage>
+<InStage>
+0
+</InStage>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Stage"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{3a3b9cd4-6f89-4d27-af84-0527040ecebc}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "C" "StageEntities">
+<R>
+<F "VrObjectField">
+<In3DCamera.0 def=" 4 "  name=" Camera " >
+<In3DCamera>
+0
+</In3DCamera>
+<In3DStageEntity>
+0
+</In3DStageEntity>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Camera"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+<In3DTransformComponent.0 def=" 5 "  name=" Transform " >
+<In3DTransformComponent>
+0
+</In3DTransformComponent>
+<InTransformComponent>
+0
+</InTransformComponent>
+<InComponent>
+1
+</InComponent>
+<VrBhComponent>
+0
+</VrBhComponent>
+<VrComponent>
+0
+</VrComponent>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Transform"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</In3DTransformComponent.0>
+ 
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{8250cea9-74ef-4c0d-a3ba-c74bceb3571f}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Position">
+<F "VrVec3dField">
+-0.07039371148560794000000 0.6199786991866812500000 0.6645182331236071400000
+</F>
+</A>
+ 
+<A "S" "Hidden">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Scale">
+<F "VrVec3dField">
+1.000000000000042200000 1.000000000000044600000 1.000000000000059700000
+</F>
+</A>
+ 
+<A "S" "Orientation">
+<F "VrQuatdField">
+-0.3628251692472588300000 -0.08599632166318343900000 -0.03364890331228338700000 0.9272703384272468200000
+</F>
+</A>
+ 
+<A "S" "Displayed">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Locked">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "GeomParent">
+<F "VrObjectField">
+null
+</F>
+</A>
+ 
+<A "S" "CastShadow">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Parallax">
+<F "VrFloatField">
+0.06300000101327896100000
+</F>
+</A>
+ 
+<A "S" "TrackedEntity">
+<F "VrObjectField">
+null
+</F>
+</A>
+ 
+<A "S" "Near">
+<F "VrDoubleField">
+0.1000000000000000100000
+</F>
+</A>
+ 
+<A "S" "VerticalAperture">
+<F "VrFloatField">
+0.7853981852531433100000
+</F>
+</A>
+ 
+<A "S" "ConvergenceDistance">
+<F "VrFloatField">
+10.00000000000000000000
+</F>
+</A>
+ 
+<A "S" "Orthographic">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Far">
+<F "VrDoubleField">
+1000.000000000000000000
+</F>
+</A>
+ 
+<A "S" "NearAuto">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "FarAuto">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "BackgroundColor">
+<F "VrColorField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "ShadowsDistanceVisibility">
+<F "VrDoubleField">
+50.00000000000000000000
+</F>
+</A>
+ 
+<A "S" "DynamicsMode">
+<F "InCollidableDynamicsMode">
+NoDynamics
+</F>
+</A>
+ 
+<A "C" "PostEffects">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+</In3DCamera.0>
+</F>
+ 
+<F "VrObjectField">
+<In3DModel.1 def=" 6 "  name=" Caliper " >
+<In3DModel>
+1
+</In3DModel>
+<In3DModelBase>
+0
+</In3DModelBase>
+<In3DStageEntity>
+0
+</In3DStageEntity>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Caliper"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+<In3DTransformComponent.0 def=" 7 "  name=" Transform " >
+<In3DTransformComponent>
+0
+</In3DTransformComponent>
+<InTransformComponent>
+0
+</InTransformComponent>
+<InComponent>
+1
+</InComponent>
+<VrBhComponent>
+0
+</VrBhComponent>
+<VrComponent>
+0
+</VrComponent>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Transform"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</In3DTransformComponent.0>
+ 
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{b25c8dc2-b2c8-4255-aa82-9aa4b45ec41b}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+<F "VrObjectField">
+<VrBhGraphInstance.0 def=" 8 " >
+<VrBhGraphInstance>
+0
+</VrBhGraphInstance>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Graph">
+<F "VrObjectField">
+<VrBhGraph.0 def=" 9 " >
+<VrBhGraph>
+0
+</VrBhGraph>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Measurement_A"
+</F>
+</A>
+ 
+<A "C" "Annotations">
+<R>
+</R>
+</A>
+ 
+<A "S" "Description">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+<F "VrObjectField">
+<VrBhGraphInstance.0 use=" 8 " >
+</VrBhGraphInstance.0>
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhGraph.0>
+</F>
+</A>
+ 
+<A "S" "OwnerEntity">
+<F "VrObjectField">
+<In3DModel.1 use=" 6 " >
+</In3DModel.1>
+</F>
+</A>
+ 
+<A "S" "ParentGraphTaskElement">
+<F "VrObjectField">
+null
+</F>
+</A>
+ 
+<A "S" "ZoomLevel">
+<F "VrDoubleField">
+1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "ViewCenter">
+<F "VrVec2dField">
+-109.0000000000000000000 -295.0000000000000000000
+</F>
+</A>
+ 
+<A "C" "Elements">
+<R>
+<F "VrObjectField">
+<VrBhScriptTaskInstance.0 def=" 10 " >
+<VrBhScriptTaskInstance>
+0
+</VrBhScriptTaskInstance>
+<VrBhTaskInstance>
+0
+</VrBhTaskInstance>
+<VrBhElementInstance>
+0
+</VrBhElementInstance>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Element">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 def=" 11 " >
+<VrBhScriptTaskElement>
+0
+</VrBhScriptTaskElement>
+<VrBhTaskElement>
+0
+</VrBhTaskElement>
+<VrBhElement>
+2
+</VrBhElement>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Id">
+<F "VrStringField">
+"9ab075e0c72a45f882577a8732ddd749"
+</F>
+</A>
+ 
+<A "S" "Position">
+<F "VrVec2dField">
+-193.3196581196581300000 -381.1282051282050800000
+</F>
+</A>
+ 
+<A "S" "ParentGraph">
+<F "VrObjectField">
+<VrBhGraph.0 use=" 9 " >
+</VrBhGraph.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "TaskProto">
+<F "VrObjectField">
+<VrBhScriptTaskProto.0 def=" 12 " >
+<VrBhScriptTaskProto>
+0
+</VrBhScriptTaskProto>
+<VrBhTaskProto>
+0
+</VrBhTaskProto>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "TaskName">
+<F "VrStringField">
+"Association"
+</F>
+</A>
+ 
+<A "C" "Parameters">
+<R>
+<F "VrObjectField">
+<VrBhTaskParameter.0 def=" 13 " >
+<VrBhTaskParameter>
+0
+</VrBhTaskParameter>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParameterName">
+<F "VrStringField">
+"Caliper_Path"
+</F>
+</A>
+ 
+<A "S" "Settings">
+<F "VrInt32Field">
+-1
+</F>
+</A>
+ 
+<A "S" "MetaData">
+<F "VrStringField">
+"url_default_path=E:\\Test_Caliper;url_type=directory;"
+</F>
+</A>
+ 
+<A "S" "IsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "ParameterType">
+<F "VrObjectField">
+<VrBhType.0 def=" 14 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrUrlField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "Description">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Direction">
+<F "VrBhTaskParameterDirectionField">
+In
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhTaskParameter.0>
+</F>
+ 
+</R>
+</A>
+ 
+<A "S" "Description">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "C" "Tags">
+<R>
+</R>
+</A>
+ 
+<A "S" "TargetType">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "LogicPath">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "C" "OutputControls">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ScriptType">
+<F "VrBhScriptTaskProtoTypeField">
+Chunk
+</F>
+</A>
+ 
+<A "S" "Script">
+<F "VrStringField">
+" -- test lua caliper-------------------------
+--[[ using the two outer measuring faces of
+     caliper at first.                  ]]--
+
+-- load namespace---------------------------
+package.path = package.path .. ';' .. unprojectizeFilename(Caliper_Path.localPath) .. '/?.lua'
+
+-- load packages----------------------------
+matrix = require \"matrix\"
+metrology = require \"metrology\"
+
+-- criteria to stop association-------------
+local CRT=1
+local loop_num=1
+
+--[[measurement points on each plane
+		position is relative to the
+		plane center												]]--
+-- r correspond to \"z\" direction
+local num_r=2
+local range_r1=-0.001
+local range_r2= 0.001
+local dr=(range_r2-range_r1)/(num_r-1)
+-- c correspond to \"y\" direction
+local num_c=2
+local range_c1=-0.001
+local range_c2= 0.001
+local dc=(range_c2-range_c1)/(num_c-1)
+
+--[[
+local PTS=matrix(num_r*num_c,3,0)
+local count=1
+for i=1,num_r do
+	pst_r=range_r1+dr*(i-1)
+	for j=1,num_c do
+		pst_c=range_c1+dc*(j-1)
+		PTS[count][1]=0
+		PTS[count][2]=pst_c
+		PTS[count][3]=pst_r
+		count=count+1
+	end
+end
+																		    ]]--
+
+-- loop to associate------------------------
+--while (CRT>1e-3) do
+while (loop_num<3) do
+	--print(PTS)
+	
+	local PTS=matrix(num_r*num_c,3,0)
+	local count=1
+	for i=1,num_r do
+		pst_r=range_r1+dr*(i-1)
+		for j=1,num_c do
+			pst_c=range_c1+dc*(j-1)
+			PTS[count][1]=0
+			PTS[count][2]=pst_c
+			PTS[count][3]=pst_r
+			count=count+1
+		end
+	end
+	
+	--[[V_normal_1:
+					normal direction of the
+					first measurement plane.      ]]--
+	local V_normal_1=Vec3(1,0,0)
+	local a=Caliper:getOrientation()
+	V_normal_1=a:rotate(V_normal_1)
+	local V_normal_2=Vec3(0,0,0)-V_normal_1
+	
+	-- get position of two plane center-------
+	local	PS1=Caliper:getStagePosition()
+	local PS2=Slide:getStagePosition()
+	-- distance between two planes------------
+	local DPL=(PS2-PS1)*V_normal_1
+	DPL=DPL-0.025
+	
+	print('--  loop:  '..loop_num..'  --')
+	
+	-- measurement distance D1 by ray---------
+	local D1=matrix(num_r*num_c,1,0)
+	local mark=1
+	for i=1,(num_r*num_c) do
+		local MPT=Vec3(PTS[i][1],PTS[i][2],PTS[i][3])
+		MPT=a:rotate(MPT)
+		MPT=MPT+PS1-V_normal_1*0.001
+		local r = Ray(MPT, V_normal_1)
+		local t = rayIntersect(Stage.SceneNode, r, false, true)
+
+		if (t~= nil) then
+			local num_t=1
+			local num_d=0
+			local d1={}
+			while (t[num_t]~=nil) do
+				if ((t[num_t].Entity.Name~='Caliper')and(t[num_t].Entity.Name~='Slide')) then
+					num_d=num_d+1
+					d1[num_d]=t[num_t].IntersectedPoint.distance-0.001
+				end
+				num_t=num_t+1
+			end
+			
+			D1[mark][1]=d1[1]
+			if (num_d>1) then
+				for j=2,num_d do
+					if (math.abs(d1[j])<math.abs(D1[mark][1])) then
+						D1[mark][1]=d1[j]
+					end
+				end
+			end
+		end
+		mark=mark+1
+	end
+
+	-- measurement distance D2 by ray---------
+	local D2=matrix(num_r*num_c,1,0)
+	local mark=1
+	for i=1,(num_r*num_c) do
+		local MPT=Vec3(PTS[i][1],PTS[i][2],PTS[i][3])
+		MPT=a:rotate(MPT)
+		MPT=MPT+PS1+V_normal_1*(DPL+0.001)
+		local r = Ray(MPT, V_normal_2)
+		local t = rayIntersect(Stage.SceneNode, r, false, true)
+		
+		if (t~= nil) then
+			local num_t=1
+			local num_d=0
+			local d2={}
+			while (t[num_t]~=nil) do
+				if ((t[num_t].Entity.Name~='Caliper')and(t[num_t].Entity.Name~='Slide')) then
+					num_d=num_d+1
+					d2[num_d]=t[num_t].IntersectedPoint.distance-0.001
+				end
+				num_t=num_t+1
+			end
+			
+			D2[mark][1]=d2[1]
+			if (num_d>1) then
+				for j=2,num_d do
+					if (math.abs(d2[j])<math.abs(D2[mark][1])) then
+						D2[mark][1]=d2[j]
+					end
+				end
+			end
+		end
+		mark=mark+1
+	end
+
+	-- conduct association--------------------
+	local SDT,CRT = metrology.Caliper_A(D1,D2,DPL,PTS)
+	
+	-- translate the position of caliper------
+	--[[translation corresponding to the left
+			contact surface of the caliper.   ]]--
+	local tr_c=Vec3(-SDT[1],SDT[2],-SDT[3])
+	--[[7th variable of SDT is the changing
+			of distance between two faces.
+			positive is increasing distance.  ]]--
+	local tr_s=Vec3(SDT[7],0,0)
+	Caliper:translateLocal(tr_c)
+	Slide:translateParent(tr_s)
+	
+	-- rotation the cqliper, Vec3(y,x,z)------
+	--[[assume the rotation angle is small,
+			the SDT is used as
+			Eular Angle directly							]]--
+	local RTQT=Quat(0,0,0,1)
+	RTQT:setEulerAngles(Vec3(-SDT[5],SDT[4],-SDT[6]))
+	Caliper:rotateLocal(RTQT)
+	
+	loop_num=loop_num+1
+	
+end
+-- finish-----------------------------------
+
+
+
+"
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhScriptTaskProto.0>
+</F>
+</A>
+ 
+<A "S" "AutoStart">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "StartPin">
+<F "VrObjectField">
+<VrBhControlInPin.0 def=" 15 " >
+<VrBhControlInPin>
+0
+</VrBhControlInPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 11 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhControlInPin.0>
+</F>
+</A>
+ 
+<A "S" "StopPin">
+<F "VrObjectField">
+<VrBhControlInPin.0 def=" 16 " >
+<VrBhControlInPin>
+0
+</VrBhControlInPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 11 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhControlInPin.0>
+</F>
+</A>
+ 
+<A "S" "PausePin">
+<F "VrObjectField">
+<VrBhControlInPin.0 def=" 17 " >
+<VrBhControlInPin>
+0
+</VrBhControlInPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 11 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhControlInPin.0>
+</F>
+</A>
+ 
+<A "S" "RestartPin">
+<F "VrObjectField">
+<VrBhControlInPin.0 def=" 18 " >
+<VrBhControlInPin>
+0
+</VrBhControlInPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 11 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhControlInPin.0>
+</F>
+</A>
+ 
+<A "S" "DonePin">
+<F "VrObjectField">
+<VrBhControlOutPin.1 def=" 19 " >
+<VrBhControlOutPin>
+1
+</VrBhControlOutPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 11 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "C" "ConnectedControlInPins">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhControlOutPin.1>
+</F>
+</A>
+ 
+<A "S" "AbortPin">
+<F "VrObjectField">
+<VrBhControlInPin.0 def=" 20 " >
+<VrBhControlInPin>
+0
+</VrBhControlInPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 11 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhControlInPin.0>
+</F>
+</A>
+ 
+<A "S" "MaxDuration">
+<F "VrDoubleField">
+0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "ShowDescriptionInGraph">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "C" "ParameterToDataInPinMap">
+<R>
+<F "VrObjectField">
+<VrBhParameterToDataInPinItem.0 def=" 21 " >
+<VrBhParameterToDataInPinItem>
+0
+</VrBhParameterToDataInPinItem>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Parameter">
+<F "VrObjectField">
+<VrBhTaskParameter.0 use=" 13 " >
+</VrBhTaskParameter.0>
+</F>
+</A>
+ 
+<A "S" "DataInPin">
+<F "VrObjectField">
+<VrBhDataInPin.0 def=" 22 " >
+<VrBhDataInPin>
+0
+</VrBhDataInPin>
+<VrBhDataPin>
+1
+</VrBhDataPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 11 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "PinType">
+<F "VrObjectField">
+<VrBhType.0 def=" 23 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrUrlField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "PinIsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "DataToControlMode">
+<F "VrBhDataToControlModeField">
+Disabled
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhDataInPin.0>
+</F>
+</A>
+ 
+<A "C" "DefaultValues">
+<R>
+<F "VrUrlField">
+"."
+</F>
+ 
+</R>
+</A>
+ 
+<A "C" "DefaultValuesAreGraphOwner">
+<R>
+<F "VrBooleanField">
+0
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhParameterToDataInPinItem.0>
+</F>
+ 
+</R>
+</A>
+ 
+<A "C" "ParameterToDataOutPinMap">
+<R>
+</R>
+</A>
+ 
+<A "C" "ControlOutputToControlOutPinMap">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+<A "S" "ParentGraphInstance">
+<F "VrObjectField">
+<VrBhGraphInstance.0 use=" 8 " >
+</VrBhGraphInstance.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "State">
+<F "VrBhTaskInstanceStateField">
+Enabled
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhScriptTaskInstance.0>
+</F>
+ 
+<F "VrObjectField">
+<VrBhScriptTaskInstance.0 def=" 24 " >
+<VrBhScriptTaskInstance>
+0
+</VrBhScriptTaskInstance>
+<VrBhTaskInstance>
+0
+</VrBhTaskInstance>
+<VrBhElementInstance>
+0
+</VrBhElementInstance>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Element">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 def=" 25 " >
+<VrBhScriptTaskElement>
+0
+</VrBhScriptTaskElement>
+<VrBhTaskElement>
+0
+</VrBhTaskElement>
+<VrBhElement>
+2
+</VrBhElement>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Id">
+<F "VrStringField">
+"080a37bd11e0450fb64ba8cfdb4ca549"
+</F>
+</A>
+ 
+<A "S" "Position">
+<F "VrVec2dField">
+-164.1923076923077400000 -249.9999999999999700000
+</F>
+</A>
+ 
+<A "S" "ParentGraph">
+<F "VrObjectField">
+<VrBhGraph.0 use=" 9 " >
+</VrBhGraph.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "TaskProto">
+<F "VrObjectField">
+<VrBhScriptTaskProto.0 def=" 26 " >
+<VrBhScriptTaskProto>
+0
+</VrBhScriptTaskProto>
+<VrBhTaskProto>
+0
+</VrBhTaskProto>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "TaskName">
+<F "VrStringField">
+"NST"
+</F>
+</A>
+ 
+<A "C" "Parameters">
+<R>
+</R>
+</A>
+ 
+<A "S" "Description">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "C" "Tags">
+<R>
+</R>
+</A>
+ 
+<A "S" "TargetType">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "LogicPath">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "C" "OutputControls">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ScriptType">
+<F "VrBhScriptTaskProtoTypeField">
+Chunk
+</F>
+</A>
+ 
+<A "S" "Script">
+<F "VrStringField">
+"--print(C1.StageOrientation)
+
+-- rotation Vec3(y,x,z)
+a=Vec3(0.05,0,0)
+b=Quat(0,0,0,1)
+b:setEulerAngles(a)
+
+--Caliper:translateWorld(a)
+
+--Slide:translateParent(a)
+
+Cube:reparent(Caliper)
+
+print(Simulation:getElapsedTime())"
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhScriptTaskProto.0>
+</F>
+</A>
+ 
+<A "S" "AutoStart">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "StartPin">
+<F "VrObjectField">
+<VrBhControlInPin.0 def=" 27 " >
+<VrBhControlInPin>
+0
+</VrBhControlInPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 25 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhControlInPin.0>
+</F>
+</A>
+ 
+<A "S" "StopPin">
+<F "VrObjectField">
+<VrBhControlInPin.0 def=" 28 " >
+<VrBhControlInPin>
+0
+</VrBhControlInPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 25 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhControlInPin.0>
+</F>
+</A>
+ 
+<A "S" "PausePin">
+<F "VrObjectField">
+<VrBhControlInPin.0 def=" 29 " >
+<VrBhControlInPin>
+0
+</VrBhControlInPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 25 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhControlInPin.0>
+</F>
+</A>
+ 
+<A "S" "RestartPin">
+<F "VrObjectField">
+<VrBhControlInPin.0 def=" 30 " >
+<VrBhControlInPin>
+0
+</VrBhControlInPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 25 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhControlInPin.0>
+</F>
+</A>
+ 
+<A "S" "DonePin">
+<F "VrObjectField">
+<VrBhControlOutPin.1 def=" 31 " >
+<VrBhControlOutPin>
+1
+</VrBhControlOutPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 25 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "C" "ConnectedControlInPins">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhControlOutPin.1>
+</F>
+</A>
+ 
+<A "S" "AbortPin">
+<F "VrObjectField">
+<VrBhControlInPin.0 def=" 32 " >
+<VrBhControlInPin>
+0
+</VrBhControlInPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 25 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhControlInPin.0>
+</F>
+</A>
+ 
+<A "S" "MaxDuration">
+<F "VrDoubleField">
+0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "ShowDescriptionInGraph">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "C" "ParameterToDataInPinMap">
+<R>
+</R>
+</A>
+ 
+<A "C" "ParameterToDataOutPinMap">
+<R>
+</R>
+</A>
+ 
+<A "C" "ControlOutputToControlOutPinMap">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+<A "S" "ParentGraphInstance">
+<F "VrObjectField">
+<VrBhGraphInstance.0 use=" 8 " >
+</VrBhGraphInstance.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "State">
+<F "VrBhTaskInstanceStateField">
+Enabled
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhScriptTaskInstance.0>
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhGraphInstance.0>
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Position">
+<F "VrVec3dField">
+-0.02500000000000000100000 0.0000000000000000000000 -0.001000000000000000000000
+</F>
+</A>
+ 
+<A "S" "Hidden">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Scale">
+<F "VrVec3dField">
+1.000000000000000000000 1.000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "Orientation">
+<F "VrQuatdField">
+0.7071067811865474600000 0.0000000000000000000000 0.0000000000000000000000 0.7071067811865475700000
+</F>
+</A>
+ 
+<A "S" "Displayed">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Locked">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "GeomParent">
+<F "VrObjectField">
+null
+</F>
+</A>
+ 
+<A "S" "CastShadow">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Opacity">
+<F "VrFloatField">
+1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "HighlightColor">
+<F "VrColorField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "CollisionDetection">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "IgnoreModelLights">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "DynamicsVolume">
+<F "InDynamicsVolume">
+Box
+</F>
+</A>
+ 
+<A "S" "Mass">
+<F "VrFloatField">
+0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "DynamicsMode">
+<F "InDynamicsMode">
+NoDynamics
+</F>
+</A>
+ 
+<A "S" "PivotScaleOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotPosition">
+<F "VrVec3dField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotScale">
+<F "VrVec3dField">
+1.000000000000000000000 1.000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "GravityEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "Children">
+<R>
+<F "VrObjectField">
+<In3DSubModel.0 def=" 33 "  name=" Slide " >
+<In3DSubModel>
+0
+</In3DSubModel>
+<In3DModelBase>
+0
+</In3DModelBase>
+<In3DStageEntity>
+0
+</In3DStageEntity>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Slide"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+<In3DTransformComponent.0 def=" 34 "  name=" Transform " >
+<In3DTransformComponent>
+0
+</In3DTransformComponent>
+<InTransformComponent>
+0
+</InTransformComponent>
+<InComponent>
+1
+</InComponent>
+<VrBhComponent>
+0
+</VrBhComponent>
+<VrComponent>
+0
+</VrComponent>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Transform"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</In3DTransformComponent.0>
+ 
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{936a031b-46cc-4627-8da1-670caf99b6dc}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Position">
+<F "VrVec3dField">
+0.08000000000000000200000 -0.002000000000000001800000 -0.05299999999999999900000
+</F>
+</A>
+ 
+<A "S" "Hidden">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Scale">
+<F "VrVec3dField">
+1.000000000000000000000 1.000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "Orientation">
+<F "VrQuatdField">
+-0.7071067811865474600000 -1.303299404180867700000e-017 6.593161691738511000000e-018 0.7071067811865475700000
+</F>
+</A>
+ 
+<A "S" "Displayed">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Locked">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "GeomParent">
+<F "VrObjectField">
+<In3DModel.1 use=" 6 " >
+</In3DModel.1>
+</F>
+</A>
+ 
+<A "S" "CastShadow">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Opacity">
+<F "VrFloatField">
+1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "HighlightColor">
+<F "VrColorField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "CollisionDetection">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "IgnoreModelLights">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "DynamicsVolume">
+<F "InDynamicsVolume">
+Box
+</F>
+</A>
+ 
+<A "S" "Mass">
+<F "VrFloatField">
+0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "DynamicsMode">
+<F "InDynamicsMode">
+NoDynamics
+</F>
+</A>
+ 
+<A "S" "PivotScaleOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotPosition">
+<F "VrVec3dField">
+-0.02519216015934944200000 -0.05347808822989463800000 0.002000000094994902600000
+</F>
+</A>
+ 
+<A "S" "PivotOrientation">
+<F "VrQuatdField">
+0.7071067811865474600000 0.0000000000000000000000 0.0000000000000000000000 0.7071067811865475700000
+</F>
+</A>
+ 
+<A "S" "PivotScale">
+<F "VrVec3dField">
+1.000000000000000000000 1.000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "GravityEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "Children">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "NodeURL">
+<F "VrSubObjectURLField">
+"name:party_fix"
+</F>
+</A>
+ 
+</R>
+</As>
+</In3DSubModel.0>
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Model">
+<F "VrUrlField">
+"PiedACoulisse/pied_coulisse_05.v3b"
+</F>
+</A>
+ 
+<A "S" "AnimationEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "LoadingMode">
+<F "InModelLoadingMode">
+Always
+</F>
+</A>
+ 
+</R>
+</As>
+</In3DModel.1>
+</F>
+ 
+<F "VrObjectField">
+<In3DModel.1 def=" 35 "  name=" Cube " >
+<In3DModel>
+1
+</In3DModel>
+<In3DModelBase>
+0
+</In3DModelBase>
+<In3DStageEntity>
+0
+</In3DStageEntity>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Cube"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+<In3DTransformComponent.0 def=" 36 "  name=" Transform " >
+<In3DTransformComponent>
+0
+</In3DTransformComponent>
+<InTransformComponent>
+0
+</InTransformComponent>
+<InComponent>
+1
+</InComponent>
+<VrBhComponent>
+0
+</VrBhComponent>
+<VrComponent>
+0
+</VrComponent>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Transform"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</In3DTransformComponent.0>
+ 
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{543eb7f3-0462-4dc3-bb99-90f11a652590}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+"{11f6e805-02de-4db6-a062-e14f9105d01b}"
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Position">
+<F "VrVec3dField">
+0.06190435103217653600000 0.0000000000000000000000 0.1967156837557000300000
+</F>
+</A>
+ 
+<A "S" "Hidden">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Scale">
+<F "VrVec3dField">
+0.03999999999999999400000 0.04000000000000001500000 0.04000000000000001500000
+</F>
+</A>
+ 
+<A "S" "Orientation">
+<F "VrQuatdField">
+0.02684400881953685800000 0.02547401319832220300000 0.02547401319832219900000 0.9989902644638936100000
+</F>
+</A>
+ 
+<A "S" "Displayed">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Locked">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "GeomParent">
+<F "VrObjectField">
+null
+</F>
+</A>
+ 
+<A "S" "CastShadow">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Opacity">
+<F "VrFloatField">
+1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "HighlightColor">
+<F "VrColorField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "CollisionDetection">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "IgnoreModelLights">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "DynamicsVolume">
+<F "InDynamicsVolume">
+Box
+</F>
+</A>
+ 
+<A "S" "Mass">
+<F "VrFloatField">
+0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "DynamicsMode">
+<F "InDynamicsMode">
+NoDynamics
+</F>
+</A>
+ 
+<A "S" "PivotScaleOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotPosition">
+<F "VrVec3dField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotScale">
+<F "VrVec3dField">
+1.000000000000000000000 1.000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "GravityEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "Children">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Model">
+<F "VrUrlField">
+"Models/Samples/cube/cube.v3b"
+</F>
+</A>
+ 
+<A "S" "AnimationEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "LoadingMode">
+<F "InModelLoadingMode">
+Always
+</F>
+</A>
+ 
+</R>
+</As>
+</In3DModel.1>
+</F>
+ 
+<F "VrObjectField">
+<In3DModel.1 def=" 37 "  name=" nominal_binary " >
+<In3DModel>
+1
+</In3DModel>
+<In3DModelBase>
+0
+</In3DModelBase>
+<In3DStageEntity>
+0
+</In3DStageEntity>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"nominal_binary"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+<In3DTransformComponent.0 def=" 38 "  name=" Transform " >
+<In3DTransformComponent>
+0
+</In3DTransformComponent>
+<InTransformComponent>
+0
+</InTransformComponent>
+<InComponent>
+1
+</InComponent>
+<VrBhComponent>
+0
+</VrBhComponent>
+<VrComponent>
+0
+</VrComponent>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Transform"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</In3DTransformComponent.0>
+ 
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{0a8bb882-3dd3-4f7a-b85b-ceefb993c15f}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Position">
+<F "VrVec3dField">
+0.1241915621905838500000 0.0000000000000000000000 0.2855308683327286200000
+</F>
+</A>
+ 
+<A "S" "Hidden">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Scale">
+<F "VrVec3dField">
+0.001000000000000000500000 0.001000000000000000500000 0.001000000000000000200000
+</F>
+</A>
+ 
+<A "S" "Orientation">
+<F "VrQuatdField">
+-0.01328383105772651400000 -0.1161118949268453200000 0.7483368256414048000000 0.6529422356364096300000
+</F>
+</A>
+ 
+<A "S" "Displayed">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Locked">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "GeomParent">
+<F "VrObjectField">
+null
+</F>
+</A>
+ 
+<A "S" "CastShadow">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Opacity">
+<F "VrFloatField">
+1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "HighlightColor">
+<F "VrColorField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "CollisionDetection">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "IgnoreModelLights">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "DynamicsVolume">
+<F "InDynamicsVolume">
+Box
+</F>
+</A>
+ 
+<A "S" "Mass">
+<F "VrFloatField">
+0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "DynamicsMode">
+<F "InDynamicsMode">
+NoDynamics
+</F>
+</A>
+ 
+<A "S" "PivotScaleOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotPosition">
+<F "VrVec3dField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotScale">
+<F "VrVec3dField">
+1.000000000000000000000 1.000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "GravityEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "Children">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Model">
+<F "VrUrlField">
+"nominal_binary.stl"
+</F>
+</A>
+ 
+<A "S" "AnimationEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "LoadingMode">
+<F "InModelLoadingMode">
+Always
+</F>
+</A>
+ 
+</R>
+</As>
+</In3DModel.1>
+</F>
+ 
+<F "VrObjectField">
+<In3DModel.1 def=" 39 "  name=" _16_b " >
+<In3DModel>
+1
+</In3DModel>
+<In3DModelBase>
+0
+</In3DModelBase>
+<In3DStageEntity>
+0
+</In3DStageEntity>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"_16_b"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+<In3DTransformComponent.0 def=" 40 "  name=" Transform " >
+<In3DTransformComponent>
+0
+</In3DTransformComponent>
+<InTransformComponent>
+0
+</InTransformComponent>
+<InComponent>
+1
+</InComponent>
+<VrBhComponent>
+0
+</VrBhComponent>
+<VrComponent>
+0
+</VrComponent>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Transform"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</In3DTransformComponent.0>
+ 
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{29449d62-501c-4faa-abb0-3186211cf7ef}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Position">
+<F "VrVec3dField">
+0.2577933214750929800000 0.0000000000000000000000 0.1980161641596604500000
+</F>
+</A>
+ 
+<A "S" "Hidden">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Scale">
+<F "VrVec3dField">
+0.001000000000000000000000 0.001000000000000000000000 0.001000000000000000000000
+</F>
+</A>
+ 
+<A "S" "Orientation">
+<F "VrQuatdField">
+0.5392105093960080100000 0.4607514136681633600000 -0.5028219346157510900000 0.4940953991173770400000
+</F>
+</A>
+ 
+<A "S" "Displayed">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Locked">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "GeomParent">
+<F "VrObjectField">
+null
+</F>
+</A>
+ 
+<A "S" "CastShadow">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Opacity">
+<F "VrFloatField">
+1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "HighlightColor">
+<F "VrColorField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "CollisionDetection">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "IgnoreModelLights">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "DynamicsVolume">
+<F "InDynamicsVolume">
+Box
+</F>
+</A>
+ 
+<A "S" "Mass">
+<F "VrFloatField">
+0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "DynamicsMode">
+<F "InDynamicsMode">
+NoDynamics
+</F>
+</A>
+ 
+<A "S" "PivotScaleOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotPosition">
+<F "VrVec3dField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotScale">
+<F "VrVec3dField">
+1.000000000000000000000 1.000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "GravityEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "Children">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Model">
+<F "VrUrlField">
+"916_b.stl"
+</F>
+</A>
+ 
+<A "S" "AnimationEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "LoadingMode">
+<F "InModelLoadingMode">
+Always
+</F>
+</A>
+ 
+</R>
+</As>
+</In3DModel.1>
+</F>
+ 
+<F "VrObjectField">
+<In3DModel.1 def=" 41 "  name=" Demo_Ori_80 " >
+<In3DModel>
+1
+</In3DModel>
+<In3DModelBase>
+0
+</In3DModelBase>
+<In3DStageEntity>
+0
+</In3DStageEntity>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Demo_Ori_80"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+<In3DTransformComponent.0 def=" 42 "  name=" Transform " >
+<In3DTransformComponent>
+0
+</In3DTransformComponent>
+<InTransformComponent>
+0
+</InTransformComponent>
+<InComponent>
+1
+</InComponent>
+<VrBhComponent>
+0
+</VrBhComponent>
+<VrComponent>
+0
+</VrComponent>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Transform"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</In3DTransformComponent.0>
+ 
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{a5484669-3635-4327-a092-23abd0547508}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Position">
+<F "VrVec3dField">
+0.1405931524287750700000 0.0000000000000000000000 0.1278686466521877000000
+</F>
+</A>
+ 
+<A "S" "Hidden">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Scale">
+<F "VrVec3dField">
+0.001000000000000000000000 0.001000000000000000000000 0.001000000000000000000000
+</F>
+</A>
+ 
+<A "S" "Orientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.7071067811865474600000 0.7071067811865475700000
+</F>
+</A>
+ 
+<A "S" "Displayed">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Locked">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "GeomParent">
+<F "VrObjectField">
+null
+</F>
+</A>
+ 
+<A "S" "CastShadow">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Opacity">
+<F "VrFloatField">
+1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "HighlightColor">
+<F "VrColorField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "CollisionDetection">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "IgnoreModelLights">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "DynamicsVolume">
+<F "InDynamicsVolume">
+Box
+</F>
+</A>
+ 
+<A "S" "Mass">
+<F "VrFloatField">
+0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "DynamicsMode">
+<F "InDynamicsMode">
+NoDynamics
+</F>
+</A>
+ 
+<A "S" "PivotScaleOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotPosition">
+<F "VrVec3dField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotScale">
+<F "VrVec3dField">
+1.000000000000000000000 1.000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "GravityEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "Children">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Model">
+<F "VrUrlField">
+"Demo-Ori-80.stl"
+</F>
+</A>
+ 
+<A "S" "AnimationEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "LoadingMode">
+<F "InModelLoadingMode">
+Always
+</F>
+</A>
+ 
+</R>
+</As>
+</In3DModel.1>
+</F>
+ 
+<F "VrObjectField">
+<In3DModel.1 def=" 43 "  name=" SkinModel_916 " >
+<In3DModel>
+1
+</In3DModel>
+<In3DModelBase>
+0
+</In3DModelBase>
+<In3DStageEntity>
+0
+</In3DStageEntity>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"SkinModel_916"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+<In3DTransformComponent.0 def=" 44 "  name=" Transform " >
+<In3DTransformComponent>
+0
+</In3DTransformComponent>
+<InTransformComponent>
+0
+</InTransformComponent>
+<InComponent>
+1
+</InComponent>
+<VrBhComponent>
+0
+</VrBhComponent>
+<VrComponent>
+0
+</VrComponent>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Transform"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</In3DTransformComponent.0>
+ 
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{2065f15f-b7f8-40e9-a8c0-470e9a839de9}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Position">
+<F "VrVec3dField">
+-0.1103111947750131500000 0.0000000000000000000000 0.2489221052030258500000
+</F>
+</A>
+ 
+<A "S" "Hidden">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Scale">
+<F "VrVec3dField">
+0.001000000000000000000000 0.001000000000000000000000 0.001000000000000000000000
+</F>
+</A>
+ 
+<A "S" "Orientation">
+<F "VrQuatdField">
+0.5000000000000000000000 0.5000000000000000000000 -0.4999999999999998900000 0.5000000000000001100000
+</F>
+</A>
+ 
+<A "S" "Displayed">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Locked">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "GeomParent">
+<F "VrObjectField">
+null
+</F>
+</A>
+ 
+<A "S" "CastShadow">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Opacity">
+<F "VrFloatField">
+1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "HighlightColor">
+<F "VrColorField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "CollisionDetection">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "IgnoreModelLights">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "DynamicsVolume">
+<F "InDynamicsVolume">
+Box
+</F>
+</A>
+ 
+<A "S" "Mass">
+<F "VrFloatField">
+0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "DynamicsMode">
+<F "InDynamicsMode">
+NoDynamics
+</F>
+</A>
+ 
+<A "S" "PivotScaleOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotPosition">
+<F "VrVec3dField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotScale">
+<F "VrVec3dField">
+1.000000000000000000000 1.000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "GravityEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "Children">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Model">
+<F "VrUrlField">
+"SkinModel_916.stl"
+</F>
+</A>
+ 
+<A "S" "AnimationEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "LoadingMode">
+<F "InModelLoadingMode">
+Always
+</F>
+</A>
+ 
+</R>
+</As>
+</In3DModel.1>
+</F>
+ 
+<F "VrObjectField">
+<In3DModel.1 def=" 45 "  name=" sms_n " >
+<In3DModel>
+1
+</In3DModel>
+<In3DModelBase>
+0
+</In3DModelBase>
+<In3DStageEntity>
+0
+</In3DStageEntity>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"sms_n"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+<In3DTransformComponent.0 def=" 46 "  name=" Transform " >
+<In3DTransformComponent>
+0
+</In3DTransformComponent>
+<InTransformComponent>
+0
+</InTransformComponent>
+<InComponent>
+1
+</InComponent>
+<VrBhComponent>
+0
+</VrBhComponent>
+<VrComponent>
+0
+</VrComponent>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Transform"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</In3DTransformComponent.0>
+ 
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{6ecaea22-5f4f-46c6-9e0f-4ea6183e3a9b}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Position">
+<F "VrVec3dField">
+0.4371010461578067100000 0.0000000000000000000000 0.1918820593515511200000
+</F>
+</A>
+ 
+<A "S" "Hidden">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Scale">
+<F "VrVec3dField">
+0.001000000000000000700000 0.001000000000000000000000 0.001000000000000000000000
+</F>
+</A>
+ 
+<A "S" "Orientation">
+<F "VrQuatdField">
+0.03266898970457991100000 0.6619893807544173800000 -0.02890308055915986900000 0.7482428808978109900000
+</F>
+</A>
+ 
+<A "S" "Displayed">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Locked">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "GeomParent">
+<F "VrObjectField">
+null
+</F>
+</A>
+ 
+<A "S" "CastShadow">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Opacity">
+<F "VrFloatField">
+1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "HighlightColor">
+<F "VrColorField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "CollisionDetection">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "IgnoreModelLights">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "DynamicsVolume">
+<F "InDynamicsVolume">
+Box
+</F>
+</A>
+ 
+<A "S" "Mass">
+<F "VrFloatField">
+0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "DynamicsMode">
+<F "InDynamicsMode">
+NoDynamics
+</F>
+</A>
+ 
+<A "S" "PivotScaleOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotPosition">
+<F "VrVec3dField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotScale">
+<F "VrVec3dField">
+1.000000000000000000000 1.000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "GravityEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "Children">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Model">
+<F "VrUrlField">
+"sms_n.obj"
+</F>
+</A>
+ 
+<A "S" "AnimationEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "LoadingMode">
+<F "InModelLoadingMode">
+Always
+</F>
+</A>
+ 
+</R>
+</As>
+</In3DModel.1>
+</F>
+ 
+<F "VrObjectField">
+<In3DModel.1 def=" 47 "  name=" Demo_Ori_20 " >
+<In3DModel>
+1
+</In3DModel>
+<In3DModelBase>
+0
+</In3DModelBase>
+<In3DStageEntity>
+0
+</In3DStageEntity>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Demo_Ori_20"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+<In3DTransformComponent.0 def=" 48 "  name=" Transform " >
+<In3DTransformComponent>
+0
+</In3DTransformComponent>
+<InTransformComponent>
+0
+</InTransformComponent>
+<InComponent>
+1
+</InComponent>
+<VrBhComponent>
+0
+</VrBhComponent>
+<VrComponent>
+0
+</VrComponent>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Transform"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</In3DTransformComponent.0>
+ 
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{6326b412-82d0-4bc5-ba1a-3815c8ff87c8}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Position">
+<F "VrVec3dField">
+0.003000000000000000100000 0.0000000000000000000000 -0.05000000000000000300000
+</F>
+</A>
+ 
+<A "S" "Hidden">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Scale">
+<F "VrVec3dField">
+0.001000000000000000000000 0.001000000000000000000000 0.001000000000000000000000
+</F>
+</A>
+ 
+<A "S" "Orientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.7071067811865474600000 0.7071067811865475700000
+</F>
+</A>
+ 
+<A "S" "Displayed">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Locked">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "GeomParent">
+<F "VrObjectField">
+null
+</F>
+</A>
+ 
+<A "S" "CastShadow">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Opacity">
+<F "VrFloatField">
+1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "HighlightColor">
+<F "VrColorField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "CollisionDetection">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "IgnoreModelLights">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "DynamicsVolume">
+<F "InDynamicsVolume">
+Box
+</F>
+</A>
+ 
+<A "S" "Mass">
+<F "VrFloatField">
+0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "DynamicsMode">
+<F "InDynamicsMode">
+NoDynamics
+</F>
+</A>
+ 
+<A "S" "PivotScaleOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotPosition">
+<F "VrVec3dField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotScale">
+<F "VrVec3dField">
+1.000000000000000000000 1.000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "GravityEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "Children">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Model">
+<F "VrUrlField">
+"Demo-Ori-20.stl"
+</F>
+</A>
+ 
+<A "S" "AnimationEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "LoadingMode">
+<F "InModelLoadingMode">
+Always
+</F>
+</A>
+ 
+</R>
+</As>
+</In3DModel.1>
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Date">
+<F "VrDateField">
+30/7/1981
+</F>
+</A>
+ 
+<A "S" "Time">
+<F "VrTimeField">
+36000.00000000000000000
+</F>
+</A>
+ 
+<A "S" "FogEnabled">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "FogEndVisibilityDistance">
+<F "VrFloatField">
+1000.000000000000000000
+</F>
+</A>
+ 
+<A "S" "CloudEnabled">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "SunLightShadow">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "SunLight">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "SkyEnabled">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "CloudSize">
+<F "VrFloatField">
+2000.000000000000000000
+</F>
+</A>
+ 
+<A "S" "SnowEnabled">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "RainEnabled">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "StarsEnabled">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "RainSpeed">
+<F "VrFloatField">
+5.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "FogColor">
+<F "VrColorField">
+0.5019608139991760300000 0.5019608139991760300000 0.5019608139991760300000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "CloudAltitude">
+<F "VrFloatField">
+150.0000000000000000000
+</F>
+</A>
+ 
+<A "S" "CloudThickness">
+<F "VrFloatField">
+0.2000000029802322400000
+</F>
+</A>
+ 
+<A "S" "CloudSharpness">
+<F "VrFloatField">
+0.9599999785423278800000
+</F>
+</A>
+ 
+<A "S" "CloudFrequency">
+<F "VrFloatField">
+4.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "CloudGreyRange">
+<F "VrVec2fField">
+0.3921568691730499300000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "SnowSpeed">
+<F "VrFloatField">
+1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "SnowDensity">
+<F "VrFloatField">
+0.6000000238418579100000
+</F>
+</A>
+ 
+<A "S" "RainDensity">
+<F "VrFloatField">
+0.3000000119209289600000
+</F>
+</A>
+ 
+<A "S" "Wind">
+<F "VrVec3fField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000
+</F>
+</A>
+ 
+</R>
+</As>
+</In3DStage.0>
+</OneSimulationEntities>
+ 
+<OneSimulationEntities>
+<In3DCamera.0 use=" 4 " >
+</In3DCamera.0>
+</OneSimulationEntities>
+ 
+<OneSimulationEntities>
+<In3DModel.1 use=" 6 " >
+</In3DModel.1>
+</OneSimulationEntities>
+ 
+<OneSimulationEntities>
+<In3DSubModel.0 use=" 33 " >
+</In3DSubModel.0>
+</OneSimulationEntities>
+ 
+<OneSimulationEntities>
+<In3DModel.1 use=" 35 " >
+</In3DModel.1>
+</OneSimulationEntities>
+ 
+<OneSimulationEntities>
+<In3DModel.1 use=" 37 " >
+</In3DModel.1>
+</OneSimulationEntities>
+ 
+<OneSimulationEntities>
+<In3DModel.1 use=" 39 " >
+</In3DModel.1>
+</OneSimulationEntities>
+ 
+<OneSimulationEntities>
+<In3DModel.1 use=" 41 " >
+</In3DModel.1>
+</OneSimulationEntities>
+ 
+<OneSimulationEntities>
+<In3DModel.1 use=" 43 " >
+</In3DModel.1>
+</OneSimulationEntities>
+ 
+<OneSimulationEntities>
+<In3DModel.1 use=" 45 " >
+</In3DModel.1>
+</OneSimulationEntities>
+ 
+<OneSimulationEntities>
+<In3DModel.1 use=" 47 " >
+</In3DModel.1>
+</OneSimulationEntities>
+ 
+<OneSimulationEntities>
+<InQ3DStageWindow.1 def=" 49 "  name=" StageWindow " >
+<InQ3DStageWindow>
+1
+</InQ3DStageWindow>
+<InQWidgetEntity>
+0
+</InQWidgetEntity>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"StageWindow"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{9317d738-8146-4524-ad23-0fdb9bdeec49}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Caption">
+<F "VrStringField">
+"Stage Window"
+</F>
+</A>
+ 
+<A "S" "Displayed">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Size">
+<F "VrVec2dField">
+1319.000000000000000000 897.0000000000000000000
+</F>
+</A>
+ 
+<A "S" "Position">
+<F "VrVec2dField">
+0.0000000000000000000000 0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "Floating">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Hidden">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "StyleSheet">
+<F "VrUrlField">
+""
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Stereoscopic">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "StereoSplitScreenMode">
+<F "InStereoSplitScreenMode">
+3DTV
+</F>
+</A>
+ 
+<A "C" "Views">
+<R>
+<F "VrObjectField">
+<In3DView.1 def=" 50 "  name=" View3D " >
+<In3DView>
+1
+</In3DView>
+<InView>
+0
+</InView>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"View3D"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{321cb963-964b-4f01-862f-ed302477b2a4}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ScreenPosition">
+<F "VrVec2dField">
+0.0000000000000000000000 0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "MouseInteraction">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Size">
+<F "VrVec2dField">
+100.0000000000000000000 100.0000000000000000000
+</F>
+</A>
+ 
+<A "S" "Displayed">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "VerticalAlignment">
+<F "InVerticalAlignment">
+Bottom
+</F>
+</A>
+ 
+<A "S" "Depth">
+<F "VrInt32Field">
+1
+</F>
+</A>
+ 
+<A "S" "HorizontalAlignment">
+<F "InHorizontalAlignment">
+Left
+</F>
+</A>
+ 
+<A "S" "Hidden">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "C" "Overlays">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<AuthorCameraDataMap>
+<R>
+<AuthorCameraData>
+<In3DStage.0 use=" 3 " >
+</In3DStage.0>
+<FieldIdentifier>
+"VrVec3dField"
+</FieldIdentifier>
+<FieldValue>
+-0.008796709501449050500000 0.3384535734932069300000 0.2987042862762392900000
+</FieldValue>
+<FieldIdentifier>
+"VrQuatdField"
+</FieldIdentifier>
+<FieldValue>
+-0.3494802840036670400000 -0.1065553701164025000000 -0.04004179446622772900000 0.9300033004715612100000
+</FieldValue>
+</AuthorCameraData>
+</R>
+</AuthorCameraDataMap>
+<As>
+<R>
+<A "S" "HUD">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Camera">
+<F "VrObjectField">
+<In3DCamera.0 use=" 4 " >
+</In3DCamera.0>
+</F>
+</A>
+ 
+<A "S" "BackgroundColor">
+<F "VrColorField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "AuthorCameraProjection">
+<F "VrProjectionType">
+Perspective
+</F>
+</A>
+ 
+<A "S" "ActiveCamera">
+<F "VrObjectField">
+<In3DCamera.0 use=" 4 " >
+</In3DCamera.0>
+</F>
+</A>
+ 
+<A "S" "AuthorCameraPosition">
+<F "VrVec3dField">
+-0.008796709501449050500000 0.3384535734932069300000 0.2987042862762392900000
+</F>
+</A>
+ 
+<A "S" "ClearBackground">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "AuthorCameraShadowsVisibilityDistance">
+<F "VrDoubleField">
+50.00000000000000000000
+</F>
+</A>
+ 
+<A "S" "AuthorCameraStage">
+<F "VrObjectField">
+<In3DStage.0 use=" 3 " >
+</In3DStage.0>
+</F>
+</A>
+ 
+<A "S" "CameraMode">
+<F "In3DViewCameraMode">
+CameraEntity
+</F>
+</A>
+ 
+<A "S" "AuthorCameraOrientation">
+<F "VrQuatdField">
+-0.3494802840036670400000 -0.1065553701164025000000 -0.04004179446622772900000 0.9300033004715612100000
+</F>
+</A>
+ 
+<A "S" "AuthorCameraVerticalAperture">
+<F "VrDoubleField">
+0.7853981633974482800000
+</F>
+</A>
+ 
+<A "S" "UseCameraBackgroundColor">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "PositionMode">
+<F "InUnitsMode">
+Percent
+</F>
+</A>
+ 
+<A "S" "SizeMode">
+<F "InUnitsMode">
+Percent
+</F>
+</A>
+ 
+<A "S" "ShowDebugBuffers">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+</R>
+</As>
+</In3DView.1>
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+</InQ3DStageWindow.1>
+</OneSimulationEntities>
+ 
+<OneSimulationEntities>
+<In3DView.1 use=" 50 " >
+</In3DView.1>
+</OneSimulationEntities>
+ 
+</R>
+</AllSimulationEntities>
+<BehaviourEditor>
+<OpenedInstances>
+<R>
+<VrBhGraphInstance.0 use=" 8 " >
+</VrBhGraphInstance.0>
+<In3DModel.1 use=" 6 " >
+</In3DModel.1>
+ 
+</R>
+</OpenedInstances>
+<Focused>
+0
+</Focused>
+</BehaviourEditor>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Simulation"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{6beee16f-dfe8-4fd0-8121-4b1da6badc49}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+<F "VrObjectField">
+<VrBhGraphInstance.0 def=" 51 " >
+<VrBhGraphInstance>
+0
+</VrBhGraphInstance>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Graph">
+<F "VrObjectField">
+<VrBhGraph.0 def=" 52 " >
+<VrBhGraph>
+0
+</VrBhGraph>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Main Graph"
+</F>
+</A>
+ 
+<A "C" "Annotations">
+<R>
+</R>
+</A>
+ 
+<A "S" "Description">
+<F "VrStringField">
+"Main Simulation Graph"
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+<F "VrObjectField">
+<VrBhGraphInstance.0 use=" 51 " >
+</VrBhGraphInstance.0>
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhGraph.0>
+</F>
+</A>
+ 
+<A "S" "OwnerEntity">
+<F "VrObjectField">
+<InSimulation.1 use=" 2 " >
+</InSimulation.1>
+</F>
+</A>
+ 
+<A "S" "ParentGraphTaskElement">
+<F "VrObjectField">
+null
+</F>
+</A>
+ 
+<A "S" "ZoomLevel">
+<F "VrDoubleField">
+1.169999999999999500000
+</F>
+</A>
+ 
+<A "S" "ViewCenter">
+<F "VrVec2dField">
+-4.000000000000000000000 20.00000000000000000000
+</F>
+</A>
+ 
+<A "C" "Elements">
+<R>
+<F "VrObjectField">
+<VrBhEntityInstance.0 def=" 53 " >
+<VrBhEntityInstance>
+0
+</VrBhEntityInstance>
+<VrBhElementInstance>
+0
+</VrBhElementInstance>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Element">
+<F "VrObjectField">
+<VrBhEntityElement.3 def=" 54 " >
+<VrBhEntityElement>
+3
+</VrBhEntityElement>
+<VrBhElement>
+2
+</VrBhElement>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Id">
+<F "VrStringField">
+"d4c088c29f9448889d77150b7206934b"
+</F>
+</A>
+ 
+<A "S" "Position">
+<F "VrVec2dField">
+-100.0000000000000000000 0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "ParentGraph">
+<F "VrObjectField">
+<VrBhGraph.0 use=" 52 " >
+</VrBhGraph.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Entity">
+<F "VrObjectField">
+<InSimulation.1 use=" 2 " >
+</InSimulation.1>
+</F>
+</A>
+ 
+<A "S" "ChangeEntityPin">
+<F "VrObjectField">
+<VrBhDataInPin.0 def=" 55 " >
+<VrBhDataInPin>
+0
+</VrBhDataInPin>
+<VrBhDataPin>
+1
+</VrBhDataPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhEntityElement.3 use=" 54 " >
+</VrBhEntityElement.3>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "PinType">
+<F "VrObjectField">
+<VrBhType.0 def=" 56 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"EmptyField"
+</FieldIdentifier>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+"VrObject"
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "PinIsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "DataToControlMode">
+<F "VrBhDataToControlModeField">
+Disabled
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhDataInPin.0>
+</F>
+</A>
+ 
+<A "S" "EntityIsOwner">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "TargetEntityDataOutPin">
+<F "VrObjectField">
+<VrBhDataOutPin.0 def=" 57 " >
+<VrBhDataOutPin>
+0
+</VrBhDataOutPin>
+<VrBhDataPin>
+1
+</VrBhDataPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhEntityElement.3 use=" 54 " >
+</VrBhEntityElement.3>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "PinType">
+<F "VrObjectField">
+<VrBhType.0 def=" 58 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"EmptyField"
+</FieldIdentifier>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+"VrObject"
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "PinIsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "C" "ConnectedDataInPins">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhDataOutPin.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<Events>
+<R>
+</R>
+</Events>
+<Attributes>
+<R>
+</R>
+</Attributes>
+</VrBhEntityElement.3>
+</F>
+</A>
+ 
+<A "S" "ParentGraphInstance">
+<F "VrObjectField">
+<VrBhGraphInstance.0 use=" 51 " >
+</VrBhGraphInstance.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhEntityInstance.0>
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhGraphInstance.0>
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "TimeStep">
+<F "VrDoubleField">
+0.02000000000000000000000
+</F>
+</A>
+ 
+<A "S" "CentralWidget">
+<F "VrObjectField">
+<InQ3DStageWindow.1 use=" 49 " >
+</InQ3DStageWindow.1>
+</F>
+</A>
+ 
+<A "S" "TimeIncrementMode">
+<F "InTimeIncrementModeField">
+Realtime
+</F>
+</A>
+ 
+<A "C" "TranslationFiles">
+<R>
+</R>
+</A>
+ 
+<A "S" "PlayerDefaultContextMenu">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Language">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "SpeedFactor">
+<F "VrDoubleField">
+1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "SoundListener">
+<F "VrObjectField">
+<In3DView.1 use=" 50 " >
+</In3DView.1>
+</F>
+</A>
+ 
+<A "C" "ChildEntities">
+<R>
+<F "VrObjectField">
+<In3DStage.0 use=" 3 " >
+</In3DStage.0>
+</F>
+ 
+<F "VrObjectField">
+<InQ3DStageWindow.1 use=" 49 " >
+</InQ3DStageWindow.1>
+</F>
+ 
+</R>
+</A>
+ 
+<A "S" "SplashScreen">
+<F "VrUrlField">
+""
+</F>
+</A>
+ 
+</R>
+</As>
+</InSimulation.1>
+</F>
+</A>
+ 
+<A "S" "AndroidPackageName">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Version">
+<F "VrVersionField">
+1099511627776
+</F>
+</A>
+ 
+<A "S" "Icon">
+<F "VrUrlField">
+""
+</F>
+</A>
+ 
+</R>
+</As>
+<SimuMainWindowState>
+"000000ff00000000fd00000001000000020000030e00000042fc0100000001fb000000160053007400610067006500570069006e0064006f007700000000000000030e0000005c00ffffff000005270000038100000004000000040000000800000008fc00000000"
+</SimuMainWindowState>
+<SimuMainWindowGeometry>
+"01d9d0cb00020000000000020000000200000528000003840000000200000002000005280000038400000000000000000780"
+</SimuMainWindowGeometry>
+<HashKey>
+"71286d34158b3cc15b14ff017b70077f101545a6"
+</HashKey>
+</InProject.5>
+ 
+</R>
+</VOA_File_1.0>
