@@ -2,20 +2,24 @@
 metrology = {}
 
 -- Function Associate-------------------------------
-function metrology.Caliper_A(D1,PTS)
+function metrology.Caliper_A(D1,D2,DPL,PTS)
     
     -- Caliper_A:-----------------------------------
     --  conduct measurement by two measurement planes
-    --  the size between these planes are evaluated
+    --  the distance between these planes
+    --  are minimized
     -- ---------------------------------------------
 
     -- Inputs:--------------------------------------
     --  D1: distance between 1st measurement plane & skin model shape
+    --  D2: distance between 2nd measurement plane & skin model shape
+    --  DPL: distance between 1st & 2nd plane
     --  PTS: measurement points on 1st plane
     -- ---------------------------------------------
     
     -- Define the number of "contact points"--------
-    local n_ctpts,b = matrix.size(PTS)
+    local a,b = matrix.size(PTS)
+    local n_ctpts=a
     -- ---------------------------------------------
 
     -- Definition of the 1st plane------------------
@@ -29,105 +33,120 @@ function metrology.Caliper_A(D1,PTS)
     local P1=PTS
     -- ---------------------------------------------
 
+    -- Definition of the 2nd plane------------------
+    --  similar to 1st plane
+    local C2=matrix{-DPL,0,0}
+    local N2=matrix{1,0,0}
+    local P2=PTS
+    for i=1,n_ctpts do
+        P2[i][1]=-DPL
+    end
+    -- ---------------------------------------------
+
     -- Formulating the linear programming-----------
-    --  {Tx,Ty,Tz,Rx,Ry,Rz,F}
+    --  {Tx1,Tx2,Ty1,Ty2,Tz1,Tz2,Rx1,Rx2,Ry1,Ry2,Rz1,Rz2,DA1,DA2}
+    --  14 variables
+    --  "1" will be plus
+    --  "2" will be minus
     --  Tx,Ty,Tz: translation torsor
     --  Rx,Ry,Rz: rotation torsor
-    --  F: optimization objective value (maximum distance between plane and points)
-    --  1. matrial condition
-    --  2. objective equation
-    -- "COE": coefficients of linear equations
-    local COE=matrix(2*n_ctpts,4,0)
-    -- "COEC": constant value part of linear equations
-    local COEC=matrix(2*n_ctpts,1,0)
+    --  DA1: displacement along normal direction of the second plane
+    --  DA2: inverse displacement of DA1
+    
+    -- For each plane
+    --  there are matrial conditions
+    --  and there are two planes
+    --  and one minimization objective
+    --  all equations are in form "<="
+    --  no "=" or ">="
+    
+    --  So the row number of matrix "A" is:
+    --      2*n_ctpts+2  (one column more to avoide error in require nil value)
+    --  the column number of matrix "A" is:
+    --      14+2*n_ctpts+2
+    local A=matrix(2*n_ctpts+2,14+2*n_ctpts+2,0)
+    
     -- This is for the 1st measurement plane--------
-    -- Including:
-    --  1. the material conditions
-    --  2. the optimization objective
     for i=1,n_ctpts do
-        -- r: --------------------------------------
-        local r=matrix{D1[i][1],P1[i][2],P1[i][3]}
-        r=r:cross(N1)
         -- material conditions----------------------
-        COE[i][1]=N1[1][1]
-        --COE[i][2]=N1[2][1]
-        --COE[i][3]=N1[3][1]
-        --COE[i][4]=r[1][1]
-        COE[i][2]=r[2][1]
-        COE[i][3]=r[3][1]
-        -- -----------------------------------------
-        COEC[i][1]=D1[i][1]
-        -- objective--------------------------------
-        COE[i+n_ctpts][1]=-COE[i][1]
-        --COE[i+n_ctpts][2]=-COE[i][2]
-        --COE[i+n_ctpts][3]=-COE[i][3]
-        --COE[i+n_ctpts][4]=-COE[i][4]
-        COE[i+n_ctpts][2]=-COE[i][2]
-        COE[i+n_ctpts][3]=-COE[i][3]
-        COE[i+n_ctpts][4]=-1
-        -- -----------------------------------------
-        COEC[i+n_ctpts][1]=-D1[i][1]
-        -- -----------------------------------------
+        A[i][1+1]=N1[1][1]
+        A[i][2+1]=-N1[1][1]
+
+        A[i][3+1]=N1[2][1]
+        A[i][4+1]=-N1[2][1]
+
+        A[i][5+1]=N1[3][1]
+        A[i][6+1]=-N1[3][1]
+
+        local r=matrix{P1[i][1],P1[i][2],P1[i][3]}+N1*D1[i][1]
+        r=r:cross(N1)
+        A[i][7+1]=r[1][1]
+        A[i][8+1]=-r[1][1]
+
+        A[i][9+1]=r[2][1]
+        A[i][10+1]=-r[2][1]
+
+        A[i][11+1]=r[3][1]
+        A[i][12+1]=-r[3][1]
+
+        A[i][14+2*n_ctpts+2]=D1[i][1]
+    end
+    
+    -- This is for the 2nd plane--------------------
+    -- similar to the first one
+    -- but the changing of distance between 2 planes
+    -- are considered
+    for i=n_ctpts+1,2*n_ctpts do
+        -- material conditions----------------------
+        A[i][1+1]=N2[1][1]
+        A[i][2+1]=-N2[1][1]
+
+        A[i][3+1]=N2[2][1]
+        A[i][4+1]=-N2[2][1]
+        
+        A[i][5+1]=N2[3][1]
+        A[i][6+1]=-N2[3][1]
+        
+        local r=matrix{P2[i-n_ctpts][1],P2[i-n_ctpts][2],P2[i-n_ctpts][3]}+N2*D2[i-n_ctpts][1]-C2
+        r=r:cross(N2)
+        r=r-N2:cross(C2)
+        A[i][7+1]=r[1][1]
+        A[i][8+1]=-r[1][1]
+
+        A[i][9+1]=r[2][1]
+        A[i][10+1]=-r[2][1]
+
+        A[i][11+1]=r[3][1]
+        A[i][12+1]=-r[3][1]
+
+        A[i][13+1]=1
+        A[i][14+1]=-1
+        
+        A[i][14+2*n_ctpts+2]=D2[i-n_ctpts][1]
     end
 
-    -- Using Lua Simplex----------------------------
-    local luasimplex = require("luasimplex")
-    local rsm = require("luasimplex.rsm")
-    -- ---------------------------------------------
-    local elm={}
-    local n=1
-    for i=1,2*n_ctpts do
-        for j=1,4 do
-            elm[n]=COE[i][j]
-            n=n+1
-        end
+    --  Add objective line----------------------
+    --  maximize displacement along normal direction of second plane
+    --  that means the distance between two planes is minimized
+    A[2*n_ctpts+1][13+1]=1
+    A[2*n_ctpts+1][14+1]=-1
+
+    -- Using Simplex----------------------------
+    local L=2*n_ctpts
+    local E=0
+    local G=0
+    local N=14
+    local F=1
+
+    Result, Objective=optimize.simplex(L,E,G,N,F,A)
+
+    local Result2=matrix(7,1,0)
+    for i=1,7 do
+        Result2[i][1]=Result[2*i-1][1]-Result[2*i][1]
     end
-    -- ---------------------------------------------
-    local COECT={}
-    for i=1,2*n_ctpts do
-        COECT[i]=COEC[i][1]
-    end
-    -- ---------------------------------------------
-    local rs={}
-    rs[1]=1
-    for i=1,2*n_ctpts do
-        rs[i+1]=1+4*i
-    end
-    -- ---------------------------------------------
-    -- -----------1--------2----------------
-    -- indexes = {1,2,3,4, 1,2,3,..........}
-    local idx={}
-    for i=1,2*n_ctpts do
-        for j=1,4 do
-            idx[(i-1)*4+j]=j
-        end
-    end
-    -- ---------------------------------------------
-    local M =
-        {
-        nvars = 4,
-        nrows = 2*n_ctpts,
-        indexes = idx,
-        elements = elm,
-        row_starts = rs,
-        b = COECT,
-        c = {0,0,0,1},
-        xl = {-10,-10,-10,-10},
-        xu = {10,10,10,10},
-        }
-    -- ---------------------------------------------
-    local I = luasimplex.new_instance(M.nrows, M.nvars)
-    rsm.initialise(M, I, {})
-    local objective, x = rsm.solve(M, I, {})
-    -- ---------------------------------------------
-    print('----------')
-    print(x[1])
-    print(x[2])
-    print(x[3])
-    print(x[4])
-    print(objective)
-    print('----------')
-    return x, objective
+
+    return Result2,math.abs(Result2[7][1])
+
     -- ---------------------------------------------
 end
 
