@@ -455,7 +455,7 @@ NoDynamics
 </F>
  
 <F "VrObjectField">
-<In3DModel.1 def=" 6 "  name=" Micrometre01 " >
+<In3DModel.1 def=" 6 "  name=" pied_coulisse_05 " >
 <In3DModel>
 1
 </In3DModel>
@@ -478,7 +478,7 @@ NoDynamics
 <R>
 <A "S" "Name">
 <F "VrStringField">
-"Micrometre01"
+"pied_coulisse_05"
 </F>
 </A>
  
@@ -559,7 +559,7 @@ NoDynamics
 <R>
 <A "S" "GUID">
 <F "VrStringField">
-"{3525adc8-6dd9-4a04-a6c3-8403eb356ab1}"
+"{d2a0c75a-444f-4782-87bf-66b1ae8f12ee}"
 </F>
 </A>
  
@@ -596,7 +596,7 @@ NoDynamics
 <R>
 <A "S" "Position">
 <F "VrVec3dField">
-2.775557561562891400000e-017 0.0000000000000000000000 0.0000000000000000000000
+0.008000000000000000200000 0.0000000000000000000000 0.08000000000000000200000
 </F>
 </A>
  
@@ -729,7 +729,7 @@ NoDynamics
 <R>
 <A "S" "Model">
 <F "VrUrlField">
-"Micrometre/Micrometre01.v3b"
+"PiedACoulisse/pied_coulisse_05.v3b"
 </F>
 </A>
  
@@ -997,7 +997,7 @@ Always
  
 <A "S" "Size">
 <F "VrVec2dField">
-1026.000000000000000000 788.0000000000000000000
+266.0000000000000000000 788.0000000000000000000
 </F>
 </A>
  
@@ -1185,13 +1185,13 @@ Left
 "VrVec3dField"
 </FieldIdentifier>
 <FieldValue>
-0.08258639160575874400000 0.04085718371980917600000 -0.1372803505808169700000
+-0.01172733755181215900000 0.6645383269486110400000 0.3945530202578013100000
 </FieldValue>
 <FieldIdentifier>
 "VrQuatdField"
 </FieldIdentifier>
 <FieldValue>
--0.03397245599923027400000 0.9441507392489968400000 0.1030951227084906400000 0.3111215991902112100000
+-0.5028871527379001900000 -0.04412555894132280000000 -0.02571754807045024300000 0.8628418478380193200000
 </FieldValue>
 </AuthorCameraData>
 </R>
@@ -1231,7 +1231,7 @@ null
  
 <A "S" "AuthorCameraPosition">
 <F "VrVec3dField">
-0.08258639160575874400000 0.04085718371980917600000 -0.1372803505808169700000
+-0.01172733755181215900000 0.6645383269486110400000 0.3945530202578013100000
 </F>
 </A>
  
@@ -1262,7 +1262,7 @@ AuthorCamera
  
 <A "S" "AuthorCameraOrientation">
 <F "VrQuatdField">
--0.03397245599923027400000 0.9441507392489968400000 0.1030951227084906400000 0.3111215991902112100000
+-0.5028871527379001900000 -0.04412555894132280000000 -0.02571754807045024300000 0.8628418478380193200000
 </F>
 </A>
  
@@ -1406,7 +1406,7 @@ null
  
 <A "S" "ViewCenter">
 <F "VrVec2dField">
-0.0000000000000000000000 0.0000000000000000000000
+1.000000000000000000000 0.0000000000000000000000
 </F>
 </A>
  
@@ -1455,7 +1455,7 @@ null
  
 <A "S" "Position">
 <F "VrVec2dField">
--100.0000000000000000000 0.0000000000000000000000
+-213.3333333333334600000 -266.6666666666666300000
 </F>
 </A>
  
@@ -1762,6 +1762,2279 @@ Disabled
 </VrBhEntityInstance.0>
 </F>
  
+<F "VrObjectField">
+<VrBhScriptTaskInstance.0 def=" 18 " >
+<VrBhScriptTaskInstance>
+0
+</VrBhScriptTaskInstance>
+<VrBhTaskInstance>
+0
+</VrBhTaskInstance>
+<VrBhElementInstance>
+0
+</VrBhElementInstance>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Element">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 def=" 19 " >
+<VrBhScriptTaskElement>
+0
+</VrBhScriptTaskElement>
+<VrBhTaskElement>
+0
+</VrBhTaskElement>
+<VrBhElement>
+2
+</VrBhElement>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Id">
+<F "VrStringField">
+"7b15dbe1b2204429a516e825213ea2af"
+</F>
+</A>
+ 
+<A "S" "Position">
+<F "VrVec2dField">
+-82.11111111111110000000 -99.72222222222222900000
+</F>
+</A>
+ 
+<A "S" "ParentGraph">
+<F "VrObjectField">
+<VrBhGraph.0 use=" 11 " >
+</VrBhGraph.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "TaskProto">
+<F "VrObjectField">
+<VrBhScriptTaskProto.0 def=" 20 " >
+<VrBhScriptTaskProto>
+0
+</VrBhScriptTaskProto>
+<VrBhTaskProto>
+0
+</VrBhTaskProto>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "TaskName">
+<F "VrStringField">
+"Chase"
+</F>
+</A>
+ 
+<A "C" "Parameters">
+<R>
+<F "VrObjectField">
+<VrBhTaskParameter.0 def=" 21 " >
+<VrBhTaskParameter>
+0
+</VrBhTaskParameter>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParameterName">
+<F "VrStringField">
+"subject"
+</F>
+</A>
+ 
+<A "S" "Settings">
+<F "VrInt32Field">
+-1
+</F>
+</A>
+ 
+<A "S" "MetaData">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "IsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "ParameterType">
+<F "VrObjectField">
+<VrBhType.0 def=" 22 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"EmptyField"
+</FieldIdentifier>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+"VrObject"
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "Description">
+<F "VrStringField">
+"The subject to which the task applies"
+</F>
+</A>
+ 
+<A "S" "Direction">
+<F "VrBhTaskParameterDirectionField">
+In
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhTaskParameter.0>
+</F>
+ 
+<F "VrObjectField">
+<VrBhTaskParameter.0 def=" 23 " >
+<VrBhTaskParameter>
+0
+</VrBhTaskParameter>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParameterName">
+<F "VrStringField">
+"chasedObject"
+</F>
+</A>
+ 
+<A "S" "Settings">
+<F "VrInt32Field">
+-1
+</F>
+</A>
+ 
+<A "S" "MetaData">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "IsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "ParameterType">
+<F "VrObjectField">
+<VrBhType.0 def=" 24 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"EmptyField"
+</FieldIdentifier>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+"VrObject"
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "Description">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Direction">
+<F "VrBhTaskParameterDirectionField">
+In
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhTaskParameter.0>
+</F>
+ 
+<F "VrObjectField">
+<VrBhTaskParameter.0 def=" 25 " >
+<VrBhTaskParameter>
+0
+</VrBhTaskParameter>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParameterName">
+<F "VrStringField">
+"distance"
+</F>
+</A>
+ 
+<A "S" "Settings">
+<F "VrInt32Field">
+-1
+</F>
+</A>
+ 
+<A "S" "MetaData">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "IsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "ParameterType">
+<F "VrObjectField">
+<VrBhType.0 def=" 26 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrDoubleField"
+</FieldIdentifier>
+<FieldValue>
+0.0000000000000000000000
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "Description">
+<F "VrStringField">
+"the distance to the object"
+</F>
+</A>
+ 
+<A "S" "Direction">
+<F "VrBhTaskParameterDirectionField">
+In
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhTaskParameter.0>
+</F>
+ 
+<F "VrObjectField">
+<VrBhTaskParameter.0 def=" 27 " >
+<VrBhTaskParameter>
+0
+</VrBhTaskParameter>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParameterName">
+<F "VrStringField">
+"upOffset"
+</F>
+</A>
+ 
+<A "S" "Settings">
+<F "VrInt32Field">
+-1
+</F>
+</A>
+ 
+<A "S" "MetaData">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "IsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "ParameterType">
+<F "VrObjectField">
+<VrBhType.0 def=" 28 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrDoubleField"
+</FieldIdentifier>
+<FieldValue>
+0.0000000000000000000000
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "Description">
+<F "VrStringField">
+"the 'up' offset"
+</F>
+</A>
+ 
+<A "S" "Direction">
+<F "VrBhTaskParameterDirectionField">
+In
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhTaskParameter.0>
+</F>
+ 
+<F "VrObjectField">
+<VrBhTaskParameter.0 def=" 29 " >
+<VrBhTaskParameter>
+0
+</VrBhTaskParameter>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParameterName">
+<F "VrStringField">
+"directionInertia"
+</F>
+</A>
+ 
+<A "S" "Settings">
+<F "VrInt32Field">
+-1
+</F>
+</A>
+ 
+<A "S" "MetaData">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "IsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "ParameterType">
+<F "VrObjectField">
+<VrBhType.0 def=" 30 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrDoubleField"
+</FieldIdentifier>
+<FieldValue>
+0.0000000000000000000000
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "Description">
+<F "VrStringField">
+"the inertia for the camera direction"
+</F>
+</A>
+ 
+<A "S" "Direction">
+<F "VrBhTaskParameterDirectionField">
+In
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhTaskParameter.0>
+</F>
+ 
+<F "VrObjectField">
+<VrBhTaskParameter.0 def=" 31 " >
+<VrBhTaskParameter>
+0
+</VrBhTaskParameter>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParameterName">
+<F "VrStringField">
+"positionInertia"
+</F>
+</A>
+ 
+<A "S" "Settings">
+<F "VrInt32Field">
+-1
+</F>
+</A>
+ 
+<A "S" "MetaData">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "IsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "ParameterType">
+<F "VrObjectField">
+<VrBhType.0 def=" 32 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrDoubleField"
+</FieldIdentifier>
+<FieldValue>
+0.0000000000000000000000
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "Description">
+<F "VrStringField">
+"the inertia for the camera position"
+</F>
+</A>
+ 
+<A "S" "Direction">
+<F "VrBhTaskParameterDirectionField">
+In
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhTaskParameter.0>
+</F>
+ 
+</R>
+</A>
+ 
+<A "S" "Description">
+<F "VrStringField">
+"Make a camera chase a 3D entity."
+</F>
+</A>
+ 
+<A "C" "Tags">
+<R>
+</R>
+</A>
+ 
+<A "S" "TargetType">
+<F "VrStringField">
+"In3DStageEntity"
+</F>
+</A>
+ 
+<A "S" "LogicPath">
+<F "VrStringField">
+"/Animation/Chase"
+</F>
+</A>
+ 
+<A "C" "OutputControls">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ScriptType">
+<F "VrBhScriptTaskProtoTypeField">
+Coroutine
+</F>
+</A>
+ 
+<A "S" "Script">
+<F "VrStringField">
+"-- @type 3D
+
+subject:setTrackedEntity(chasedObject)
+
+local function computeVectorMeanValue(buffer, newValue, threshold)
+
+	-- Clear the older values
+	table.sort(buffer, function(a,b) return (a.date < b.date) end)
+	-- Keep only the values which date are less old than the given threshold
+	local newBuffer = {}
+	local currentDate = Simulation:getElapsedTime()
+	for k,v in ipairs(buffer) do
+		if (currentDate - v.date) < threshold then table.insert(newBuffer,v) end
+	end
+	buffer = newBuffer
+
+	-- Insert the current value
+	table.insert(buffer, {date = currentDate, value = newValue} )
+
+	local meanValue = Vec3(0, 0, 0)
+
+	-- Compute the mean value
+	for i = 1, #buffer do
+		meanValue = buffer[i].value + meanValue
+	end
+	meanValue = meanValue * 1/(#buffer)
+
+	return meanValue, buffer
+
+end
+
+local frontDirs = {}
+local positions = {}
+
+while true do
+
+	meanFrontDir, frontDirs = computeVectorMeanValue(frontDirs, chasedObject:getStageOrientation().frontDirection, directionInertia)
+	meanPosition, positions = computeVectorMeanValue(positions, chasedObject:getStagePosition(), positionInertia)
+
+	local delta = meanFrontDir * distance
+	delta.y = delta.y + upOffset
+	subject:setStagePosition(meanPosition + delta)
+
+	waitAndUpdate()
+
+end
+"
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhScriptTaskProto.0>
+</F>
+</A>
+ 
+<A "S" "AutoStart">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "StartPin">
+<F "VrObjectField">
+<VrBhControlInPin.0 def=" 33 " >
+<VrBhControlInPin>
+0
+</VrBhControlInPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 19 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhControlInPin.0>
+</F>
+</A>
+ 
+<A "S" "StopPin">
+<F "VrObjectField">
+<VrBhControlInPin.0 def=" 34 " >
+<VrBhControlInPin>
+0
+</VrBhControlInPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 19 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhControlInPin.0>
+</F>
+</A>
+ 
+<A "S" "PausePin">
+<F "VrObjectField">
+<VrBhControlInPin.0 def=" 35 " >
+<VrBhControlInPin>
+0
+</VrBhControlInPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 19 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhControlInPin.0>
+</F>
+</A>
+ 
+<A "S" "RestartPin">
+<F "VrObjectField">
+<VrBhControlInPin.0 def=" 36 " >
+<VrBhControlInPin>
+0
+</VrBhControlInPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 19 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhControlInPin.0>
+</F>
+</A>
+ 
+<A "S" "DonePin">
+<F "VrObjectField">
+<VrBhControlOutPin.1 def=" 37 " >
+<VrBhControlOutPin>
+1
+</VrBhControlOutPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 19 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "C" "ConnectedControlInPins">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhControlOutPin.1>
+</F>
+</A>
+ 
+<A "S" "AbortPin">
+<F "VrObjectField">
+<VrBhControlInPin.0 def=" 38 " >
+<VrBhControlInPin>
+0
+</VrBhControlInPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 19 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhControlInPin.0>
+</F>
+</A>
+ 
+<A "S" "MaxDuration">
+<F "VrDoubleField">
+0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "ShowDescriptionInGraph">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "C" "ParameterToDataInPinMap">
+<R>
+<F "VrObjectField">
+<VrBhParameterToDataInPinItem.0 def=" 39 " >
+<VrBhParameterToDataInPinItem>
+0
+</VrBhParameterToDataInPinItem>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Parameter">
+<F "VrObjectField">
+<VrBhTaskParameter.0 use=" 21 " >
+</VrBhTaskParameter.0>
+</F>
+</A>
+ 
+<A "S" "DataInPin">
+<F "VrObjectField">
+<VrBhDataInPin.0 def=" 40 " >
+<VrBhDataInPin>
+0
+</VrBhDataInPin>
+<VrBhDataPin>
+1
+</VrBhDataPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 19 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "PinType">
+<F "VrObjectField">
+<VrBhType.0 def=" 41 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"EmptyField"
+</FieldIdentifier>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+"VrObject"
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "PinIsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "DataToControlMode">
+<F "VrBhDataToControlModeField">
+Disabled
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhDataInPin.0>
+</F>
+</A>
+ 
+<A "C" "DefaultValues">
+<R>
+<F "VrObjectField">
+null
+</F>
+ 
+</R>
+</A>
+ 
+<A "C" "DefaultValuesAreGraphOwner">
+<R>
+<F "VrBooleanField">
+1
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhParameterToDataInPinItem.0>
+</F>
+ 
+<F "VrObjectField">
+<VrBhParameterToDataInPinItem.0 def=" 42 " >
+<VrBhParameterToDataInPinItem>
+0
+</VrBhParameterToDataInPinItem>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Parameter">
+<F "VrObjectField">
+<VrBhTaskParameter.0 use=" 23 " >
+</VrBhTaskParameter.0>
+</F>
+</A>
+ 
+<A "S" "DataInPin">
+<F "VrObjectField">
+<VrBhDataInPin.0 def=" 43 " >
+<VrBhDataInPin>
+0
+</VrBhDataInPin>
+<VrBhDataPin>
+1
+</VrBhDataPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 19 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "PinType">
+<F "VrObjectField">
+<VrBhType.0 def=" 44 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"EmptyField"
+</FieldIdentifier>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+"VrObject"
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "PinIsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "DataToControlMode">
+<F "VrBhDataToControlModeField">
+Disabled
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhDataInPin.0>
+</F>
+</A>
+ 
+<A "C" "DefaultValues">
+<R>
+<F "VrObjectField">
+null
+</F>
+ 
+</R>
+</A>
+ 
+<A "C" "DefaultValuesAreGraphOwner">
+<R>
+<F "VrBooleanField">
+0
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhParameterToDataInPinItem.0>
+</F>
+ 
+<F "VrObjectField">
+<VrBhParameterToDataInPinItem.0 def=" 45 " >
+<VrBhParameterToDataInPinItem>
+0
+</VrBhParameterToDataInPinItem>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Parameter">
+<F "VrObjectField">
+<VrBhTaskParameter.0 use=" 25 " >
+</VrBhTaskParameter.0>
+</F>
+</A>
+ 
+<A "S" "DataInPin">
+<F "VrObjectField">
+<VrBhDataInPin.0 def=" 46 " >
+<VrBhDataInPin>
+0
+</VrBhDataInPin>
+<VrBhDataPin>
+1
+</VrBhDataPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 19 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "PinType">
+<F "VrObjectField">
+<VrBhType.0 def=" 47 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrDoubleField"
+</FieldIdentifier>
+<FieldValue>
+0.0000000000000000000000
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "PinIsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "DataToControlMode">
+<F "VrBhDataToControlModeField">
+Disabled
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhDataInPin.0>
+</F>
+</A>
+ 
+<A "C" "DefaultValues">
+<R>
+<F "VrDoubleField">
+3.000000000000000000000
+</F>
+ 
+</R>
+</A>
+ 
+<A "C" "DefaultValuesAreGraphOwner">
+<R>
+<F "VrBooleanField">
+0
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhParameterToDataInPinItem.0>
+</F>
+ 
+<F "VrObjectField">
+<VrBhParameterToDataInPinItem.0 def=" 48 " >
+<VrBhParameterToDataInPinItem>
+0
+</VrBhParameterToDataInPinItem>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Parameter">
+<F "VrObjectField">
+<VrBhTaskParameter.0 use=" 27 " >
+</VrBhTaskParameter.0>
+</F>
+</A>
+ 
+<A "S" "DataInPin">
+<F "VrObjectField">
+<VrBhDataInPin.0 def=" 49 " >
+<VrBhDataInPin>
+0
+</VrBhDataInPin>
+<VrBhDataPin>
+1
+</VrBhDataPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 19 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "PinType">
+<F "VrObjectField">
+<VrBhType.0 def=" 50 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrDoubleField"
+</FieldIdentifier>
+<FieldValue>
+0.0000000000000000000000
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "PinIsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "DataToControlMode">
+<F "VrBhDataToControlModeField">
+Disabled
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhDataInPin.0>
+</F>
+</A>
+ 
+<A "C" "DefaultValues">
+<R>
+<F "VrDoubleField">
+1.000000000000000000000
+</F>
+ 
+</R>
+</A>
+ 
+<A "C" "DefaultValuesAreGraphOwner">
+<R>
+<F "VrBooleanField">
+0
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhParameterToDataInPinItem.0>
+</F>
+ 
+<F "VrObjectField">
+<VrBhParameterToDataInPinItem.0 def=" 51 " >
+<VrBhParameterToDataInPinItem>
+0
+</VrBhParameterToDataInPinItem>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Parameter">
+<F "VrObjectField">
+<VrBhTaskParameter.0 use=" 29 " >
+</VrBhTaskParameter.0>
+</F>
+</A>
+ 
+<A "S" "DataInPin">
+<F "VrObjectField">
+<VrBhDataInPin.0 def=" 52 " >
+<VrBhDataInPin>
+0
+</VrBhDataInPin>
+<VrBhDataPin>
+1
+</VrBhDataPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 19 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "PinType">
+<F "VrObjectField">
+<VrBhType.0 def=" 53 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrDoubleField"
+</FieldIdentifier>
+<FieldValue>
+0.0000000000000000000000
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "PinIsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "DataToControlMode">
+<F "VrBhDataToControlModeField">
+Disabled
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhDataInPin.0>
+</F>
+</A>
+ 
+<A "C" "DefaultValues">
+<R>
+<F "VrDoubleField">
+1.000000000000000000000
+</F>
+ 
+</R>
+</A>
+ 
+<A "C" "DefaultValuesAreGraphOwner">
+<R>
+<F "VrBooleanField">
+0
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhParameterToDataInPinItem.0>
+</F>
+ 
+<F "VrObjectField">
+<VrBhParameterToDataInPinItem.0 def=" 54 " >
+<VrBhParameterToDataInPinItem>
+0
+</VrBhParameterToDataInPinItem>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Parameter">
+<F "VrObjectField">
+<VrBhTaskParameter.0 use=" 31 " >
+</VrBhTaskParameter.0>
+</F>
+</A>
+ 
+<A "S" "DataInPin">
+<F "VrObjectField">
+<VrBhDataInPin.0 def=" 55 " >
+<VrBhDataInPin>
+0
+</VrBhDataInPin>
+<VrBhDataPin>
+1
+</VrBhDataPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 19 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "PinType">
+<F "VrObjectField">
+<VrBhType.0 def=" 56 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrDoubleField"
+</FieldIdentifier>
+<FieldValue>
+0.0000000000000000000000
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "PinIsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "DataToControlMode">
+<F "VrBhDataToControlModeField">
+Disabled
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhDataInPin.0>
+</F>
+</A>
+ 
+<A "C" "DefaultValues">
+<R>
+<F "VrDoubleField">
+1.000000000000000000000
+</F>
+ 
+</R>
+</A>
+ 
+<A "C" "DefaultValuesAreGraphOwner">
+<R>
+<F "VrBooleanField">
+0
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhParameterToDataInPinItem.0>
+</F>
+ 
+</R>
+</A>
+ 
+<A "C" "ParameterToDataOutPinMap">
+<R>
+</R>
+</A>
+ 
+<A "C" "ControlOutputToControlOutPinMap">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+<A "S" "ParentGraphInstance">
+<F "VrObjectField">
+<VrBhGraphInstance.0 use=" 10 " >
+</VrBhGraphInstance.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "State">
+<F "VrBhTaskInstanceStateField">
+Enabled
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhScriptTaskInstance.0>
+</F>
+ 
 </R>
 </A>
  
@@ -1949,13 +4222,13 @@ Realtime
 </R>
 </As>
 <SimuMainWindowState>
-"000000ff00000000fd00000001000000020000000000000000fc0100000001fb000000160053007400610067006500570069006e0064006f00770000000000ffffffff0000004f00ffffff000004020000031400000004000000040000000800000008fc00000000"
+"000000ff00000000fd00000001000000020000000000000000fc0100000001fb000000160053007400610067006500570069006e0064006f00770000000000ffffffff0000004f00ffffff0000010a0000031400000004000000040000000800000008fc00000000"
 </SimuMainWindowState>
 <SimuMainWindowGeometry>
-"01d9d0cb00020000000000020000000200000403000003170000000200000002000004030000031700000001000000000640"
+"01d9d0cb0002000000000002000000020000010b0000031700000002000000020000010b0000031700000001000000000640"
 </SimuMainWindowGeometry>
 <HashKey>
-"7774b073c2effa59c23bd1bdf6b3b4f434baf4e5"
+"bce790938e985012569aca0a393327203d406a25"
 </HashKey>
 </InProject.5>
  
