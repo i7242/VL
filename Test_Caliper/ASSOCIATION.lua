@@ -1,6 +1,6 @@
 -- test for caliper--------------------------------------------------
---[[ using the two outer measuring faces of
-     caliper at first.               						     ]]--
+--[[	using the two outer measuring faces of
+		caliper at first.              						     ]]--
 
 -- load namespace----------------------------------------------------
 package.path = package.path .. ';'
@@ -8,16 +8,17 @@ package.path = package.path .. ';'
 
 -- load packages-----------------------------------------------------
 metrology = require "metrology"
-matrix = require "matrix"
-optimize=require "optimize"
+matrix	  = require "matrix"
+optimize  = require "optimize"
 
 -- read imput variables----------------------------------------------
 --[[ 	!!! more variables are needed !!! 						 ]]--
 --[[ 	measurement type, for caliper with various usage, A,B,C
 		are used to distingish them.							 ]]--
-measurement_type='MicroMeter'
-
-
+measurement_type  = 'Caliper_A'
+--[[	measurement range, for some measurement like
+		outside face of caliper									 ]]--
+measurement_range = 0.1
 
 
 -- Change the method for different measurement types-----------------
@@ -31,72 +32,94 @@ if (measurement_type=='Caliper_A') then
 	local loop_num=1
 	local empty=true
 
+	--[[	N_1:	normal direction of the
+			first measurement plane it is generated
+			by rotation from initial position     				 ]]--
+	local N_1=Vec3(1,0,0)
+	local a=Caliper:getOrientation()
+		  N_1=a:rotate(N_1)
+	local N_2=Vec3(0,0,0)-N_1
+	
+	-- get position of two plane center------------------------------
+	local CT_1=Caliper:getStagePosition()
+	local CT_2=Slide:getStagePosition()
+	
+	-- distance between two planes-----------------------------------
+	--	"0.025" is the initial distance, when
+	--	the caliper is "closed"
+	local DPL=(CT_2-CT_1)*N_1
+	DPL=DPL-0.025
+	-- re-calculate the CT_2 by offsetting
+	CT_2=CT_1+N_1*DPL
+
 	--[[	measurement points on each plane
 			position is relative to the
-			plane center								         ]]--
-	
-	-- r correspond to "z" direction
-	local num_r=8
+			plane center CT_1 and CT_2					         ]]--
+	-- correspond to "z" direction
+	local num_z=8
 	--	!!! notice the direction for row
 	--	negetive direction is the longer direction
-	local range_r1=-0.03
-	local range_r2= 0.003
-	local dr=(range_r2-range_r1)/(num_r-1)
-	-- c correspond to "y" direction
-	local num_c=4
-	local range_c1=-0.001
-	local range_c2= 0.001
-	local dc=(range_c2-range_c1)/(num_c-1)
+	local range_z1=-0.03
+	local range_z2= 0.003
+	local dz=(range_z2-range_z1)/(num_z-1)
+	-- correspond to "y" direction
+	local num_y=4
+	local range_y1=-0.001
+	local range_y2= 0.001
+	local dy=(range_y2-range_y1)/(num_y-1)
+
+	-- construct measurement points on caliper-----------------------
+	--[[	this point coordinate is relative to the
+			center of measurement surface
+			no relation to the global coordinate.			 ]]--
+	local PTS=matrix(num_z*num_y,3,0)
+	local count=1
+	for i=1,num_z do
+		pst_z=range_z1+dz*(i-1)
+		for j=1,num_y do
+			pst_y=range_y1+dy*(j-1)
+			PTS[count][1]=0
+			PTS[count][2]=pst_y
+			PTS[count][3]=pst_z
+			count=count+1
+		end
+	end
+
+	-- PTS1 is for the first plane-----------------------------------
+	local PTS1=matrix(num_z*num_y,3,0)
+	local count=1
+	for i=1,num_z do
+		pst_z=range_z1+dz*(i-1)
+		for j=1,num_y do
+			pst_y=range_y1+dy*(j-1)
+			PTS1[count][1]=0
+			PTS1[count][2]=pst_y
+			PTS1[count][3]=pst_z
+			count=count+1
+		end
+	end
+	for i=1,(num_z*num_y) do
+		local MPT=Vec3(PTS1[i][1],PTS1[i][2],PTS1[i][3])
+		MPT=a:rotate(MPT)
+		PTS1[i][1]=MPT.x+CT_1.x
+		PTS1[i][2]=MPT.y+CT_1.y
+		PTS1[i][3]=MPT.z+CT_1.z
+	end
 
 	-- loop to associate---------------------------------------------
 	while ((CRT>1e-5) and (loop_num<10)) do
-		-- construct measurement points on caliper-------------------
-		--[[	this point coordinate is relative to the
-				center of measurement surface
-				no relation to the global coordinate.			 ]]--
-		local PTS=matrix(num_r*num_c,3,0)
-		local count=1
-		for i=1,num_r do
-			pst_r=range_r1+dr*(i-1)
-			for j=1,num_c do
-				pst_c=range_c1+dc*(j-1)
-				PTS[count][1]=0
-				PTS[count][2]=pst_c
-				PTS[count][3]=pst_r
-				count=count+1
-			end
-		end
-
-		--[[	V_normal_1:	normal direction of the
-				first measurement plane it is generated
-				by rotation from initial position     			 ]]--
-		local V_normal_1=Vec3(1,0,0)
-		local a=Caliper:getOrientation()
-		V_normal_1=a:rotate(V_normal_1)
-		local V_normal_2=Vec3(0,0,0)-V_normal_1
-	
-		-- get position of two plane center--------------------------
-		local PS1=Caliper:getStagePosition()
-		local PS2=Slide:getStagePosition()
-	
-		-- distance between two planes-------------------------------
-		--	"0.025" is the initial distance, when
-		--	the caliper is "closed"
-		local DPL=(PS2-PS1)*V_normal_1
-		DPL=DPL-0.025
 
 		-- measurement distance D1 by ray----------------------------
 		--	give D1 initially a large value
 		--	if find no intersection point, using this value
 		--	and the constraint will be satisfied
-		local D1=matrix(num_r*num_c,1,9e9)
-		for i=1,(num_r*num_c) do
-			local MPT=Vec3(PTS[i][1],PTS[i][2],PTS[i][3])
-			MPT=a:rotate(MPT)
+		local D1=matrix(num_z*num_y,1,9e9)
+		for i=1,(num_z*num_y) do
+			local MPT=Vec3(PTS1[i][1],PTS1[i][2],PTS1[i][3])
 			--	slite move along normal direction, to avoid
 			--	"rayIntersect" find no point
-			MPT=MPT+PS1-V_normal_1*0.001
-			local r = Ray(MPT, V_normal_1)
+			MPT=MPT-N_1*0.001
+			local r = Ray(MPT, N_1)
 			local t = rayIntersect(Stage.SceneNode, r, false, true)
 
 			if (t~= nil) then
@@ -134,12 +157,11 @@ if (measurement_type=='Caliper_A') then
 		end
 	
 		-- measurement distance D2 by ray----------------------------
-		local D2=matrix(num_r*num_c,1,9e9)
-		for i=1,(num_r*num_c) do
-			local MPT=Vec3(PTS[i][1],PTS[i][2],PTS[i][3])
-			MPT=a:rotate(MPT)
-			MPT=MPT+PS1+V_normal_1*(DPL+0.001)
-			local r = Ray(MPT, V_normal_2)
+		local D2=matrix(num_z*num_y,1,9e9)
+		for i=1,(num_z*num_y) do
+			local MPT=Vec3(PTS1[i][1],PTS1[i][2],PTS1[i][3])
+			MPT=MPT+N_1*(DPL+0.001)
+			local r = Ray(MPT, N_2)
 			local t = rayIntersect(Stage.SceneNode, r, false, true)
 			
 			if (t~= nil) then
@@ -175,51 +197,100 @@ if (measurement_type=='Caliper_A') then
 		end
 
 		-- conduct association---------------------------------------
+		--	transform the variables from "Vec3" to "matrix"
+		--	so they could be used in "metrology" package
+		local C1=matrix{CT_1.x,CT_1.y,CT_1.z}
+		local C2=matrix{CT_2.x,CT_2.y,CT_2.z}
+		local N1=matrix{N_1.x,N_1.y,N_1.z}
+		local N2=matrix{N_2.x,N_2.y,N_2.z}
+
 		if (empty) then
 			print('No measurement part !')
 			Result=matrix(7,1,0)
 			Result[7][1]=DPL
 			CRT=0
 		else
-			Result,CRT = metrology.Caliper_A(D1,D2,DPL,PTS)
+			Result,CRT = metrology.Caliper_A(C1,C2,N1,N2,D1,D2,DPL,PTS1)
 		end
 
-		-- translate the position of caliper-------------------------
-		--[[	translation corresponding to the left
-				contact surface of the caliper.					 ]]--
-		local tr_c=Vec3(-Result[1][1],Result[2][1],-Result[3][1])
-		--[[	7th variable of SDT is the changing
-				of distance between two faces.
-				positive is increasing distance.				 ]]--
-		local tr_s=Vec3(-Result[7][1],0,0)
-		Caliper:translateLocal(tr_c)
-		Slide:translateParent(tr_s)
+		-- Translation & Rotation: CT_1,CT_2,N_1,N_2,PTS1------------
+		--[[	After each step of association, update the
+				position and orientation of the points,
+				not the caliper									 ]]--
+		-- rotate N_1 & N_2------------------------------------------
+		N_1=N_1-N_1:cross(Vec3(Result[4][1],Result[5][1],Result[6][1]))
+		N_1:normalize()
+		N_2=Vec3(0,0,0)-N_1
+		N_2:normalize()
+		-- translate PTS1--------------------------------------------
+		for i=1,(num_z*num_y) do
+			-- translation caused by rotation
+			local r_PTS1=Vec3((CT_1.x-PTS1[i][1]),(CT_1.y-PTS1[i][2]),(CT_1.z-PTS1[i][3]))
+			r_PTS1=r_PTS1:cross(Vec3(Result[4][1],Result[5][1],Result[6][1]))
+			-- sum of translation for each point
+			local tr_PTS1=Vec3(Result[1][1],Result[2][1],Result[3][1])+r_PTS1
+			-- translate
+			PTS1[i][1]=PTS1[i][1]+tr_PTS1.x
+			PTS1[i][2]=PTS1[i][2]+tr_PTS1.y
+			PTS1[i][3]=PTS1[i][3]+tr_PTS1.z
+		end
+		-- translate CT_1--------------------------------------------
+		CT_1=CT_1+Vec3(Result[1][1],Result[2][1],Result[3][1])
+		-- translate CT_2--------------------------------------------
+		DPL=DPL-Result[7][1]
+		CT_2=CT_1+N_1*DPL
 		
-		-- rotation the cqliper, Vec3(y,x,z)-------------------------
-		--[[	assume the rotation angle is small,
-				the SDT is used as
-				Eular Angle directly.							 ]]--
-		local RTQT=Quat(0,0,0,1)
-		RTQT:setEulerAngles(Vec3(-Result[5][1],Result[4][1],-Result[6][1]))
-		Caliper:rotateLocal(RTQT)
-		
+		-- mark the number of loop-----------------------------------
 		loop_num=loop_num+1
-		
 	end
 
-	--	Re-calculate the distance between planes of caliper and slide
-	--	Result "DPL" and its calculation is the same as before in the "while" loop
-	local V_normal_1=Vec3(1,0,0)
+	-- rotate the caliper--------------------------------------------
+	local v_1=Vec3(1,0,0)
 	local a=Caliper:getOrientation()
-	V_normal_1=a:rotate(V_normal_1)
-	
-	local	PS1=Caliper:getStagePosition()
-	local PS2=Slide:getStagePosition()
-	
-	local DPL=(PS2-PS1)*V_normal_1
-	Distance=(DPL-0.025)*1000
+		  v_1=a:rotate(v_1)
+		  v_1:normalize()
+	local v_2=N_1
+	-- calculate the rotation axis
+	local r_axis=v_1:cross(v_2)
+		  r_axis:normalize()
+	-- translate World rotation axis to Local rotation axis
+	local M=Caliper:getLocalFrame()
+		  M:invert()
+		  r_axis=M*r_axis
+		  r_axis:normalize()
+	-- calculate the rotation angle
+	local r_angle=math.acos(v_1:dot(v_2))
+
+	-- translate the position of caliper-----------------------------
+	--[[	translation corresponding to the left
+			contact surface of the caliper.						 ]]--
+	local tr_caliper=CT_1-Caliper:getStagePosition()
+	--[[	the displacement of slide is calculated by
+			changing of "DPL"									 ]]--
+	local v_1=Vec3(1,0,0)
+	local a=Caliper:getOrientation()
+		  v_1=a:rotate(v_1)
+	local CT_1=Caliper:getStagePosition()
+	local CT_2=Slide:getStagePosition()
+	local DPL2=(CT_2-CT_1)*v_1-0.025
+	local tr_slide=Vec3((DPL-DPL2),0,0)
+
+	local duration = 2
+	local time = 0
+	while (time<duration) do
+		local frametime=Simulation:getFrameTime()
+		local r_qt=Quat(r_axis,r_angle/duration*frametime)
+		--[[	if not using local rotation
+				additional displacement will be introduced		 ]]--
+		Caliper:rotateLocal(r_qt)
+		Caliper:translateWorld(tr_caliper/duration*frametime)
+		Slide:translateParent(tr_slide/duration*frametime)
+		time=time+frametime
+		waitAndUpdate()
+	end
 	
 	--	output the result
+	Distance=DPL*1000
 	output('Distance',Distance)
 
 elseif (measurement_type=='Caliper_B') then
@@ -237,17 +308,17 @@ elseif (measurement_type=='Caliper_B') then
 			plane center								         ]]--
 	
 	-- r correspond to "z" direction
-	local num_r=8
+	local num_z=8
 	--	!!! notice the direction for row
 	--	negetive direction is the longer direction
-	local range_r1=-0.003
+	local range_z1=-0.003
 	local range_r2= 0.003
-	local dr=(range_r2-range_r1)/(num_r-1)
+	local dz=(range_r2-range_z1)/(num_z-1)
 	-- c correspond to "y" direction
-	local num_c=4
-	local range_c1=-0.001
+	local num_y=2
+	local range_y1=-0.001
 	local range_c2= 0.001
-	local dc=(range_c2-range_c1)/(num_c-1)
+	local dy=(range_c2-range_y1)/(num_y-1)
 
 	-- loop to associate---------------------------------------------
 	while ((CRT>1e-5) and (loop_num<10)) do
@@ -255,55 +326,55 @@ elseif (measurement_type=='Caliper_B') then
 		--[[	this point coordinate is relative to the
 				center of measurement surface
 				no relation to the global coordinate.			 ]]--
-		local PTS=matrix(num_r*num_c,3,0)
+		local PTS=matrix(num_z*num_y,3,0)
 		local count=1
-		for i=1,num_r do
-			pst_r=range_r1+dr*(i-1)
-			for j=1,num_c do
-				pst_c=range_c1+dc*(j-1)
+		for i=1,num_z do
+			pst_z=range_z1+dz*(i-1)
+			for j=1,num_y do
+				pst_y=range_y1+dy*(j-1)
 				PTS[count][1]=0
-				PTS[count][2]=pst_c
-				PTS[count][3]=pst_r
+				PTS[count][2]=pst_y
+				PTS[count][3]=pst_z
 				count=count+1
 			end
 		end
 
-		--[[	V_normal_1:	normal direction of the
+		--[[	N_1:	normal direction of the
 				first measurement plane it is generated
 				by rotation from initial position     			 ]]--
 		local a=Caliper:getOrientation()
-		local V_normal_1=Vec3(-1,0,0)
-			  V_normal_1=a:rotate(V_normal_1)
-		local V_normal_2=Vec3(0,0,0)-V_normal_1
+		local N_1=Vec3(-1,0,0)
+			  N_1=a:rotate(N_1)
+		local N_2=Vec3(0,0,0)-N_1
 		--[[	dir_c2: direction from part center to the
 				center of measurement plane						 ]]--
 		local dir_c2=Vec3(-0.008,0,-0.08)
 			  dir_c2=a:rotate(dir_c2)
 	
 		-- get position of two part center---------------------------
-		local PS1=Caliper:getStagePosition()
-		local PS2=Slide:getStagePosition()
+		local CT_1=Caliper:getStagePosition()
+		local CT_2=Slide:getStagePosition()
 		-- distance between two planes-------------------------------
 		--	"0.025" is the initial distance, when
 		--	the caliper is "closed"
-		local DPL=(PS2-PS1)*V_normal_2
+		local DPL=(CT_2-CT_1)*N_2
 		DPL=DPL-0.025
 		-- change to actual measurement surface position-------------
-		PS1=PS1+dir_c2
-		PS2=PS1+V_normal_2*DPL
+		CT_1=CT_1+dir_c2
+		CT_2=CT_1+N_2*DPL
 
 		-- measurement distance D1 by ray----------------------------
 		--	give D1 initially a large value
 		--	if find no intersection point, using this value
 		--	and the constraint will be satisfied
-		local D1=matrix(num_r*num_c,1,9e9)
-		for i=1,(num_r*num_c) do
+		local D1=matrix(num_z*num_y,1,9e9)
+		for i=1,(num_z*num_y) do
 			local MPT=Vec3(PTS[i][1],PTS[i][2],PTS[i][3])
 			MPT=a:rotate(MPT)
 			--	slite move along normal direction, to avoid
 			--	"rayIntersect" find no point
-			MPT=MPT+PS1-V_normal_1*0.001
-			local r = Ray(MPT, V_normal_1)
+			MPT=MPT+CT_1-N_1*0.001
+			local r = Ray(MPT, N_1)
 			local t = rayIntersect(Stage.SceneNode, r, false, true)
 
 			if (t~= nil) then
@@ -334,19 +405,19 @@ elseif (measurement_type=='Caliper_B') then
 			
 			end
 		
-			if (D1[i][1]<DPL) then
+			if ( (D1[i][1]+DPL)<measurement_range) then
 				empty=false
 			end
 
 		end
 	
 		-- measurement distance D2 by ray----------------------------
-		local D2=matrix(num_r*num_c,1,9e9)
-		for i=1,(num_r*num_c) do
+		local D2=matrix(num_z*num_y,1,9e9)
+		for i=1,(num_z*num_y) do
 			local MPT=Vec3(PTS[i][1],PTS[i][2],PTS[i][3])
 			MPT=a:rotate(MPT)
-			MPT=MPT+PS2-V_normal_2*0.001
-			local r = Ray(MPT, V_normal_2)
+			MPT=MPT+CT_2-N_2*0.001
+			local r = Ray(MPT, N_2)
 			local t = rayIntersect(Stage.SceneNode, r, false, true)
 			
 			if (t~= nil) then
@@ -375,7 +446,7 @@ elseif (measurement_type=='Caliper_B') then
 				
 			end
 		
-			if (D2[i][1]<DPL) then
+			if ((D2[i][1]+DPL)<measurement_range) then
 				empty=false
 			end
 
@@ -402,9 +473,9 @@ elseif (measurement_type=='Caliper_B') then
 		--[[	7th variable of SDT is the changing
 				of distance between two faces.
 				positive is increasing distance.				 ]]--
-		local tr_s=Vec3(Result[7][1],0,0)
+		local tr_slide=Vec3(Result[7][1],0,0)
 		Caliper:translateLocal(tr_c1)
-		Slide:translateParent(tr_s)
+		Slide:translateParent(tr_slide)
 		
 		-- rotation the cqliper, Vec3(y,x,z)-------------------------
 		--[[	assume the rotation angle is small,
@@ -420,14 +491,225 @@ elseif (measurement_type=='Caliper_B') then
 
 	--	Re-calculate the distance between planes of caliper and slide
 	--	it is the same as in "Caliper_A"
-	local V_normal_1=Vec3(1,0,0)
+	local N_1=Vec3(1,0,0)
 	local a=Caliper:getOrientation()
-	V_normal_1=a:rotate(V_normal_1)
+	N_1=a:rotate(N_1)
 	
-	local	PS1=Caliper:getStagePosition()
-	local PS2=Slide:getStagePosition()
+	local	CT_1=Caliper:getStagePosition()
+	local CT_2=Slide:getStagePosition()
 	
-	local DPL=(PS2-PS1)*V_normal_1
+	local DPL=(CT_2-CT_1)*N_1
+	Distance=(DPL-0.025)*1000
+	
+	--	output the result
+	output('Distance',Distance)
+
+elseif (measurement_type=='Caliper_B_SP') then
+	-- measure the parts outside the measurement surfaces------------
+	
+	-- criteria to stop association----------------------------------
+	--[[	here CRT is the absolute value of
+			relative displacement between the caliper and slide. ]]--
+	local CRT=1
+	local loop_num=1
+	local empty=true
+
+	--[[	measurement points on each plane
+			position is relative to the
+			plane center								         ]]--
+	
+	-- r correspond to "z" direction
+	local num_z=8
+	--	!!! notice the direction for row
+	--	negetive direction is the longer direction
+	local range_z1=-0.003
+	local range_r2= 0.003
+	local dz=(range_r2-range_z1)/(num_z-1)
+	-- c correspond to "y" direction
+	local num_y=2
+	local range_y1=-0.001
+	local range_c2= 0.001
+	local dy=(range_c2-range_y1)/(num_y-1)
+
+	-- loop to associate---------------------------------------------
+	while ((CRT>1e-5) and (loop_num<10)) do
+		-- construct measurement points on caliper-------------------
+		--[[	this point coordinate is relative to the
+				center of measurement surface
+				no relation to the global coordinate.			 ]]--
+		local PTS=matrix(num_z*num_y,3,0)
+		local count=1
+		for i=1,num_z do
+			pst_z=range_z1+dz*(i-1)
+			for j=1,num_y do
+				pst_y=range_y1+dy*(j-1)
+				PTS[count][1]=0
+				PTS[count][2]=pst_y
+				PTS[count][3]=pst_z
+				count=count+1
+			end
+		end
+
+		--[[	N_1:	normal direction of the
+				first measurement plane it is generated
+				by rotation from initial position     			 ]]--
+		local a=Caliper:getOrientation()
+		local N_1=Vec3(-1,0,0)
+			  N_1=a:rotate(N_1)
+		local N_2=Vec3(0,0,0)-N_1
+		--[[	dir_c2: direction from part center to the
+				center of measurement plane						 ]]--
+		local dir_c2=Vec3(-0.008,0,-0.08)
+			  dir_c2=a:rotate(dir_c2)
+	
+		-- get position of two part center---------------------------
+		local CT_1=Caliper:getStagePosition()
+		local CT_2=Slide:getStagePosition()
+		-- distance between two planes-------------------------------
+		--	"0.025" is the initial distance, when
+		--	the caliper is "closed"
+		local DPL=(CT_2-CT_1)*N_2
+		DPL=DPL-0.025
+		-- change to actual measurement surface position-------------
+		CT_1=CT_1+dir_c2
+		CT_2=CT_1+N_2*DPL
+
+		-- measurement distance D1 by ray----------------------------
+		--	give D1 initially a large value
+		--	if find no intersection point, using this value
+		--	and the constraint will be satisfied
+		local D1=matrix(num_z*num_y,1,9e9)
+		for i=1,(num_z*num_y) do
+			local MPT=Vec3(PTS[i][1],PTS[i][2],PTS[i][3])
+			MPT=a:rotate(MPT)
+			--	slite move along normal direction, to avoid
+			--	"rayIntersect" find no point
+			MPT=MPT+CT_1-N_1*0.001
+			local r = Ray(MPT, N_1)
+			local t = rayIntersect(Stage.SceneNode, r, false, true)
+
+			if (t~= nil) then
+				local num_t=1
+				local num_d=0
+				local d1={}
+				while (t[num_t]~=nil) do
+					if ((t[num_t].Entity.Name~='Caliper')and(t[num_t].Entity.Name~='Slide')) then
+						num_d=num_d+1
+						--	"-0.001" corresponding to before
+						--	a distance was added to avoid empty intersection
+						d1[num_d]=t[num_t].IntersectedPoint.distance-0.001
+					end
+					num_t=num_t+1
+				end
+			
+				if (num_d>0) then
+					D1[i][1]=d1[1]
+				end
+				
+				if (num_d>1) then
+					for j=2,num_d do
+						if (math.abs(d1[j])<math.abs(D1[i][1])) then
+							D1[i][1]=d1[j]
+						end
+					end
+				end
+			
+			end
+		
+			if ( (D1[i][1]+DPL)<measurement_range) then
+				empty=false
+			end
+
+		end
+	
+		-- measurement distance D2 by ray----------------------------
+		local D2=matrix(num_z*num_y,1,9e9)
+		for i=1,(num_z*num_y) do
+			local MPT=Vec3(PTS[i][1],PTS[i][2],PTS[i][3])
+			MPT=a:rotate(MPT)
+			MPT=MPT+CT_2-N_2*0.001
+			local r = Ray(MPT, N_2)
+			local t = rayIntersect(Stage.SceneNode, r, false, true)
+			
+			if (t~= nil) then
+				local num_t=1
+				local num_d=0
+				local d2={}
+				while (t[num_t]~=nil) do
+					if ((t[num_t].Entity.Name~='Caliper')and(t[num_t].Entity.Name~='Slide')) then
+						num_d=num_d+1
+						d2[num_d]=t[num_t].IntersectedPoint.distance-0.001
+					end
+					num_t=num_t+1
+				end
+				
+				if (num_d>0) then
+					D2[i][1]=d2[1]
+				end
+				
+				if (num_d>1) then
+					for j=2,num_d do
+						if (math.abs(d2[j])<math.abs(D2[i][1])) then
+							D2[i][1]=d2[j]
+						end
+					end
+				end
+				
+			end
+		
+			if ((D2[i][1]+DPL)<measurement_range) then
+				empty=false
+			end
+
+		end
+
+		-- conduct association---------------------------------------
+		if (empty) then
+			print('Parts beyond the measurement range!')
+			Result=matrix(7,1,0)
+			Result[7][1]=-DPL
+			CRT=0
+		else
+			Result,CRT = metrology.Caliper_B_SP(D1,D2,DPL,PTS)
+		end
+
+		-- translate the position of caliper-------------------------
+		--[[	translation corresponding to the left
+				contact surface of the caliper.					 ]]--
+		local tr_c2=Vec3(Result[1][1],Result[2][1],Result[3][1])
+		local ro_c2=Vec3(Result[4][1],Result[5][1],Result[6][1])
+		local tr_c1=tr_c2+dir_c2:cross(ro_c2)
+			  tr_c1.x=-tr_c1.x
+			  tr_c1.z=-tr_c1.z
+		--[[	7th variable of SDT is the changing
+				of distance between two faces.
+				positive is increasing distance.				 ]]--
+		local tr_slide=Vec3(Result[7][1],0,0)
+		Caliper:translateLocal(tr_c1)
+		Slide:translateParent(tr_slide)
+		
+		-- rotation the cqliper, Vec3(y,x,z)-------------------------
+		--[[	assume the rotation angle is small,
+				the SDT is used as
+				Eular Angle directly.							 ]]--
+		local RTQT=Quat(0,0,0,1)
+		RTQT:setEulerAngles(Vec3(-Result[5][1],Result[4][1],-Result[6][1]))
+		Caliper:rotateLocal(RTQT)
+		
+		loop_num=loop_num+1
+		
+	end
+
+	--	Re-calculate the distance between planes of caliper and slide
+	--	it is the same as in "Caliper_A"
+	local N_1=Vec3(1,0,0)
+	local a=Caliper:getOrientation()
+	N_1=a:rotate(N_1)
+	
+	local	CT_1=Caliper:getStagePosition()
+	local CT_2=Slide:getStagePosition()
+	
+	local DPL=(CT_2-CT_1)*N_1
 	Distance=(DPL-0.025)*1000
 	
 	--	output the result
@@ -448,17 +730,17 @@ elseif (measurement_type=='Caliper_C') then
 			plane center								         ]]--
 	
 	-- r correspond to "z" direction
-	local num_r=8
+	local num_z=8
 	--	!!! notice the direction for row
 	--	negetive direction is the longer direction
-	local range_r1=-0.003
+	local range_z1=-0.003
 	local range_r2= 0.003
-	local dr=(range_r2-range_r1)/(num_r-1)
+	local dz=(range_r2-range_z1)/(num_z-1)
 	-- c correspond to "y" direction
-	local num_c=4
-	local range_c1=-0.001
+	local num_y=4
+	local range_y1=-0.001
 	local range_c2= 0.001
-	local dc=(range_c2-range_c1)/(num_c-1)
+	local dy=(range_c2-range_y1)/(num_y-1)
 
 	-- loop to associate---------------------------------------------
 	while ((CRT>1e-5) and (loop_num<10)) do
@@ -466,26 +748,26 @@ elseif (measurement_type=='Caliper_C') then
 		--[[	this point coordinate is relative to the
 				center of measurement surface
 				no relation to the global coordinate.			 ]]--
-		local PTS=matrix(num_r*num_c,3,0)
+		local PTS=matrix(num_z*num_y,3,0)
 		local count=1
-		for i=1,num_r do
-			pst_r=range_r1+dr*(i-1)
-			for j=1,num_c do
-				pst_c=range_c1+dc*(j-1)
+		for i=1,num_z do
+			pst_z=range_z1+dz*(i-1)
+			for j=1,num_y do
+				pst_y=range_y1+dy*(j-1)
 				PTS[count][1]=0
-				PTS[count][2]=pst_c
-				PTS[count][3]=pst_r
+				PTS[count][2]=pst_y
+				PTS[count][3]=pst_z
 				count=count+1
 			end
 		end
 
-		--[[	V_normal_1:	normal direction of the
+		--[[	N_1:	normal direction of the
 				first measurement plane it is generated
 				by rotation from initial position     			 ]]--
 		local a=Caliper:getOrientation()
-		local V_normal_1=Vec3(1,0,0)
-			  V_normal_1=a:rotate(V_normal_1)
-		local V_normal_2=V_normal_1
+		local N_1=Vec3(1,0,0)
+			  N_1=a:rotate(N_1)
+		local N_2=N_1
 		--[[	dir_c2: direction from part center to the
 				center of measurement plane						 ]]--
 		local dir_c2=Vec3(-0.015,0.001,-0.055)
@@ -496,29 +778,29 @@ elseif (measurement_type=='Caliper_C') then
 			  dir_c3=a:rotate(dir_c3)
 	
 		-- get position of two part center---------------------------
-		local PS1=Caliper:getStagePosition()
-		local PS2=Slide:getStagePosition()
+		local CT_1=Caliper:getStagePosition()
+		local CT_2=Slide:getStagePosition()
 		-- distance between two planes-------------------------------
 		--	"0.025" is the initial distance, when
 		--	the caliper is "closed"
-		local DPL=(PS2-PS1)*V_normal_2
+		local DPL=(CT_2-CT_1)*N_2
 		DPL=DPL-0.025
 		-- change to actual measurement surface position-------------
-		PS1=PS1+dir_c2
-		PS2=PS1-V_normal_2*DPL+dir_c3
+		CT_1=CT_1+dir_c2
+		CT_2=CT_1-N_2*DPL+dir_c3
 
 		-- measurement distance D1 by ray----------------------------
 		--	give D1 initially a large value
 		--	if find no intersection point, using this value
 		--	and the constraint will be satisfied
-		local D1=matrix(num_r*num_c,1,9e9)
-		for i=1,(num_r*num_c) do
+		local D1=matrix(num_z*num_y,1,9e9)
+		for i=1,(num_z*num_y) do
 			local MPT=Vec3(PTS[i][1],PTS[i][2],PTS[i][3])
 			MPT=a:rotate(MPT)
 			--	slite move along normal direction, to avoid
 			--	"rayIntersect" find no point
-			MPT=MPT+PS1-V_normal_1*0.001
-			local r = Ray(MPT, V_normal_1)
+			MPT=MPT+CT_1-N_1*0.001
+			local r = Ray(MPT, N_1)
 			local t = rayIntersect(Stage.SceneNode, r, false, true)
 
 			if (t~= nil) then
@@ -556,12 +838,12 @@ elseif (measurement_type=='Caliper_C') then
 		end
 	
 		-- measurement distance D2 by ray----------------------------
-		local D2=matrix(num_r*num_c,1,9e9)
-		for i=1,(num_r*num_c) do
+		local D2=matrix(num_z*num_y,1,9e9)
+		for i=1,(num_z*num_y) do
 			local MPT=Vec3(PTS[i][1],PTS[i][2],PTS[i][3])
 			MPT=a:rotate(MPT)
-			MPT=MPT+PS2-V_normal_2*0.001
-			local r = Ray(MPT, V_normal_2)
+			MPT=MPT+CT_2-N_2*0.001
+			local r = Ray(MPT, N_2)
 			local t = rayIntersect(Stage.SceneNode, r, false, true)
 			
 			if (t~= nil) then
@@ -617,9 +899,9 @@ elseif (measurement_type=='Caliper_C') then
 		--[[	7th variable of SDT is the changing
 				of distance between two faces.
 				positive is increasing distance.				 ]]--
-		local tr_s=Vec3(Result[7][1],0,0)
+		local tr_slide=Vec3(Result[7][1],0,0)
 		Caliper:translateLocal(tr_c1)
-		Slide:translateParent(tr_s)
+		Slide:translateParent(tr_slide)
 		
 		-- rotation the cqliper, Vec3(y,x,z)-------------------------
 		--[[	assume the rotation angle is small,
@@ -635,14 +917,14 @@ elseif (measurement_type=='Caliper_C') then
 
 	--	Re-calculate the distance between planes of caliper and slide
 	--	it is the same as in "Caliper_A"
-	local V_normal_1=Vec3(1,0,0)
+	local N_1=Vec3(1,0,0)
 	local a=Caliper:getOrientation()
-	V_normal_1=a:rotate(V_normal_1)
+	N_1=a:rotate(N_1)
 	
-	local	PS1=Caliper:getStagePosition()
-	local PS2=Slide:getStagePosition()
+	local	CT_1=Caliper:getStagePosition()
+	local CT_2=Slide:getStagePosition()
 	
-	local DPL=(PS2-PS1)*V_normal_1
+	local DPL=(CT_2-CT_1)*N_1
 	Distance=(DPL-0.025)*1000
 	
 	--	output the result
@@ -650,79 +932,100 @@ elseif (measurement_type=='Caliper_C') then
 elseif (measurement_type=='Caliper_D') then
 
 elseif (measurement_type=='MicroMeter') then
-	-- "MicroMeter_A" & "MicroMeter_B" are used as the two parts-----
+	-- measure the parts inside the measurement surfaces-------------
+
 	-- criteria to stop association----------------------------------
-	-- here CRT is the absolute value of relative displacement-------
+	--[[	here CRT is the absolute value of
+			relative displacement of micro meter				 ]]--
 	local CRT=1
 	local loop_num=1
 	local empty=true
 
+	--[[	N_1:	normal direction of the
+			first measurement plane it is generated
+			by rotation from initial position     				 ]]--
+	local N_1=Vec3(0,0,-1)
+	local a=MicroMeter1:getOrientation()
+		  N_1=a:rotate(N_1)
+	local N_2=Vec3(0,0,0)-N_1
+	
+	-- get position of two plane center------------------------------
+	local CT_1=MicroMeter1:getStagePosition()
+	local CT_2=MicroMeter2:getStagePosition()
+	
+	-- distance between two planes-----------------------------------
+	local DPL=(CT_2-CT_1)*N_1
+	-- re-calculate the CT_2 by offsetting
+		  CT_2=CT_1+N_1*DPL
+
 	--[[	measurement points on each plane
 			position is relative to the
-			plane center								         ]]--
-	
-	-- r correspond to "radius"
+			plane center CT_1 and CT_2					         ]]--
+	-- correspond to radius
 	local num_r=3
-	local range_r1=0
-	local range_r2=0.003
+	--	!!! notice the direction for row
+	--	negetive direction is the longer direction
+	local range_r1= 0
+	local range_r2= 0.003
 	local dr=(range_r2-range_r1)/num_r
-	-- c correspond to "angle"
-	local num_c=5
-	local range_c1=0
-	local range_c2=math.pi*2
-	local dc=(range_c2-range_c1)/num_c
+	-- correspond to angle
+	local num_a=5
+	local range_a1= 0
+	local range_a2= math.pi*2
+	local da=(range_a2-range_a1)/num_a
+
+	-- construct measurement points on caliper-----------------------
+	--[[	this point coordinate is relative to the
+			center of measurement surface
+			no relation to the global coordinate.				 ]]--
+	local PTS=matrix(num_r*num_a,3,0)
+	local count=1
+	for i=1,num_r do
+		rds=dr*i
+		for j=1,num_a do
+			agl=da*j
+			PTS[count][1]=math.cos(agl)*rds
+			PTS[count][2]=math.sin(agl)*rds
+			PTS[count][3]=0
+			count=count+1
+		end
+	end
+
+	-- PTS1 is for the first plane-----------------------------------
+	local PTS1=matrix(num_r*num_a,3,0)
+	local count=1
+	for i=1,num_r do
+		rds=dr*i
+		for j=1,num_a do
+			agl=da*j
+			PTS1[count][1]=math.cos(agl)*rds
+			PTS1[count][2]=math.sin(agl)*rds
+			PTS1[count][3]=0
+			count=count+1
+		end
+	end
+	for i=1,(num_r*num_a) do
+		local MPT=Vec3(PTS1[i][1],PTS1[i][2],PTS1[i][3])
+		MPT=a:rotate(MPT)
+		PTS1[i][1]=MPT.x+CT_1.x
+		PTS1[i][2]=MPT.y+CT_1.y
+		PTS1[i][3]=MPT.z+CT_1.z
+	end
 
 	-- loop to associate---------------------------------------------
 	while ((CRT>1e-5) and (loop_num<10)) do
-		-- construct measurement points on micro meter---------------
-		--[[	this point coordinate is relative to the
-				center of measurement surface
-				no relation to the global coordinate.			 ]]--
-		local PTS=matrix(num_r*num_c,3,0)
-		local count=1
-		for i=1,num_r do
-			rds=dr*i
-			for j=1,num_c do
-				agl=dc*j
-				--	coordinate of points decided by the initial
-				--	orientitation of micro meter
-				PTS[count][1]=math.cos(agl)*rds
-				PTS[count][2]=math.sin(agl)*rds
-				PTS[count][3]=0
-				count=count+1
-			end
-		end
-
-		--[[ V_normal_1:	normal direction of the
-			 first measurement plane, in "MicroMeter_A"
-			 it is generated by rotation from initial position.  ]]--
-		-- notice the normal direction is different from "Caliper_A"
-		local V_normal_1=Vec3(0,0,-1)
-		local a=MicroMeter_A:getOrientation()
-		V_normal_1=a:rotate(V_normal_1)
-		local V_normal_2=Vec3(0,0,0)-V_normal_1
-	
-		-- get position of two plane center--------------------------
-		local PS1=MicroMeter_A:getStagePosition()
-		local PS2=MicroMeter_B:getStagePosition()
-	
-		-- distance between two planes-------------------------------
-		--	when the micro meter is "closed", distance between them
-		--	equals to zero
-		local DPL=(PS2-PS1)*V_normal_1
 
 		-- measurement distance D1 by ray----------------------------
 		--	give D1 initially a large value
 		--	if find no intersection point, using this value
 		--	and the constraint will be satisfied
-		local D1=matrix(num_r*num_c,1,9e9)
-		for i=1,(num_r*num_c) do
-			local MPT=Vec3(PTS[i][1],PTS[i][2],PTS[i][3])
-			MPT=a:rotate(MPT)
+		local D1=matrix(num_r*num_a,1,9e9)
+		for i=1,(num_r*num_a) do
+			local MPT=Vec3(PTS1[i][1],PTS1[i][2],PTS1[i][3])
 			--	slite move along normal direction, to avoid
 			--	"rayIntersect" find no point
-			MPT=MPT+PS1-V_normal_1*0.001
-			local r = Ray(MPT, V_normal_1)
+			MPT=MPT-N_1*0.001
+			local r = Ray(MPT, N_1)
 			local t = rayIntersect(Stage.SceneNode, r, false, true)
 
 			if (t~= nil) then
@@ -730,7 +1033,7 @@ elseif (measurement_type=='MicroMeter') then
 				local num_d=0
 				local d1={}
 				while (t[num_t]~=nil) do
-					if ((t[num_t].Entity.Name~='MicroMeter_A')and(t[num_t].Entity.Name~='MicroMeter_B')) then
+					if ((t[num_t].Entity.Name~='MicroMeter1')and(t[num_t].Entity.Name~='MicroMeter2')) then
 						num_d=num_d+1
 						--	"-0.001" corresponding to before
 						--	a distance was added to avoid empty intersection
@@ -760,12 +1063,11 @@ elseif (measurement_type=='MicroMeter') then
 		end
 	
 		-- measurement distance D2 by ray----------------------------
-		local D2=matrix(num_r*num_c,1,9e9)
-		for i=1,(num_r*num_c) do
-			local MPT=Vec3(PTS[i][1],PTS[i][2],PTS[i][3])
-			MPT=a:rotate(MPT)
-			MPT=MPT+PS1+V_normal_1*(DPL+0.001)
-			local r = Ray(MPT, V_normal_2)
+		local D2=matrix(num_r*num_a,1,9e9)
+		for i=1,(num_r*num_a) do
+			local MPT=Vec3(PTS1[i][1],PTS1[i][2],PTS1[i][3])
+			MPT=MPT+N_1*(DPL+0.001)
+			local r = Ray(MPT, N_2)
 			local t = rayIntersect(Stage.SceneNode, r, false, true)
 			
 			if (t~= nil) then
@@ -773,7 +1075,7 @@ elseif (measurement_type=='MicroMeter') then
 				local num_d=0
 				local d2={}
 				while (t[num_t]~=nil) do
-					if ((t[num_t].Entity.Name~='MicroMeter_A')and(t[num_t].Entity.Name~='MicroMeter_B')) then
+					if ((t[num_t].Entity.Name~='MicroMeter1')and(t[num_t].Entity.Name~='MicroMeter2')) then
 						num_d=num_d+1
 						d2[num_d]=t[num_t].IntersectedPoint.distance-0.001
 					end
@@ -801,53 +1103,99 @@ elseif (measurement_type=='MicroMeter') then
 		end
 
 		-- conduct association---------------------------------------
+		--	transform the variables from "Vec3" to "matrix"
+		--	so they could be used in "metrology" package
+		local C1=matrix{CT_1.x,CT_1.y,CT_1.z}
+		local C2=matrix{CT_2.x,CT_2.y,CT_2.z}
+		local N1=matrix{N_1.x,N_1.y,N_1.z}
+		local N2=matrix{N_2.x,N_2.y,N_2.z}
+
 		if (empty) then
 			print('No measurement part !')
 			Result=matrix(7,1,0)
 			Result[7][1]=DPL
 			CRT=0
 		else
-			--	using "MicroMeter", similar to "Caliper_A"
-			--	but the orientation is changed !!!
-			Result,CRT = metrology.MicroMeter(D1,D2,DPL,PTS)
+			Result,CRT = metrology.Caliper_A(C1,C2,N1,N2,D1,D2,DPL,PTS1)
 		end
 
-		-- translate the position of micro meter---------------------
-		--[[	translation corresponding to the left
-				contact surface of micro meter.					 ]]--
-		local tr_c=Vec3(Result[1][1],Result[2][1],Result[3][1])
-		--[[	7th variable of SDT is the changing
-				of distance between two faces.
-				positive is increasing distance.				 ]]--
-		local tr_s=Vec3(0,0,Result[7][1])
-		MicroMeter_A:translateLocal(tr_c)
-		MicroMeter_B:translateParent(tr_s)
+		-- Translation & Rotation: CT_1,CT_2,N_1,N_2,PTS1------------
+		--[[	After each step of association, update the
+				position and orientation of the points			 ]]--
+		-- rotate N_1 & N_2------------------------------------------
+		N_1=N_1-N_1:cross(Vec3(Result[4][1],Result[5][1],Result[6][1]))
+		N_1:normalize()
+		N_2=Vec3(0,0,0)-N_1
+		N_2:normalize()
+		-- translate PTS1--------------------------------------------
+		for i=1,(num_r*num_a) do
+			-- translation caused by rotation
+			local r_PTS1=Vec3((CT_1.x-PTS1[i][1]),(CT_1.y-PTS1[i][2]),(CT_1.z-PTS1[i][3]))
+			r_PTS1=r_PTS1:cross(Vec3(Result[4][1],Result[5][1],Result[6][1]))
+			-- sum of translation for each point
+			local tr_PTS1=Vec3(Result[1][1],Result[2][1],Result[3][1])+r_PTS1
+			-- translate
+			PTS1[i][1]=PTS1[i][1]+tr_PTS1.x
+			PTS1[i][2]=PTS1[i][2]+tr_PTS1.y
+			PTS1[i][3]=PTS1[i][3]+tr_PTS1.z
+		end
+		-- translate CT_1--------------------------------------------
+		CT_1=CT_1+Vec3(Result[1][1],Result[2][1],Result[3][1])
+		-- translate CT_2--------------------------------------------
+		DPL=DPL-Result[7][1]
+		CT_2=CT_1+N_1*DPL
 		
-		-- rotation the cqliper, Vec3(y,x,z)-------------------------
-		--[[	assume the rotation angle is small,
-				the SDT is used as
-				Eular Angle directly.							 ]]--
-		local RTQT=Quat(0,0,0,1)
-		RTQT:setEulerAngles(Vec3(Result[5][1],Result[4][1],Result[6][1]))
-		MicroMeter_A:rotateLocal(RTQT)
-		
+		-- mark the number of loop-----------------------------------
 		loop_num=loop_num+1
-				
 	end
 
-	--	Re-calculate the distance between planes
-	--	Result "DPL" and its calculation is the same as before in the "while" loop
-	local V_normal_1=Vec3(0,0,-1)
-	local a=MicroMeter_A:getOrientation()
-	V_normal_1=a:rotate(V_normal_1)
-	
-	local PS1=MicroMeter_A:getStagePosition()
-	local PS2=MicroMeter_B:getStagePosition()
-	
-	local DPL=(PS2-PS1)*V_normal_1
-	Distance=DPL*1000
+	-- rotate the micro meter----------------------------------------
+	local v_1=Vec3(0,0,-1)
+	local a=MicroMeter1:getOrientation()
+		  v_1=a:rotate(v_1)
+		  v_1:normalize()
+	local v_2=N_1
+	-- calculate the rotation axis
+	local r_axis=v_1:cross(v_2)
+		  r_axis:normalize()
+	-- translate World rotation axis to Local rotation axis
+	local M=MicroMeter1:getLocalFrame()
+		  M:invert()
+		  r_axis=M*r_axis
+		  r_axis:normalize()
+	-- calculate the rotation angle
+	local r_angle=math.acos(v_1:dot(v_2))
+
+	-- translate the position of micro meter-------------------------
+	--[[	translation corresponding to the left
+			contact surface 									 ]]--
+	local tr_MM1=CT_1-MicroMeter1:getStagePosition()
+	--[[	the displacement of MM2 is calculated by
+			changing of "DPL"									 ]]--
+	local v_1=Vec3(0,0,-1)
+	local a=MicroMeter1:getOrientation()
+		  v_1=a:rotate(v_1)
+	local CT_1=MicroMeter1:getStagePosition()
+	local CT_2=MicroMeter2:getStagePosition()
+	local DPL2=(CT_2-CT_1)*v_1
+	local tr_MM2=Vec3(0,0,-(DPL-DPL2))
+
+	local duration = 2
+	local time = 0
+	while (time<duration) do
+		local frametime=Simulation:getFrameTime()
+		local r_qt=Quat(r_axis,r_angle/duration*frametime)
+		--[[	if not using local rotation
+				additional displacement will be introduced		 ]]--
+		MicroMeter1:rotateLocal(r_qt)
+		MicroMeter1:translateWorld(tr_MM1/duration*frametime)
+		MicroMeter2:translateParent(tr_MM2/duration*frametime)
+		time=time+frametime
+		waitAndUpdate()
+	end
 	
 	--	output the result
+	Distance=DPL*1000
 	output('Distance',Distance)
 	
 elseif (measurement_type=='Comparitor') then
