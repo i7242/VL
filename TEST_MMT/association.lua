@@ -10,13 +10,14 @@ optimize  = require "optimize"
 -- read imput variables----------------------------------------------
 --[[
 	measurement_type
-	measurement_range
+	measurement_range_lower
+	measurement_range_upper
 	MT_1: first measurement tool
 	MT_2: second measurement tool
 ]]--
 
 -- Change the method for different measurement types-----------------
-if (measurement_type=='Caliper_A') then
+if (measurement_type=='Caliper_Outside') then
 	-- measure the parts inside the measurement surfaces-------------
 	-- MT_1: Caliper
 	-- MT_2: Slider
@@ -273,7 +274,7 @@ if (measurement_type=='Caliper_A') then
 	Distance=DPL*1000
 	output('Distance',Distance)
 
-elseif (measurement_type=='Caliper_B') then
+elseif (measurement_type=='Caliper_Inside') then
 	-- measure the parts outside the measurement surfaces------------
 
 	-- criteria to stop association----------------------------------
@@ -603,7 +604,7 @@ elseif (measurement_type=='Caliper_B') then
 				min_D2=D2[i][1]
 			end
 		end
-		if ((min_D1+min_D2+DPL)>measurement_range) then
+		if ((min_D1+min_D2+DPL)>measurement_range_upper) then
 			empty=true
 		end
 
@@ -709,7 +710,7 @@ elseif (measurement_type=='Caliper_B') then
 	Distance=DPL*1000
 	output('Distance',Distance)
 
-elseif (measurement_type=='Caliper_C') then
+elseif (measurement_type=='Caliper_Shoulder') then
 
 	local CRT=9e9
 	local loop_num=1
@@ -871,13 +872,13 @@ elseif (measurement_type=='Caliper_C') then
 
 	-- translate the position of caliper-----------------------------
 	local tr_caliper=CT_1-MT_1:getStagePosition()-dir_c1+dir_c1:cross(r_axis*r_angle)
-	if (math.abs(tr_caliper.x)>measurement_range) then
+	if (math.abs(tr_caliper.x)>measurement_range_upper) then
 		empty=true
 	end
-	if (math.abs(tr_caliper.y)>measurement_range) then
+	if (math.abs(tr_caliper.y)>measurement_range_upper) then
 		empty=true
 	end
-	if (math.abs(tr_caliper.z)>measurement_range) then
+	if (math.abs(tr_caliper.z)>measurement_range_upper) then
 		empty=true
 	end
 
@@ -1030,20 +1031,14 @@ elseif (measurement_type=='Caliper_C') then
 	-- translate the position of caliper-----------------------------
 	local tr_caliper=CT_1-MT_1:getStagePosition()-dir_c1
 	local tr_slide=Vec3(tr_caliper:dot(N_1),0,0)
-	if (math.abs(tr_caliper.x)>measurement_range) then
-		empty=true
-	end
-	if (math.abs(tr_caliper.y)>measurement_range) then
-		empty=true
-	end
-	if (math.abs(tr_caliper.z)>measurement_range) then
+	if ((tr_caliper:dot(N_1)+DPL)>measurement_range_upper) then
 		empty=true
 	end
 
 	if (empty==true) then
 		tr_caliper=Vec3(0,0,0)
 		tr_slide=Vec3(0,0,0)
-		print('Too far from measurement part !')
+		print('Beyond measurement range !')
 	end
 	
 	local duration = 1
@@ -1060,7 +1055,7 @@ elseif (measurement_type=='Caliper_C') then
 	Distance=DPL*1000
 	output('Distance',Distance)
 
-elseif (measurement_type=='Caliper_D') then
+elseif (measurement_type=='Caliper_Depth') then
 
 	local CRT=9e9
 	local loop_num=1
@@ -1222,13 +1217,13 @@ elseif (measurement_type=='Caliper_D') then
 
 	-- translate the position of caliper-----------------------------
 	local tr_caliper=CT_1-MT_1:getStagePosition()-dir_c1+dir_c1:cross(r_axis*r_angle)
-	if (math.abs(tr_caliper.x)>measurement_range) then
+	if (math.abs(tr_caliper.x)>measurement_range_upper) then
 		empty=true
 	end
-	if (math.abs(tr_caliper.y)>measurement_range) then
+	if (math.abs(tr_caliper.y)>measurement_range_upper) then
 		empty=true
 	end
-	if (math.abs(tr_caliper.z)>measurement_range) then
+	if (math.abs(tr_caliper.z)>measurement_range_upper) then
 		empty=true
 	end
 
@@ -1380,13 +1375,7 @@ elseif (measurement_type=='Caliper_D') then
 
 	-- translate the position of caliper-----------------------------
 	local tr_slide=Vec3(N_2:dot(CT_2-MT_1:getStagePosition()-dir_c2),0,0)
-	if (math.abs(tr_slide.x)>measurement_range) then
-		empty=true
-	end
-	if (math.abs(tr_slide.y)>measurement_range) then
-		empty=true
-	end
-	if (math.abs(tr_slide.z)>measurement_range) then
+	if ((tr_slide+DPL)>measurement_range_upper) then
 		empty=true
 	end
 
@@ -1574,7 +1563,7 @@ elseif (measurement_type=='MicroMeter') then
 		if (empty) then
 			print('No measurement part !')
 			Result=matrix(7,1,0)
-			Result[7][1]=DPL
+			Result[7][1]=DPL-measurement_range_lower
 			CRT=0
 		else
 			Result,CRT = metrology.Caliper_A(C1,C2,N1,N2,D1,D2,DPL,PTS1)
@@ -1640,6 +1629,13 @@ elseif (measurement_type=='MicroMeter') then
 	local CT_2=MT_2:getStagePosition()
 	local DPL2=(CT_2-CT_1)*v_1
 	local tr_MM2=Vec3(0,0,-(DPL-DPL2))
+
+	if ((DPL<measurement_range_lower) and (empty==false)) then
+		r_angle=0
+		tr_MM1=Vec3(0,0,0)
+		tr_MM2=Vec3(0,0,0)
+		print('Beyond measurement range ! The part is too small !')
+	end
 
 	local duration = 2
 	local time = 0
@@ -1771,7 +1767,7 @@ elseif (measurement_type=='DialIndicator') then
 	-- translate the position of Dial Indicator2---------------------
 	local tr_value=N_2:dot(CT_2-MT_2:getStagePosition()-dir_c2)
 	local tr_DialIndicator2=Vec3(0,0,-tr_value)
-	if (tr_value>measurement_range) then
+	if (tr_value>measurement_range_upper) then
 		empty=true
 		tr_DialIndicator2=Vec3(0,0,0)
 		print('Too far from measurement part !')

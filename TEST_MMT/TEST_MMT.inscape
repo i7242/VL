@@ -1,0 +1,11595 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?>
+<VOA_File_1.0>
+<R>
+<InProject.5 def=" 1 "  name=" TEST_MMT " >
+<InProject>
+5
+</InProject>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"TEST_MMT"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{5b6a546f-b01e-4d24-85de-d5a74c9ac0bd}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<HashKey>
+"1bd2675641935fb7fc6145cb53bee7de67f3b6cf"
+</HashKey>
+<Edition>
+Pro
+</Edition>
+<Evaluation>
+0
+</Evaluation>
+<SCORMEnabled>
+0
+</SCORMEnabled>
+<OldDonePinBehaviour>
+0
+</OldDonePinBehaviour>
+<Plugins>
+<R>
+"In3DEntities"0 
+</R>
+</Plugins>
+<As>
+<R>
+<A "S" "Simulation">
+<F "VrObjectField">
+<InSimulation.1 def=" 2 "  name=" Simulation " >
+<InSimulation>
+1
+</InSimulation>
+<AllSimulationEntities>
+<R>
+<OneSimulationEntities>
+<In3DStage.0 def=" 3 "  name=" Stage " >
+<In3DStage>
+0
+</In3DStage>
+<InStage>
+0
+</InStage>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Stage"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{e15a8060-d666-44d8-8eaf-9c86695445c4}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "C" "StageEntities">
+<R>
+<F "VrObjectField">
+<In3DCamera.0 def=" 4 "  name=" Camera " >
+<In3DCamera>
+0
+</In3DCamera>
+<In3DStageEntity>
+0
+</In3DStageEntity>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Camera"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+<In3DTransformComponent.0 def=" 5 "  name=" Transform " >
+<In3DTransformComponent>
+0
+</In3DTransformComponent>
+<InTransformComponent>
+0
+</InTransformComponent>
+<InComponent>
+1
+</InComponent>
+<VrBhComponent>
+0
+</VrBhComponent>
+<VrComponent>
+0
+</VrComponent>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Transform"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</In3DTransformComponent.0>
+ 
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{537323aa-ba58-4cc2-9a82-3ff6183d0fad}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Position">
+<F "VrVec3dField">
+0.5079852845876148300000 0.3914138185630491900000 0.5798962162325450600000
+</F>
+</A>
+ 
+<A "S" "Hidden">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Scale">
+<F "VrVec3dField">
+1.000000000000093700000 1.000000000000063300000 1.000000000000055500000
+</F>
+</A>
+ 
+<A "S" "Orientation">
+<F "VrQuatdField">
+-0.2091677001796845300000 0.2847876973805486000000 0.06382473304582080000000 0.9333119757475827300000
+</F>
+</A>
+ 
+<A "S" "Displayed">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Locked">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "GeomParent">
+<F "VrObjectField">
+null
+</F>
+</A>
+ 
+<A "S" "CastShadow">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Parallax">
+<F "VrFloatField">
+0.06300000101327896100000
+</F>
+</A>
+ 
+<A "S" "TrackedEntity">
+<F "VrObjectField">
+null
+</F>
+</A>
+ 
+<A "S" "Near">
+<F "VrDoubleField">
+0.1000000000000000100000
+</F>
+</A>
+ 
+<A "S" "VerticalAperture">
+<F "VrFloatField">
+0.7853981852531433100000
+</F>
+</A>
+ 
+<A "S" "ConvergenceDistance">
+<F "VrFloatField">
+10.00000000000000000000
+</F>
+</A>
+ 
+<A "S" "Orthographic">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Far">
+<F "VrDoubleField">
+1000.000000000000000000
+</F>
+</A>
+ 
+<A "S" "NearAuto">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "FarAuto">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "BackgroundColor">
+<F "VrColorField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "ShadowsDistanceVisibility">
+<F "VrDoubleField">
+50.00000000000000000000
+</F>
+</A>
+ 
+<A "S" "DynamicsMode">
+<F "InCollidableDynamicsMode">
+NoDynamics
+</F>
+</A>
+ 
+<A "C" "PostEffects">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+</In3DCamera.0>
+</F>
+ 
+<F "VrObjectField">
+<In3DModel.1 def=" 6 "  name=" Nominal_1 " >
+<In3DModel>
+1
+</In3DModel>
+<In3DModelBase>
+0
+</In3DModelBase>
+<In3DStageEntity>
+0
+</In3DStageEntity>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Nominal_1"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+<In3DTransformComponent.0 def=" 7 "  name=" Transform " >
+<In3DTransformComponent>
+0
+</In3DTransformComponent>
+<InTransformComponent>
+0
+</InTransformComponent>
+<InComponent>
+1
+</InComponent>
+<VrBhComponent>
+0
+</VrBhComponent>
+<VrComponent>
+0
+</VrComponent>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Transform"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</In3DTransformComponent.0>
+ 
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{288d9115-7546-445c-86dc-93aff0495d08}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Position">
+<F "VrVec3dField">
+0.3499999999999999800000 0.0000000000000000000000 0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "Hidden">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Scale">
+<F "VrVec3dField">
+0.001000000000000000000000 0.001000000000000000000000 0.001000000000000000000000
+</F>
+</A>
+ 
+<A "S" "Orientation">
+<F "VrQuatdField">
+0.7071067811865474600000 0.0000000000000000000000 0.0000000000000000000000 0.7071067811865475700000
+</F>
+</A>
+ 
+<A "S" "Displayed">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Locked">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "GeomParent">
+<F "VrObjectField">
+null
+</F>
+</A>
+ 
+<A "S" "CastShadow">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Opacity">
+<F "VrFloatField">
+1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "HighlightColor">
+<F "VrColorField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "CollisionDetection">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "IgnoreModelLights">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "DynamicsVolume">
+<F "InDynamicsVolume">
+Box
+</F>
+</A>
+ 
+<A "S" "Mass">
+<F "VrFloatField">
+0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "DynamicsMode">
+<F "InDynamicsMode">
+NoDynamics
+</F>
+</A>
+ 
+<A "S" "PivotScaleOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotPosition">
+<F "VrVec3dField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotScale">
+<F "VrVec3dField">
+1.000000000000000000000 1.000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "GravityEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "Children">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Model">
+<F "VrUrlField">
+"Models/916_b.stl"
+</F>
+</A>
+ 
+<A "S" "AnimationEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "LoadingMode">
+<F "InModelLoadingMode">
+Always
+</F>
+</A>
+ 
+</R>
+</As>
+</In3DModel.1>
+</F>
+ 
+<F "VrObjectField">
+<In3DModel.1 def=" 8 "  name=" SkinModel_1 " >
+<In3DModel>
+1
+</In3DModel>
+<In3DModelBase>
+0
+</In3DModelBase>
+<In3DStageEntity>
+0
+</In3DStageEntity>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"SkinModel_1"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+<In3DTransformComponent.0 def=" 9 "  name=" Transform " >
+<In3DTransformComponent>
+0
+</In3DTransformComponent>
+<InTransformComponent>
+0
+</InTransformComponent>
+<InComponent>
+1
+</InComponent>
+<VrBhComponent>
+0
+</VrBhComponent>
+<VrComponent>
+0
+</VrComponent>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Transform"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</In3DTransformComponent.0>
+ 
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{5c0a4891-6754-4b8d-be8e-2840053d5752}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Position">
+<F "VrVec3dField">
+-0.2000000000000000100000 -0.02000000000000000000000 0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "Hidden">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Scale">
+<F "VrVec3dField">
+0.001000000000000000000000 0.001000000000000000000000 0.001000000000000000000000
+</F>
+</A>
+ 
+<A "S" "Orientation">
+<F "VrQuatdField">
+0.4999999999999998900000 0.5000000000000000000000 0.5000000000000000000000 0.5000000000000001100000
+</F>
+</A>
+ 
+<A "S" "Displayed">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Locked">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "GeomParent">
+<F "VrObjectField">
+null
+</F>
+</A>
+ 
+<A "S" "CastShadow">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Opacity">
+<F "VrFloatField">
+1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "HighlightColor">
+<F "VrColorField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "CollisionDetection">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "IgnoreModelLights">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "DynamicsVolume">
+<F "InDynamicsVolume">
+Box
+</F>
+</A>
+ 
+<A "S" "Mass">
+<F "VrFloatField">
+0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "DynamicsMode">
+<F "InDynamicsMode">
+NoDynamics
+</F>
+</A>
+ 
+<A "S" "PivotScaleOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotPosition">
+<F "VrVec3dField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotScale">
+<F "VrVec3dField">
+1.000000000000000000000 1.000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "GravityEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "Children">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Model">
+<F "VrUrlField">
+"Models/Demo-Ori-20.stl"
+</F>
+</A>
+ 
+<A "S" "AnimationEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "LoadingMode">
+<F "InModelLoadingMode">
+Always
+</F>
+</A>
+ 
+</R>
+</As>
+</In3DModel.1>
+</F>
+ 
+<F "VrObjectField">
+<In3DModel.1 def=" 10 "  name=" SkinModel_2 " >
+<In3DModel>
+1
+</In3DModel>
+<In3DModelBase>
+0
+</In3DModelBase>
+<In3DStageEntity>
+0
+</In3DStageEntity>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"SkinModel_2"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+<In3DTransformComponent.0 def=" 11 "  name=" Transform " >
+<In3DTransformComponent>
+0
+</In3DTransformComponent>
+<InTransformComponent>
+0
+</InTransformComponent>
+<InComponent>
+1
+</InComponent>
+<VrBhComponent>
+0
+</VrBhComponent>
+<VrComponent>
+0
+</VrComponent>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Transform"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</In3DTransformComponent.0>
+ 
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{17708592-26aa-4c52-af21-3707e8e8276c}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Position">
+<F "VrVec3dField">
+0.1499999999999999900000 0.0000000000000000000000 0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "Hidden">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Scale">
+<F "VrVec3dField">
+0.001000000000000000000000 0.001000000000000000000000 0.001000000000000000000000
+</F>
+</A>
+ 
+<A "S" "Orientation">
+<F "VrQuatdField">
+0.4999999999999998900000 0.5000000000000000000000 0.5000000000000000000000 0.5000000000000001100000
+</F>
+</A>
+ 
+<A "S" "Displayed">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Locked">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "GeomParent">
+<F "VrObjectField">
+null
+</F>
+</A>
+ 
+<A "S" "CastShadow">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Opacity">
+<F "VrFloatField">
+1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "HighlightColor">
+<F "VrColorField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "CollisionDetection">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "IgnoreModelLights">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "DynamicsVolume">
+<F "InDynamicsVolume">
+Box
+</F>
+</A>
+ 
+<A "S" "Mass">
+<F "VrFloatField">
+0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "DynamicsMode">
+<F "InDynamicsMode">
+NoDynamics
+</F>
+</A>
+ 
+<A "S" "PivotScaleOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotPosition">
+<F "VrVec3dField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotScale">
+<F "VrVec3dField">
+1.000000000000000000000 1.000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "GravityEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "Children">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Model">
+<F "VrUrlField">
+"Models/Demo-Ori-80.stl"
+</F>
+</A>
+ 
+<A "S" "AnimationEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "LoadingMode">
+<F "InModelLoadingMode">
+Always
+</F>
+</A>
+ 
+</R>
+</As>
+</In3DModel.1>
+</F>
+ 
+<F "VrObjectField">
+<In3DModel.1 def=" 12 "  name=" Nominal_2 " >
+<In3DModel>
+1
+</In3DModel>
+<In3DModelBase>
+0
+</In3DModelBase>
+<In3DStageEntity>
+0
+</In3DStageEntity>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Nominal_2"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+<In3DTransformComponent.0 def=" 13 "  name=" Transform " >
+<In3DTransformComponent>
+0
+</In3DTransformComponent>
+<InTransformComponent>
+0
+</InTransformComponent>
+<InComponent>
+1
+</InComponent>
+<VrBhComponent>
+0
+</VrBhComponent>
+<VrComponent>
+0
+</VrComponent>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Transform"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</In3DTransformComponent.0>
+ 
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{fb4d9e1d-f64c-4869-b560-8263ce1c1611}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Position">
+<F "VrVec3dField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "Hidden">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Scale">
+<F "VrVec3dField">
+0.001000000000000000000000 0.001000000000000000000000 0.001000000000000000000000
+</F>
+</A>
+ 
+<A "S" "Orientation">
+<F "VrQuatdField">
+0.4999999999999998900000 0.5000000000000000000000 0.5000000000000000000000 0.5000000000000001100000
+</F>
+</A>
+ 
+<A "S" "Displayed">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Locked">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "GeomParent">
+<F "VrObjectField">
+null
+</F>
+</A>
+ 
+<A "S" "CastShadow">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Opacity">
+<F "VrFloatField">
+1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "HighlightColor">
+<F "VrColorField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "CollisionDetection">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "IgnoreModelLights">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "DynamicsVolume">
+<F "InDynamicsVolume">
+Box
+</F>
+</A>
+ 
+<A "S" "Mass">
+<F "VrFloatField">
+0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "DynamicsMode">
+<F "InDynamicsMode">
+NoDynamics
+</F>
+</A>
+ 
+<A "S" "PivotScaleOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotPosition">
+<F "VrVec3dField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotScale">
+<F "VrVec3dField">
+1.000000000000000000000 1.000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "GravityEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "Children">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Model">
+<F "VrUrlField">
+"Models/nominal_binary.stl"
+</F>
+</A>
+ 
+<A "S" "AnimationEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "LoadingMode">
+<F "InModelLoadingMode">
+Always
+</F>
+</A>
+ 
+</R>
+</As>
+</In3DModel.1>
+</F>
+ 
+<F "VrObjectField">
+<In3DModel.1 def=" 14 "  name=" SkinModel_3 " >
+<In3DModel>
+1
+</In3DModel>
+<In3DModelBase>
+0
+</In3DModelBase>
+<In3DStageEntity>
+0
+</In3DStageEntity>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"SkinModel_3"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+<In3DTransformComponent.0 def=" 15 "  name=" Transform " >
+<In3DTransformComponent>
+0
+</In3DTransformComponent>
+<InTransformComponent>
+0
+</InTransformComponent>
+<InComponent>
+1
+</InComponent>
+<VrBhComponent>
+0
+</VrBhComponent>
+<VrComponent>
+0
+</VrComponent>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Transform"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</In3DTransformComponent.0>
+ 
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{af6748f4-a85a-495f-863c-992351f239e1}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Position">
+<F "VrVec3dField">
+0.5000000000000000000000 5.551115123125782700000e-017 0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "Hidden">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Scale">
+<F "VrVec3dField">
+0.001000000000000000000000 0.001000000000000000000000 0.001000000000000000000000
+</F>
+</A>
+ 
+<A "S" "Orientation">
+<F "VrQuatdField">
+0.7071067811865474600000 0.0000000000000000000000 0.0000000000000000000000 0.7071067811865475700000
+</F>
+</A>
+ 
+<A "S" "Displayed">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Locked">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "GeomParent">
+<F "VrObjectField">
+null
+</F>
+</A>
+ 
+<A "S" "CastShadow">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Opacity">
+<F "VrFloatField">
+1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "HighlightColor">
+<F "VrColorField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "CollisionDetection">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "IgnoreModelLights">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "DynamicsVolume">
+<F "InDynamicsVolume">
+Box
+</F>
+</A>
+ 
+<A "S" "Mass">
+<F "VrFloatField">
+0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "DynamicsMode">
+<F "InDynamicsMode">
+NoDynamics
+</F>
+</A>
+ 
+<A "S" "PivotScaleOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotPosition">
+<F "VrVec3dField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotScale">
+<F "VrVec3dField">
+1.000000000000000000000 1.000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "GravityEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "Children">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Model">
+<F "VrUrlField">
+"Models/SkinModel_916.stl"
+</F>
+</A>
+ 
+<A "S" "AnimationEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "LoadingMode">
+<F "InModelLoadingMode">
+Always
+</F>
+</A>
+ 
+</R>
+</As>
+</In3DModel.1>
+</F>
+ 
+<F "VrObjectField">
+<In3DModel.1 def=" 16 "  name=" SkinModel_4 " >
+<In3DModel>
+1
+</In3DModel>
+<In3DModelBase>
+0
+</In3DModelBase>
+<In3DStageEntity>
+0
+</In3DStageEntity>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"SkinModel_4"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+<In3DTransformComponent.0 def=" 17 "  name=" Transform " >
+<In3DTransformComponent>
+0
+</In3DTransformComponent>
+<InTransformComponent>
+0
+</InTransformComponent>
+<InComponent>
+1
+</InComponent>
+<VrBhComponent>
+0
+</VrBhComponent>
+<VrComponent>
+0
+</VrComponent>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Transform"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</In3DTransformComponent.0>
+ 
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{b321c51b-c941-4cf8-9659-5818b3f02126}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Position">
+<F "VrVec3dField">
+-0.3499999999999999800000 0.0000000000000000000000 0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "Hidden">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Scale">
+<F "VrVec3dField">
+0.001000000000000000000000 0.001000000000000000000000 0.001000000000000000000000
+</F>
+</A>
+ 
+<A "S" "Orientation">
+<F "VrQuatdField">
+-0.7071067811865474600000 0.0000000000000000000000 0.0000000000000000000000 0.7071067811865475700000
+</F>
+</A>
+ 
+<A "S" "Displayed">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Locked">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "GeomParent">
+<F "VrObjectField">
+null
+</F>
+</A>
+ 
+<A "S" "CastShadow">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Opacity">
+<F "VrFloatField">
+1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "HighlightColor">
+<F "VrColorField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "CollisionDetection">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "IgnoreModelLights">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "DynamicsVolume">
+<F "InDynamicsVolume">
+Box
+</F>
+</A>
+ 
+<A "S" "Mass">
+<F "VrFloatField">
+0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "DynamicsMode">
+<F "InDynamicsMode">
+NoDynamics
+</F>
+</A>
+ 
+<A "S" "PivotScaleOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotPosition">
+<F "VrVec3dField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotScale">
+<F "VrVec3dField">
+1.000000000000000000000 1.000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "GravityEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "Children">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Model">
+<F "VrUrlField">
+"Models/tool_Inscape_1.stl"
+</F>
+</A>
+ 
+<A "S" "AnimationEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "LoadingMode">
+<F "InModelLoadingMode">
+Always
+</F>
+</A>
+ 
+</R>
+</As>
+</In3DModel.1>
+</F>
+ 
+<F "VrObjectField">
+<In3DModel.1 def=" 18 "  name=" Caliper1 " >
+<In3DModel>
+1
+</In3DModel>
+<In3DModelBase>
+0
+</In3DModelBase>
+<In3DStageEntity>
+0
+</In3DStageEntity>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Caliper1"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+<In3DTransformComponent.0 def=" 19 "  name=" Transform " >
+<In3DTransformComponent>
+0
+</In3DTransformComponent>
+<InTransformComponent>
+0
+</InTransformComponent>
+<InComponent>
+1
+</InComponent>
+<VrBhComponent>
+0
+</VrBhComponent>
+<VrComponent>
+0
+</VrComponent>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Transform"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</In3DTransformComponent.0>
+ 
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{ce2c08a3-e3bd-4cd2-a159-89e15f354d95}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Position">
+<F "VrVec3dField">
+0.2000000000000000100000 0.0000000000000000000000 0.02999999999999999900000
+</F>
+</A>
+ 
+<A "S" "Hidden">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Scale">
+<F "VrVec3dField">
+1.000000000000000000000 1.000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "Orientation">
+<F "VrQuatdField">
+0.5000000000000000000000 0.5000000000000000000000 -0.4999999999999998900000 0.5000000000000001100000
+</F>
+</A>
+ 
+<A "S" "Displayed">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Locked">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "GeomParent">
+<F "VrObjectField">
+null
+</F>
+</A>
+ 
+<A "S" "CastShadow">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Opacity">
+<F "VrFloatField">
+1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "HighlightColor">
+<F "VrColorField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "CollisionDetection">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "IgnoreModelLights">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "DynamicsVolume">
+<F "InDynamicsVolume">
+Box
+</F>
+</A>
+ 
+<A "S" "Mass">
+<F "VrFloatField">
+0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "DynamicsMode">
+<F "InDynamicsMode">
+NoDynamics
+</F>
+</A>
+ 
+<A "S" "PivotScaleOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotPosition">
+<F "VrVec3dField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotScale">
+<F "VrVec3dField">
+1.000000000000000000000 1.000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "GravityEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "Children">
+<R>
+<F "VrObjectField">
+<In3DSubModel.0 def=" 20 "  name=" Caliper2 " >
+<In3DSubModel>
+0
+</In3DSubModel>
+<In3DModelBase>
+0
+</In3DModelBase>
+<In3DStageEntity>
+0
+</In3DStageEntity>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Caliper2"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+<In3DTransformComponent.0 def=" 21 "  name=" Transform " >
+<In3DTransformComponent>
+0
+</In3DTransformComponent>
+<InTransformComponent>
+0
+</InTransformComponent>
+<InComponent>
+1
+</InComponent>
+<VrBhComponent>
+0
+</VrBhComponent>
+<VrComponent>
+0
+</VrComponent>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Transform"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</In3DTransformComponent.0>
+ 
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{5a69677f-a4a1-42fb-8fab-d18050c62295}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Position">
+<F "VrVec3dField">
+0.08500000000000000600000 -0.002000000094994902600000 -0.05299999999999999900000
+</F>
+</A>
+ 
+<A "S" "Hidden">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Scale">
+<F "VrVec3dField">
+1.000000000000000000000 1.000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "Orientation">
+<F "VrQuatdField">
+-0.7071067811865474600000 0.0000000000000000000000 0.0000000000000000000000 0.7071067811865475700000
+</F>
+</A>
+ 
+<A "S" "Displayed">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Locked">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "GeomParent">
+<F "VrObjectField">
+<In3DModel.1 use=" 18 " >
+</In3DModel.1>
+</F>
+</A>
+ 
+<A "S" "CastShadow">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Opacity">
+<F "VrFloatField">
+1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "HighlightColor">
+<F "VrColorField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "CollisionDetection">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "IgnoreModelLights">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "DynamicsVolume">
+<F "InDynamicsVolume">
+Box
+</F>
+</A>
+ 
+<A "S" "Mass">
+<F "VrFloatField">
+0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "DynamicsMode">
+<F "InDynamicsMode">
+NoDynamics
+</F>
+</A>
+ 
+<A "S" "PivotScaleOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotPosition">
+<F "VrVec3dField">
+-0.02519216015934944200000 -0.05347808822989463800000 0.002000000094994902600000
+</F>
+</A>
+ 
+<A "S" "PivotOrientation">
+<F "VrQuatdField">
+0.7071067811865474600000 0.0000000000000000000000 0.0000000000000000000000 0.7071067811865475700000
+</F>
+</A>
+ 
+<A "S" "PivotScale">
+<F "VrVec3dField">
+1.000000000000000000000 1.000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "GravityEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "Children">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "NodeURL">
+<F "VrSubObjectURLField">
+"name:party_fix"
+</F>
+</A>
+ 
+</R>
+</As>
+</In3DSubModel.0>
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Model">
+<F "VrUrlField">
+"Models/PiedACoulisse/pied_coulisse_05.v3b"
+</F>
+</A>
+ 
+<A "S" "AnimationEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "LoadingMode">
+<F "InModelLoadingMode">
+Always
+</F>
+</A>
+ 
+</R>
+</As>
+</In3DModel.1>
+</F>
+ 
+<F "VrObjectField">
+<In3DModel.1 def=" 22 "  name=" MicroMeter1 " >
+<In3DModel>
+1
+</In3DModel>
+<In3DModelBase>
+0
+</In3DModelBase>
+<In3DStageEntity>
+0
+</In3DStageEntity>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"MicroMeter1"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+<In3DTransformComponent.0 def=" 23 "  name=" Transform " >
+<In3DTransformComponent>
+0
+</In3DTransformComponent>
+<InTransformComponent>
+0
+</InTransformComponent>
+<InComponent>
+1
+</InComponent>
+<VrBhComponent>
+0
+</VrBhComponent>
+<VrComponent>
+0
+</VrComponent>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Transform"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</In3DTransformComponent.0>
+ 
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{42c61587-9cd3-48df-858a-2029c3740447}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Position">
+<F "VrVec3dField">
+0.3750000000000000000000 0.05000000000000000300000 -0.02500000000000000100000
+</F>
+</A>
+ 
+<A "S" "Hidden">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Scale">
+<F "VrVec3dField">
+1.000000000000000000000 1.000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "Orientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.7071067811865474600000 0.7071067811865475700000
+</F>
+</A>
+ 
+<A "S" "Displayed">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Locked">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "GeomParent">
+<F "VrObjectField">
+null
+</F>
+</A>
+ 
+<A "S" "CastShadow">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Opacity">
+<F "VrFloatField">
+1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "HighlightColor">
+<F "VrColorField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "CollisionDetection">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "IgnoreModelLights">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "DynamicsVolume">
+<F "InDynamicsVolume">
+Box
+</F>
+</A>
+ 
+<A "S" "Mass">
+<F "VrFloatField">
+0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "DynamicsMode">
+<F "InDynamicsMode">
+NoDynamics
+</F>
+</A>
+ 
+<A "S" "PivotScaleOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotPosition">
+<F "VrVec3dField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotScale">
+<F "VrVec3dField">
+1.000000000000000000000 1.000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "GravityEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "Children">
+<R>
+<F "VrObjectField">
+<In3DSubModel.0 def=" 24 "  name=" MicroMeter2 " >
+<In3DSubModel>
+0
+</In3DSubModel>
+<In3DModelBase>
+0
+</In3DModelBase>
+<In3DStageEntity>
+0
+</In3DStageEntity>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"MicroMeter2"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+<In3DTransformComponent.0 def=" 25 "  name=" Transform " >
+<In3DTransformComponent>
+0
+</In3DTransformComponent>
+<InTransformComponent>
+0
+</InTransformComponent>
+<InComponent>
+1
+</InComponent>
+<VrBhComponent>
+0
+</VrBhComponent>
+<VrComponent>
+0
+</VrComponent>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Transform"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</In3DTransformComponent.0>
+ 
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{69e6d305-594a-47d1-843b-b00df7c767fc}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Position">
+<F "VrVec3dField">
+0.0000000000000000000000 0.0000000000000000000000 -0.02500000000000000100000
+</F>
+</A>
+ 
+<A "S" "Hidden">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Scale">
+<F "VrVec3dField">
+0.9889933466911972100000 0.9889933466911560200000 0.9889933466912216300000
+</F>
+</A>
+ 
+<A "S" "Orientation">
+<F "VrQuatdField">
+0.7071067235853759600000 1.109862146979631500000e-007 0.7071068387876969800000 -1.109862515487553200000e-007
+</F>
+</A>
+ 
+<A "S" "Displayed">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Locked">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "GeomParent">
+<F "VrObjectField">
+<In3DModel.1 use=" 22 " >
+</In3DModel.1>
+</F>
+</A>
+ 
+<A "S" "CastShadow">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Opacity">
+<F "VrFloatField">
+1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "HighlightColor">
+<F "VrColorField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "CollisionDetection">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "IgnoreModelLights">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "DynamicsVolume">
+<F "InDynamicsVolume">
+Box
+</F>
+</A>
+ 
+<A "S" "Mass">
+<F "VrFloatField">
+0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "DynamicsMode">
+<F "InDynamicsMode">
+NoDynamics
+</F>
+</A>
+ 
+<A "S" "PivotScaleOrientation">
+<F "VrQuatdField">
+-1.654361225106055300000e-024 5.551115123125782700000e-017 1.596107642520834300000e-008 0.9999999999999998900000
+</F>
+</A>
+ 
+<A "S" "PivotPosition">
+<F "VrVec3dField">
+-0.07330249249935107100000 0.006535324268043041200000 -1.296450861861741100000e-009
+</F>
+</A>
+ 
+<A "S" "PivotOrientation">
+<F "VrQuatdField">
+-1.379991879359078500000e-028 -1.629206849429400800000e-007 8.470329472542666700000e-022 0.9999999999999866800000
+</F>
+</A>
+ 
+<A "S" "PivotScale">
+<F "VrVec3dField">
+0.9999999999999469300000 1.000000000000000000000 0.9999999999999469300000
+</F>
+</A>
+ 
+<A "S" "GravityEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "Children">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "NodeURL">
+<F "VrSubObjectURLField">
+"name:Shape001"
+</F>
+</A>
+ 
+</R>
+</As>
+</In3DSubModel.0>
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Model">
+<F "VrUrlField">
+"Models/Micrometre/Micrometre_0x25.v3b"
+</F>
+</A>
+ 
+<A "S" "AnimationEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "LoadingMode">
+<F "InModelLoadingMode">
+Always
+</F>
+</A>
+ 
+</R>
+</As>
+</In3DModel.1>
+</F>
+ 
+<F "VrObjectField">
+<In3DModel.1 def=" 26 "  name=" DialIndicator " >
+<In3DModel>
+1
+</In3DModel>
+<In3DModelBase>
+0
+</In3DModelBase>
+<In3DStageEntity>
+0
+</In3DStageEntity>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"DialIndicator"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+<In3DTransformComponent.0 def=" 27 "  name=" Transform " >
+<In3DTransformComponent>
+0
+</In3DTransformComponent>
+<InTransformComponent>
+0
+</InTransformComponent>
+<InComponent>
+1
+</InComponent>
+<VrBhComponent>
+0
+</VrBhComponent>
+<VrComponent>
+0
+</VrComponent>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Transform"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</In3DTransformComponent.0>
+ 
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{75dc27b1-4df6-4c1e-aeed-a87b9caa444d}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Position">
+<F "VrVec3dField">
+-0.1700000000000000100000 0.0000000000000000000000 -0.1700000000000000100000
+</F>
+</A>
+ 
+<A "S" "Hidden">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Scale">
+<F "VrVec3dField">
+1.000000000000000000000 1.000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "Orientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.7071067811865474600000 0.0000000000000000000000 0.7071067811865475700000
+</F>
+</A>
+ 
+<A "S" "Displayed">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Locked">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "GeomParent">
+<F "VrObjectField">
+null
+</F>
+</A>
+ 
+<A "S" "CastShadow">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Opacity">
+<F "VrFloatField">
+1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "HighlightColor">
+<F "VrColorField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "CollisionDetection">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "IgnoreModelLights">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "DynamicsVolume">
+<F "InDynamicsVolume">
+Box
+</F>
+</A>
+ 
+<A "S" "Mass">
+<F "VrFloatField">
+0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "DynamicsMode">
+<F "InDynamicsMode">
+NoDynamics
+</F>
+</A>
+ 
+<A "S" "PivotScaleOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotPosition">
+<F "VrVec3dField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotOrientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotScale">
+<F "VrVec3dField">
+1.000000000000000000000 1.000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "GravityEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "Children">
+<R>
+<F "VrObjectField">
+<In3DSubModel.0 def=" 28 "  name=" DialIndicator1 " >
+<In3DSubModel>
+0
+</In3DSubModel>
+<In3DModelBase>
+0
+</In3DModelBase>
+<In3DStageEntity>
+0
+</In3DStageEntity>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"DialIndicator1"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+<In3DTransformComponent.0 def=" 29 "  name=" Transform " >
+<In3DTransformComponent>
+0
+</In3DTransformComponent>
+<InTransformComponent>
+0
+</InTransformComponent>
+<InComponent>
+1
+</InComponent>
+<VrBhComponent>
+0
+</VrBhComponent>
+<VrComponent>
+0
+</VrComponent>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Transform"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</In3DTransformComponent.0>
+ 
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{1bda2ebe-b2c2-4ab4-90c8-a1e4f755c678}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Position">
+<F "VrVec3dField">
+-0.1710887156567090200000 0.07554290152929429800000 0.01039496412004661100000
+</F>
+</A>
+ 
+<A "S" "Hidden">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Scale">
+<F "VrVec3dField">
+1.000000000000000000000 1.000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "Orientation">
+<F "VrQuatdField">
+-0.7071069297912440100000 2.545732829586725500000e-008 3.870563617547392500000e-008 0.7071066325818196100000
+</F>
+</A>
+ 
+<A "S" "Displayed">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Locked">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "GeomParent">
+<F "VrObjectField">
+<In3DModel.1 use=" 26 " >
+</In3DModel.1>
+</F>
+</A>
+ 
+<A "S" "CastShadow">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Opacity">
+<F "VrFloatField">
+1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "HighlightColor">
+<F "VrColorField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "CollisionDetection">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "IgnoreModelLights">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "DynamicsVolume">
+<F "InDynamicsVolume">
+Box
+</F>
+</A>
+ 
+<A "S" "Mass">
+<F "VrFloatField">
+0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "DynamicsMode">
+<F "InDynamicsMode">
+NoDynamics
+</F>
+</A>
+ 
+<A "S" "PivotScaleOrientation">
+<F "VrQuatdField">
+0.2145412638210322000000 0.08874089014517481900000 -0.3712075896983586000000 0.8990561861667218900000
+</F>
+</A>
+ 
+<A "S" "PivotPosition">
+<F "VrVec3dField">
+0.005926489830017155800000 -0.008347824215888940600000 -0.03585477918386460000000
+</F>
+</A>
+ 
+<A "S" "PivotOrientation">
+<F "VrQuatdField">
+8.823659324955889000000e-031 2.220446049250313100000e-016 3.552716325778461100000e-015 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotScale">
+<F "VrVec3dField">
+1.000000000000000900000 0.9999999999999990000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "GravityEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "Children">
+<R>
+<F "VrObjectField">
+<In3DSubModel.0 def=" 30 "  name=" DialIndicator2 " >
+<In3DSubModel>
+0
+</In3DSubModel>
+<In3DModelBase>
+0
+</In3DModelBase>
+<In3DStageEntity>
+0
+</In3DStageEntity>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"DialIndicator2"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+<In3DTransformComponent.0 def=" 31 "  name=" Transform " >
+<In3DTransformComponent>
+0
+</In3DTransformComponent>
+<InTransformComponent>
+0
+</InTransformComponent>
+<InComponent>
+1
+</InComponent>
+<VrBhComponent>
+0
+</VrBhComponent>
+<VrComponent>
+0
+</VrComponent>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Transform"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</In3DTransformComponent.0>
+ 
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{fa5df40a-2e88-4baf-bad2-57c87820c847}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Position">
+<F "VrVec3dField">
+-0.0002146661281585138200000 0.008088759146630729300000 -0.02072628960013389200000
+</F>
+</A>
+ 
+<A "S" "Hidden">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Scale">
+<F "VrVec3dField">
+1.000000000000000000000 1.000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "Orientation">
+<F "VrQuatdField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "Displayed">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Locked">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "GeomParent">
+<F "VrObjectField">
+<In3DSubModel.0 use=" 28 " >
+</In3DSubModel.0>
+</F>
+</A>
+ 
+<A "S" "CastShadow">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Opacity">
+<F "VrFloatField">
+1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "HighlightColor">
+<F "VrColorField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "CollisionDetection">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "IgnoreModelLights">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "DynamicsVolume">
+<F "InDynamicsVolume">
+Box
+</F>
+</A>
+ 
+<A "S" "Mass">
+<F "VrFloatField">
+0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "DynamicsMode">
+<F "InDynamicsMode">
+NoDynamics
+</F>
+</A>
+ 
+<A "S" "PivotScaleOrientation">
+<F "VrQuatdField">
+0.2145412638210322000000 0.08874089014517481900000 -0.3712075896983586000000 0.8990561861667218900000
+</F>
+</A>
+ 
+<A "S" "PivotPosition">
+<F "VrVec3dField">
+-0.005711823701858522200000 0.0002590650692581772600000 0.05658106878399849600000
+</F>
+</A>
+ 
+<A "S" "PivotOrientation">
+<F "VrQuatdField">
+8.823659324955889000000e-031 2.220446049250313100000e-016 3.552716325778461100000e-015 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "PivotScale">
+<F "VrVec3dField">
+1.000000000000000900000 0.9999999999999990000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "GravityEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "Children">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "NodeURL">
+<F "VrSubObjectURLField">
+"name:Line003"
+</F>
+</A>
+ 
+</R>
+</As>
+</In3DSubModel.0>
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "NodeURL">
+<F "VrSubObjectURLField">
+"name:Group001"
+</F>
+</A>
+ 
+</R>
+</As>
+</In3DSubModel.0>
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Model">
+<F "VrUrlField">
+"Models/Comparateur&Support/Comparateur&Support06.v3b"
+</F>
+</A>
+ 
+<A "S" "AnimationEnabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "LoadingMode">
+<F "InModelLoadingMode">
+Always
+</F>
+</A>
+ 
+</R>
+</As>
+</In3DModel.1>
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Date">
+<F "VrDateField">
+30/7/1981
+</F>
+</A>
+ 
+<A "S" "Time">
+<F "VrTimeField">
+36000.00000000000000000
+</F>
+</A>
+ 
+<A "S" "FogEnabled">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "FogEndVisibilityDistance">
+<F "VrFloatField">
+1000.000000000000000000
+</F>
+</A>
+ 
+<A "S" "CloudEnabled">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "SunLightShadow">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "SunLight">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "SkyEnabled">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "CloudSize">
+<F "VrFloatField">
+2000.000000000000000000
+</F>
+</A>
+ 
+<A "S" "SnowEnabled">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "RainEnabled">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "StarsEnabled">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "RainSpeed">
+<F "VrFloatField">
+5.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "FogColor">
+<F "VrColorField">
+0.5019608139991760300000 0.5019608139991760300000 0.5019608139991760300000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "CloudAltitude">
+<F "VrFloatField">
+150.0000000000000000000
+</F>
+</A>
+ 
+<A "S" "CloudThickness">
+<F "VrFloatField">
+0.2000000029802322400000
+</F>
+</A>
+ 
+<A "S" "CloudSharpness">
+<F "VrFloatField">
+0.9599999785423278800000
+</F>
+</A>
+ 
+<A "S" "CloudFrequency">
+<F "VrFloatField">
+4.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "CloudGreyRange">
+<F "VrVec2fField">
+0.3921568691730499300000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "SnowSpeed">
+<F "VrFloatField">
+1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "SnowDensity">
+<F "VrFloatField">
+0.6000000238418579100000
+</F>
+</A>
+ 
+<A "S" "RainDensity">
+<F "VrFloatField">
+0.3000000119209289600000
+</F>
+</A>
+ 
+<A "S" "Wind">
+<F "VrVec3fField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000
+</F>
+</A>
+ 
+</R>
+</As>
+</In3DStage.0>
+</OneSimulationEntities>
+ 
+<OneSimulationEntities>
+<In3DCamera.0 use=" 4 " >
+</In3DCamera.0>
+</OneSimulationEntities>
+ 
+<OneSimulationEntities>
+<In3DModel.1 use=" 6 " >
+</In3DModel.1>
+</OneSimulationEntities>
+ 
+<OneSimulationEntities>
+<In3DModel.1 use=" 8 " >
+</In3DModel.1>
+</OneSimulationEntities>
+ 
+<OneSimulationEntities>
+<In3DModel.1 use=" 10 " >
+</In3DModel.1>
+</OneSimulationEntities>
+ 
+<OneSimulationEntities>
+<In3DModel.1 use=" 12 " >
+</In3DModel.1>
+</OneSimulationEntities>
+ 
+<OneSimulationEntities>
+<In3DModel.1 use=" 14 " >
+</In3DModel.1>
+</OneSimulationEntities>
+ 
+<OneSimulationEntities>
+<In3DModel.1 use=" 16 " >
+</In3DModel.1>
+</OneSimulationEntities>
+ 
+<OneSimulationEntities>
+<In3DModel.1 use=" 18 " >
+</In3DModel.1>
+</OneSimulationEntities>
+ 
+<OneSimulationEntities>
+<In3DSubModel.0 use=" 20 " >
+</In3DSubModel.0>
+</OneSimulationEntities>
+ 
+<OneSimulationEntities>
+<In3DModel.1 use=" 22 " >
+</In3DModel.1>
+</OneSimulationEntities>
+ 
+<OneSimulationEntities>
+<In3DSubModel.0 use=" 24 " >
+</In3DSubModel.0>
+</OneSimulationEntities>
+ 
+<OneSimulationEntities>
+<In3DModel.1 use=" 26 " >
+</In3DModel.1>
+</OneSimulationEntities>
+ 
+<OneSimulationEntities>
+<In3DSubModel.0 use=" 28 " >
+</In3DSubModel.0>
+</OneSimulationEntities>
+ 
+<OneSimulationEntities>
+<In3DSubModel.0 use=" 30 " >
+</In3DSubModel.0>
+</OneSimulationEntities>
+ 
+<OneSimulationEntities>
+<InQ3DStageWindow.1 def=" 32 "  name=" StageWindow " >
+<InQ3DStageWindow>
+1
+</InQ3DStageWindow>
+<InQWidgetEntity>
+0
+</InQWidgetEntity>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"StageWindow"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{7a3e2a66-3df1-4bbe-96b7-f704bbd02950}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Caption">
+<F "VrStringField">
+"Stage Window"
+</F>
+</A>
+ 
+<A "S" "Displayed">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Size">
+<F "VrVec2dField">
+1489.000000000000000000 897.0000000000000000000
+</F>
+</A>
+ 
+<A "S" "Position">
+<F "VrVec2dField">
+0.0000000000000000000000 0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "Floating">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Hidden">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "StyleSheet">
+<F "VrUrlField">
+""
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "Stereoscopic">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "StereoSplitScreenMode">
+<F "InStereoSplitScreenMode">
+3DTV
+</F>
+</A>
+ 
+<A "C" "Views">
+<R>
+<F "VrObjectField">
+<In3DView.1 def=" 33 "  name=" View3D " >
+<In3DView>
+1
+</In3DView>
+<InView>
+0
+</InView>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"View3D"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{781187b5-0356-4b7a-a990-ce4d72393b6d}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ScreenPosition">
+<F "VrVec2dField">
+0.0000000000000000000000 0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "MouseInteraction">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Size">
+<F "VrVec2dField">
+100.0000000000000000000 100.0000000000000000000
+</F>
+</A>
+ 
+<A "S" "Displayed">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "VerticalAlignment">
+<F "InVerticalAlignment">
+Bottom
+</F>
+</A>
+ 
+<A "S" "Depth">
+<F "VrInt32Field">
+1
+</F>
+</A>
+ 
+<A "S" "HorizontalAlignment">
+<F "InHorizontalAlignment">
+Left
+</F>
+</A>
+ 
+<A "S" "Hidden">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "C" "Overlays">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<AuthorCameraDataMap>
+<R>
+<AuthorCameraData>
+<In3DStage.0 use=" 3 " >
+</In3DStage.0>
+<FieldIdentifier>
+"VrVec3dField"
+</FieldIdentifier>
+<FieldValue>
+-2.965719619024689700000 18.87938499106452600000 25.94168058321570000000
+</FieldValue>
+<FieldIdentifier>
+"VrQuatdField"
+</FieldIdentifier>
+<FieldValue>
+-0.3158645210820878500000 -0.1079665168727926700000 -0.03620461905460270500000 0.9419458907575590800000
+</FieldValue>
+</AuthorCameraData>
+</R>
+</AuthorCameraDataMap>
+<As>
+<R>
+<A "S" "HUD">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Camera">
+<F "VrObjectField">
+<In3DCamera.0 use=" 4 " >
+</In3DCamera.0>
+</F>
+</A>
+ 
+<A "S" "BackgroundColor">
+<F "VrColorField">
+0.0000000000000000000000 0.0000000000000000000000 0.0000000000000000000000 1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "AuthorCameraProjection">
+<F "VrProjectionType">
+Perspective
+</F>
+</A>
+ 
+<A "S" "ActiveCamera">
+<F "VrObjectField">
+<In3DCamera.0 use=" 4 " >
+</In3DCamera.0>
+</F>
+</A>
+ 
+<A "S" "AuthorCameraPosition">
+<F "VrVec3dField">
+-2.965719619024689700000 18.87938499106452600000 25.94168058321570000000
+</F>
+</A>
+ 
+<A "S" "ClearBackground">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "AuthorCameraShadowsVisibilityDistance">
+<F "VrDoubleField">
+50.00000000000000000000
+</F>
+</A>
+ 
+<A "S" "AuthorCameraStage">
+<F "VrObjectField">
+<In3DStage.0 use=" 3 " >
+</In3DStage.0>
+</F>
+</A>
+ 
+<A "S" "CameraMode">
+<F "In3DViewCameraMode">
+CameraEntity
+</F>
+</A>
+ 
+<A "S" "AuthorCameraOrientation">
+<F "VrQuatdField">
+-0.3158645210820878500000 -0.1079665168727926700000 -0.03620461905460270500000 0.9419458907575590800000
+</F>
+</A>
+ 
+<A "S" "AuthorCameraVerticalAperture">
+<F "VrDoubleField">
+0.7853981633974482800000
+</F>
+</A>
+ 
+<A "S" "UseCameraBackgroundColor">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "PositionMode">
+<F "InUnitsMode">
+Percent
+</F>
+</A>
+ 
+<A "S" "SizeMode">
+<F "InUnitsMode">
+Percent
+</F>
+</A>
+ 
+<A "S" "ShowDebugBuffers">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+</R>
+</As>
+</In3DView.1>
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+</InQ3DStageWindow.1>
+</OneSimulationEntities>
+ 
+<OneSimulationEntities>
+<In3DView.1 use=" 33 " >
+</In3DView.1>
+</OneSimulationEntities>
+ 
+</R>
+</AllSimulationEntities>
+<BehaviourEditor>
+<OpenedInstances>
+<R>
+<VrBhGraphInstance.0 def=" 34 " >
+<VrBhGraphInstance>
+0
+</VrBhGraphInstance>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Graph">
+<F "VrObjectField">
+<VrBhGraph.0 def=" 35 " >
+<VrBhGraph>
+0
+</VrBhGraph>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Main Graph"
+</F>
+</A>
+ 
+<A "C" "Annotations">
+<R>
+</R>
+</A>
+ 
+<A "S" "Description">
+<F "VrStringField">
+"Main Simulation Graph"
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+<F "VrObjectField">
+<VrBhGraphInstance.0 use=" 34 " >
+</VrBhGraphInstance.0>
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhGraph.0>
+</F>
+</A>
+ 
+<A "S" "OwnerEntity">
+<F "VrObjectField">
+<InSimulation.1 use=" 2 " >
+</InSimulation.1>
+</F>
+</A>
+ 
+<A "S" "ParentGraphTaskElement">
+<F "VrObjectField">
+null
+</F>
+</A>
+ 
+<A "S" "ZoomLevel">
+<F "VrDoubleField">
+0.9000000000000000200000
+</F>
+</A>
+ 
+<A "S" "ViewCenter">
+<F "VrVec2dField">
+-130.0000000000000000000 53.00000000000000000000
+</F>
+</A>
+ 
+<A "C" "Elements">
+<R>
+<F "VrObjectField">
+<VrBhScriptTaskInstance.0 def=" 36 " >
+<VrBhScriptTaskInstance>
+0
+</VrBhScriptTaskInstance>
+<VrBhTaskInstance>
+0
+</VrBhTaskInstance>
+<VrBhElementInstance>
+0
+</VrBhElementInstance>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Element">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 def=" 37 " >
+<VrBhScriptTaskElement>
+0
+</VrBhScriptTaskElement>
+<VrBhTaskElement>
+0
+</VrBhTaskElement>
+<VrBhElement>
+2
+</VrBhElement>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Id">
+<F "VrStringField">
+"c3acdcc7738c433e89b83b18021c1127"
+</F>
+</A>
+ 
+<A "S" "Position">
+<F "VrVec2dField">
+-240.3333333333333100000 -73.44444444444437200000
+</F>
+</A>
+ 
+<A "S" "ParentGraph">
+<F "VrObjectField">
+<VrBhGraph.0 use=" 35 " >
+</VrBhGraph.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "TaskProto">
+<F "VrObjectField">
+<VrBhScriptTaskProto.0 def=" 38 " >
+<VrBhScriptTaskProto>
+0
+</VrBhScriptTaskProto>
+<VrBhTaskProto>
+0
+</VrBhTaskProto>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "TaskName">
+<F "VrStringField">
+"Measurement"
+</F>
+</A>
+ 
+<A "C" "Parameters">
+<R>
+<F "VrObjectField">
+<VrBhTaskParameter.0 def=" 39 " >
+<VrBhTaskParameter>
+0
+</VrBhTaskParameter>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParameterName">
+<F "VrStringField">
+"Caliper_Path"
+</F>
+</A>
+ 
+<A "S" "Settings">
+<F "VrInt32Field">
+-1
+</F>
+</A>
+ 
+<A "S" "MetaData">
+<F "VrStringField">
+"url_type=directory;"
+</F>
+</A>
+ 
+<A "S" "IsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "ParameterType">
+<F "VrObjectField">
+<VrBhType.0 def=" 40 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrUrlField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "Description">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Direction">
+<F "VrBhTaskParameterDirectionField">
+In
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhTaskParameter.0>
+</F>
+ 
+<F "VrObjectField">
+<VrBhTaskParameter.0 def=" 41 " >
+<VrBhTaskParameter>
+0
+</VrBhTaskParameter>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParameterName">
+<F "VrStringField">
+"measurement_type"
+</F>
+</A>
+ 
+<A "S" "Settings">
+<F "VrInt32Field">
+-1
+</F>
+</A>
+ 
+<A "S" "MetaData">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "IsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "ParameterType">
+<F "VrObjectField">
+<VrBhType.0 def=" 42 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "Description">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Direction">
+<F "VrBhTaskParameterDirectionField">
+In
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhTaskParameter.0>
+</F>
+ 
+<F "VrObjectField">
+<VrBhTaskParameter.0 def=" 43 " >
+<VrBhTaskParameter>
+0
+</VrBhTaskParameter>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParameterName">
+<F "VrStringField">
+"measurement_range"
+</F>
+</A>
+ 
+<A "S" "Settings">
+<F "VrInt32Field">
+-1
+</F>
+</A>
+ 
+<A "S" "MetaData">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "IsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "ParameterType">
+<F "VrObjectField">
+<VrBhType.0 def=" 44 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrDoubleField"
+</FieldIdentifier>
+<FieldValue>
+0.0000000000000000000000
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "Description">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Direction">
+<F "VrBhTaskParameterDirectionField">
+In
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhTaskParameter.0>
+</F>
+ 
+<F "VrObjectField">
+<VrBhTaskParameter.0 def=" 45 " >
+<VrBhTaskParameter>
+0
+</VrBhTaskParameter>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParameterName">
+<F "VrStringField">
+"MT_1"
+</F>
+</A>
+ 
+<A "S" "Settings">
+<F "VrInt32Field">
+-1
+</F>
+</A>
+ 
+<A "S" "MetaData">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "IsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "ParameterType">
+<F "VrObjectField">
+<VrBhType.0 def=" 46 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"EmptyField"
+</FieldIdentifier>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+"VrObject"
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "Description">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Direction">
+<F "VrBhTaskParameterDirectionField">
+In
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhTaskParameter.0>
+</F>
+ 
+<F "VrObjectField">
+<VrBhTaskParameter.0 def=" 47 " >
+<VrBhTaskParameter>
+0
+</VrBhTaskParameter>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParameterName">
+<F "VrStringField">
+"MT_2"
+</F>
+</A>
+ 
+<A "S" "Settings">
+<F "VrInt32Field">
+-1
+</F>
+</A>
+ 
+<A "S" "MetaData">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "IsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "ParameterType">
+<F "VrObjectField">
+<VrBhType.0 def=" 48 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"EmptyField"
+</FieldIdentifier>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+"VrObject"
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "Description">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Direction">
+<F "VrBhTaskParameterDirectionField">
+In
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhTaskParameter.0>
+</F>
+ 
+<F "VrObjectField">
+<VrBhTaskParameter.0 def=" 49 " >
+<VrBhTaskParameter>
+0
+</VrBhTaskParameter>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParameterName">
+<F "VrStringField">
+"Distance"
+</F>
+</A>
+ 
+<A "S" "Settings">
+<F "VrInt32Field">
+-1
+</F>
+</A>
+ 
+<A "S" "MetaData">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "IsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "ParameterType">
+<F "VrObjectField">
+<VrBhType.0 def=" 50 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrDoubleField"
+</FieldIdentifier>
+<FieldValue>
+0.0000000000000000000000
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "Description">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Direction">
+<F "VrBhTaskParameterDirectionField">
+Out
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhTaskParameter.0>
+</F>
+ 
+</R>
+</A>
+ 
+<A "S" "Description">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "C" "Tags">
+<R>
+</R>
+</A>
+ 
+<A "S" "TargetType">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "LogicPath">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "C" "OutputControls">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ScriptType">
+<F "VrBhScriptTaskProtoTypeField">
+Coroutine
+</F>
+</A>
+ 
+<A "S" "Script">
+<F "VrStringField">
+"-- set namespace-----------------------------------------------------
+package.path = package.path .. ';'
+		.. unprojectizeFilename(Caliper_Path.localPath) .. '/?.lua'
+
+-- load packages-----------------------------------------------------
+metrology = require \"metrology\"
+matrix	  = require \"matrix\"
+optimize  = require \"optimize\"
+
+-- read imput variables----------------------------------------------
+--[[
+	measurement_type
+	measurement_range
+	MT_1: first measurement tool
+	MT_2: second measurement tool
+]]--
+
+-- Change the method for different measurement types-----------------
+if (measurement_type=='Caliper_A') then
+	-- measure the parts inside the measurement surfaces-------------
+	-- MT_1: Caliper
+	-- MT_2: Slider
+
+	-- criteria to stop association----------------------------------
+	--[[	here CRT is the absolute value of
+			relative displacement between the caliper and slide. ]]--
+	local CRT=1
+	local loop_num=1
+	local empty=true
+
+	--[[	N_1:	normal direction of the
+			first measurement plane it is generated
+			by rotation from initial position     				 ]]--
+	local N_1=Vec3(1,0,0)
+	local a=MT_1:getOrientation()
+		  N_1=a:rotate(N_1)
+	local N_2=Vec3(0,0,0)-N_1
+	
+	-- get position of two plane center------------------------------
+	local CT_1=MT_1:getStagePosition()
+	local CT_2=MT_2:getStagePosition()
+	
+	-- distance between two planes-----------------------------------
+	--	\"0.025\" is the initial distance, when
+	--	the caliper is \"closed\"
+	local DPL=(CT_2-CT_1)*N_1
+	DPL=DPL-0.025
+	-- re-calculate the CT_2 by offsetting
+	CT_2=CT_1+N_1*DPL
+
+	--[[	measurement points on each plane
+			position is relative to the
+			plane center CT_1 and CT_2					         ]]--
+	-- correspond to \"z\" direction
+	local num_z=8
+	--	!!! notice the direction for row
+	--	negetive direction is the longer direction
+	local range_z1=-0.03
+	local range_z2= 0.003
+	local dz=(range_z2-range_z1)/(num_z-1)
+	-- correspond to \"y\" direction
+	local num_y=4
+	local range_y1=-0.001
+	local range_y2= 0.001
+	local dy=(range_y2-range_y1)/(num_y-1)
+
+	-- construct measurement points on caliper-----------------------
+	-- PTS1 is for the first plane-----------------------------------
+	local PTS1=matrix(num_z*num_y,3,0)
+	local count=1
+	for i=1,num_z do
+		pst_z=range_z1+dz*(i-1)
+		for j=1,num_y do
+			pst_y=range_y1+dy*(j-1)
+			PTS1[count][1]=0
+			PTS1[count][2]=pst_y
+			PTS1[count][3]=pst_z
+			count=count+1
+		end
+	end
+	for i=1,(num_z*num_y) do
+		local MPT=Vec3(PTS1[i][1],PTS1[i][2],PTS1[i][3])
+		MPT=a:rotate(MPT)
+		PTS1[i][1]=MPT.x+CT_1.x
+		PTS1[i][2]=MPT.y+CT_1.y
+		PTS1[i][3]=MPT.z+CT_1.z
+	end
+
+	-- loop to associate---------------------------------------------
+	while ((CRT>1e-5) and (loop_num<10)) do
+
+		-- measurement distance D1 by ray----------------------------
+		--	give D1 initially a large value
+		--	if find no intersection point, using this value
+		--	and the constraint will be satisfied
+		local D1=matrix(num_z*num_y,1,9e9)
+		for i=1,(num_z*num_y) do
+			local MPT=Vec3(PTS1[i][1],PTS1[i][2],PTS1[i][3])
+			--	slite move along normal direction, to avoid
+			--	\"rayIntersect\" find no point
+			MPT=MPT-N_1*0.001
+			local r = Ray(MPT, N_1)
+			local t = rayIntersect(Stage.SceneNode, r, false, true)
+
+			if (t~= nil) then
+				local num_t=1
+				local num_d=0
+				local d1={}
+				while (t[num_t]~=nil) do
+					if ((t[num_t].Entity~=MT_1)and(t[num_t].Entity~=MT_2)) then
+						num_d=num_d+1
+						--	\"-0.001\" corresponding to before
+						--	a distance was added to avoid empty intersection
+						d1[num_d]=t[num_t].IntersectedPoint.distance-0.001
+					end
+					num_t=num_t+1
+				end
+			
+				if (num_d>0) then
+					D1[i][1]=d1[1]
+				end
+				
+				if (num_d>1) then
+					for j=2,num_d do
+						if (math.abs(d1[j])<math.abs(D1[i][1])) then
+							D1[i][1]=d1[j]
+						end
+					end
+				end
+			
+			end
+		
+			if (D1[i][1]<DPL) then
+				empty=false
+			end
+
+		end
+	
+		-- measurement distance D2 by ray----------------------------
+		local D2=matrix(num_z*num_y,1,9e9)
+		for i=1,(num_z*num_y) do
+			local MPT=Vec3(PTS1[i][1],PTS1[i][2],PTS1[i][3])
+			MPT=MPT+N_1*(DPL+0.001)
+			local r = Ray(MPT, N_2)
+			local t = rayIntersect(Stage.SceneNode, r, false, true)
+			
+			if (t~= nil) then
+				local num_t=1
+				local num_d=0
+				local d2={}
+				while (t[num_t]~=nil) do
+					if ((t[num_t].Entity~=MT_1)and(t[num_t].Entity~=MT_2)) then
+						num_d=num_d+1
+						d2[num_d]=t[num_t].IntersectedPoint.distance-0.001
+					end
+					num_t=num_t+1
+				end
+				
+				if (num_d>0) then
+					D2[i][1]=d2[1]
+				end
+				
+				if (num_d>1) then
+					for j=2,num_d do
+						if (math.abs(d2[j])<math.abs(D2[i][1])) then
+							D2[i][1]=d2[j]
+						end
+					end
+				end
+				
+			end
+		
+			if (D2[i][1]<DPL) then
+				empty=false
+			end
+
+		end
+
+		-- conduct association---------------------------------------
+		--	transform the variables from \"Vec3\" to \"matrix\"
+		--	so they could be used in \"metrology\" package
+		local C1=matrix{CT_1.x,CT_1.y,CT_1.z}
+		local C2=matrix{CT_2.x,CT_2.y,CT_2.z}
+		local N1=matrix{N_1.x,N_1.y,N_1.z}
+		local N2=matrix{N_2.x,N_2.y,N_2.z}
+
+		if (empty) then
+			print('No measurement part !')
+			Result=matrix(7,1,0)
+			Result[7][1]=DPL
+			CRT=0
+		else
+			Result,CRT = metrology.Caliper_A(C1,C2,N1,N2,D1,D2,DPL,PTS1)
+		end
+
+		-- Translation & Rotation: CT_1,CT_2,N_1,N_2,PTS1------------
+		--[[	After each step of association, update the
+				position and orientation of the points,
+				not the caliper									 ]]--
+		-- rotate N_1 & N_2------------------------------------------
+		N_1=N_1-N_1:cross(Vec3(Result[4][1],Result[5][1],Result[6][1]))
+		N_1:normalize()
+		N_2=Vec3(0,0,0)-N_1
+		N_2:normalize()
+		-- translate PTS1--------------------------------------------
+		for i=1,(num_z*num_y) do
+			-- translation caused by rotation
+			local r_PTS1=Vec3((CT_1.x-PTS1[i][1]),(CT_1.y-PTS1[i][2]),(CT_1.z-PTS1[i][3]))
+			r_PTS1=r_PTS1:cross(Vec3(Result[4][1],Result[5][1],Result[6][1]))
+			-- sum of translation for each point
+			local tr_PTS1=Vec3(Result[1][1],Result[2][1],Result[3][1])+r_PTS1
+			-- translate
+			PTS1[i][1]=PTS1[i][1]+tr_PTS1.x
+			PTS1[i][2]=PTS1[i][2]+tr_PTS1.y
+			PTS1[i][3]=PTS1[i][3]+tr_PTS1.z
+		end
+		-- translate CT_1--------------------------------------------
+		CT_1=CT_1+Vec3(Result[1][1],Result[2][1],Result[3][1])
+		-- translate CT_2--------------------------------------------
+		DPL=DPL-Result[7][1]
+		CT_2=CT_1+N_1*DPL
+		
+		-- mark the number of loop-----------------------------------
+		loop_num=loop_num+1
+	end
+
+	-- rotate the caliper--------------------------------------------
+	local v_1=Vec3(1,0,0)
+	local a=MT_1:getOrientation()
+		  v_1=a:rotate(v_1)
+		  v_1:normalize()
+	local v_2=N_1
+	-- calculate the rotation axis
+	local r_axis=v_1:cross(v_2)
+		  r_axis:normalize()
+	-- translate World rotation axis to Local rotation axis
+	local M=MT_1:getLocalFrame()
+		  M:invert()
+		  r_axis=M*r_axis
+		  r_axis:normalize()
+	-- calculate the rotation angle
+	local r_angle=math.acos(v_1:dot(v_2))
+
+	-- translate the position of caliper-----------------------------
+	--[[	translation corresponding to the left
+			contact surface of the caliper.						 ]]--
+	local tr_caliper=CT_1-MT_1:getStagePosition()
+	--[[	the displacement of slide is calculated by
+			changing of \"DPL\"									 ]]--
+	local v_1=Vec3(1,0,0)
+	local a=MT_1:getOrientation()
+		  v_1=a:rotate(v_1)
+	local CT_1=MT_1:getStagePosition()
+	local CT_2=MT_2:getStagePosition()
+	local DPL2=(CT_2-CT_1)*v_1-0.025
+	local tr_slide=Vec3((DPL-DPL2),0,0)
+
+	local duration = 2
+	local time = 0
+	while (time<duration) do
+		local frametime=Simulation:getFrameTime()
+		local r_qt=Quat(r_axis,r_angle/duration*frametime)
+		--[[	if not using local rotation
+				additional displacement will be introduced		 ]]--
+		MT_1:rotateLocal(r_qt)
+		MT_1:translateWorld(tr_caliper/duration*frametime)
+		MT_2:translateParent(tr_slide/duration*frametime)
+		time=time+frametime
+		waitAndUpdate()
+	end
+	
+	--	output the result
+	Distance=DPL*1000
+	output('Distance',Distance)
+
+elseif (measurement_type=='Caliper_B') then
+	-- measure the parts outside the measurement surfaces------------
+
+	-- criteria to stop association----------------------------------
+	--[[	here CRT is the absolute value of
+			relative displacement between the caliper and slide. ]]--
+	local CRT=1
+	local loop_num=1
+	local empty=false
+
+	--[[	N_11:	normal direction of the
+			first measurement plane it is generated
+			by rotation from initial position     				 ]]--
+	local N_11=Vec3(-1,0,0)
+	-- angle for the rotation of normal direction
+	local a_normal=7
+
+	local N_12=Vec3(-math.cos(a_normal),math.sin(a_normal),0)
+	local N_13=Vec3(-math.cos(a_normal),-math.sin(a_normal),0)
+	-- rotation from original position to current position
+	local a=MT_1:getOrientation()
+		N_11=a:rotate(N_11)
+		N_12=a:rotate(N_12)
+		N_13=a:rotate(N_13)
+	local N_21=Vec3(0,0,0)-N_11
+	local N_22=Vec3(0,0,0)-N_12
+	local N_23=Vec3(0,0,0)-N_13
+	--[[	dir_cb: direction from part center to the
+				center of measurement plane, caliper B			 ]]--
+	local dir_cb=Vec3(-0.008,0,-0.08)
+		dir_cb=a:rotate(dir_cb)
+	
+	-- get position of two plane center------------------------------
+	local CT_1=MT_1:getStagePosition()
+		CT_1=CT_1+dir_cb
+	local CT_2=MT_2:getStagePosition()
+		CT_2=CT_2+dir_cb
+	
+	-- distance between two planes-----------------------------------
+	--	\"0.025\" is the initial distance, when
+	--	the caliper is \"closed\"
+	local DPL=(CT_2-CT_1)*N_21
+		DPL=DPL-0.025
+	-- re-calculate the CT_2 by offsetting
+		CT_2=CT_1+N_21*DPL
+
+	--[[	measurement points on each plane
+			position is relative to the
+			plane center CT_1 and CT_2					         ]]--
+	-- correspond to \"z\" direction
+	local num_z=8
+	--	!!! notice the direction for row
+	--	negetive direction is the longer direction
+	local range_z1=-0.003
+	local range_z2= 0.003
+	local dz=(range_z2-range_z1)/(num_z-1)
+	-- correspond to \"y\" direction
+	local num_y=4
+	local range_y1=-0.00001
+	local range_y2= 0.00001
+	local dy=(range_y2-range_y1)/(num_y-1)
+
+	-- construct measurement points on caliper-----------------------
+	-- PTS1 is for the first plane-----------------------------------
+	local PTS1=matrix(num_z*num_y,3,0)
+	local count=1
+	for i=1,num_z do
+		pst_z=range_z1+dz*(i-1)
+		for j=1,num_y do
+			pst_y=range_y1+dy*(j-1)
+			PTS1[count][1]=0
+			PTS1[count][2]=pst_y
+			PTS1[count][3]=pst_z
+			count=count+1
+		end
+	end
+	for i=1,(num_z*num_y) do
+		local MPT=Vec3(PTS1[i][1],PTS1[i][2],PTS1[i][3])
+		MPT=a:rotate(MPT)
+		PTS1[i][1]=MPT.x+CT_1.x
+		PTS1[i][2]=MPT.y+CT_1.y
+		PTS1[i][3]=MPT.z+CT_1.z
+	end
+
+	-- loop to associate---------------------------------------------
+	while ((CRT>1e-5) and (loop_num<10)) do
+
+		-- measurement distance D1 by ray----------------------------
+		--	give D1 initially a large value
+		--	if find no intersection point, using this value
+		--	and the constraint will be satisfied
+		local D1=matrix(num_z*num_y*3,1,9e9)
+
+		for i=1,(num_z*num_y) do
+			local MPT=Vec3(PTS1[i][1],PTS1[i][2],PTS1[i][3])
+			--	slite move along normal direction, to avoid
+			--	\"rayIntersect\" find no point
+				MPT=MPT-N_11*0.001
+			local r = Ray(MPT, N_11)
+			local t = rayIntersect(Stage.SceneNode, r, false, true)
+
+			if (t~= nil) then
+				local num_t=1
+				local num_d=0
+				local d1={}
+				while (t[num_t]~=nil) do
+					if ((t[num_t].Entity~=MT_1)and(t[num_t].Entity~=MT_2)) then
+						num_d=num_d+1
+						--	\"-0.001\" corresponding to before
+						--	a distance was added to avoid empty intersection
+						d1[num_d]=t[num_t].IntersectedPoint.distance-0.001
+					end
+					num_t=num_t+1
+				end
+			
+				if (num_d>0) then
+					D1[i][1]=d1[1]
+				end
+				
+				if (num_d>1) then
+					for j=2,num_d do
+						if (math.abs(d1[j])<math.abs(D1[i][1])) then
+							D1[i][1]=d1[j]
+						end
+					end
+				end
+			
+			end
+		end
+
+		for i=1,(num_z*num_y) do
+			local MPT=Vec3(PTS1[i][1],PTS1[i][2],PTS1[i][3])
+			--	slite move along normal direction, to avoid
+			--	\"rayIntersect\" find no point
+			MPT=MPT-N_12*0.001
+			local r = Ray(MPT, N_12)
+			local t = rayIntersect(Stage.SceneNode, r, false, true)
+
+			if (t~= nil) then
+				local num_t=1
+				local num_d=0
+				local d1={}
+				while (t[num_t]~=nil) do
+					if ((t[num_t].Entity~=MT_1)and(t[num_t].Entity~=MT_2)) then
+						num_d=num_d+1
+						--	\"-0.001\" corresponding to before
+						--	a distance was added to avoid empty intersection
+						d1[num_d]=t[num_t].IntersectedPoint.distance-0.001
+					end
+					num_t=num_t+1
+				end
+			
+				if (num_d>0) then
+					D1[num_z*num_y+i][1]=d1[1]
+				end
+				
+				if (num_d>1) then
+					for j=2,num_d do
+						if (math.abs(d1[j])<math.abs(D1[num_z*num_y+i][1])) then
+							D1[num_z*num_y+i][1]=d1[j]
+						end
+					end
+				end
+
+			end
+		end
+
+		for i=1,(num_z*num_y) do
+			local MPT=Vec3(PTS1[i][1],PTS1[i][2],PTS1[i][3])
+			--	slite move along normal direction, to avoid
+			--	\"rayIntersect\" find no point
+			MPT=MPT-N_13*0.001
+			local r = Ray(MPT, N_13)
+			local t = rayIntersect(Stage.SceneNode, r, false, true)
+
+			if (t~= nil) then
+				local num_t=1
+				local num_d=0
+				local d1={}
+				while (t[num_t]~=nil) do
+					if ((t[num_t].Entity~=MT_1)and(t[num_t].Entity~=MT_2)) then
+						num_d=num_d+1
+						--	\"-0.001\" corresponding to before
+						--	a distance was added to avoid empty intersection
+						d1[num_d]=t[num_t].IntersectedPoint.distance-0.001
+					end
+					num_t=num_t+1
+				end
+			
+				if (num_d>0) then
+					D1[num_z*num_y*2+i][1]=d1[1]
+				end
+				
+				if (num_d>1) then
+					for j=2,num_d do
+						if (math.abs(d1[j])<math.abs(D1[num_z*num_y*2+i][1])) then
+							D1[num_z*num_y*2+i][1]=d1[j]
+						end
+					end
+				end
+			
+			end
+		end
+	
+		-- measurement distance D2 by ray----------------------------
+		local D2=matrix(num_z*num_y*3,1,9e9)
+
+		for i=1,(num_z*num_y) do
+			local MPT=Vec3(PTS1[i][1],PTS1[i][2],PTS1[i][3])
+			MPT=MPT+N_21*DPL-N_21*0.001
+			local r = Ray(MPT, N_21)
+			local t = rayIntersect(Stage.SceneNode, r, false, true)
+			
+			if (t~= nil) then
+				local num_t=1
+				local num_d=0
+				local d2={}
+				while (t[num_t]~=nil) do
+					if ((t[num_t].Entity~=MT_1)and(t[num_t].Entity~=MT_2)) then
+						num_d=num_d+1
+						d2[num_d]=t[num_t].IntersectedPoint.distance-0.001
+					end
+					num_t=num_t+1
+				end
+				
+				if (num_d>0) then
+					D2[i][1]=d2[1]
+				end
+				
+				if (num_d>1) then
+					for j=2,num_d do
+						if (math.abs(d2[j])<math.abs(D2[i][1])) then
+							D2[i][1]=d2[j]
+						end
+					end
+				end
+				
+			end
+		end
+
+		for i=1,(num_z*num_y) do
+			local MPT=Vec3(PTS1[i][1],PTS1[i][2],PTS1[i][3])
+			MPT=MPT+N_21*DPL-N_22*0.001
+			local r = Ray(MPT, N_22)
+			local t = rayIntersect(Stage.SceneNode, r, false, true)
+			
+			if (t~= nil) then
+				local num_t=1
+				local num_d=0
+				local d2={}
+				while (t[num_t]~=nil) do
+					if ((t[num_t].Entity~=MT_1)and(t[num_t].Entity~=MT_2)) then
+						num_d=num_d+1
+						d2[num_d]=t[num_t].IntersectedPoint.distance-0.001
+					end
+					num_t=num_t+1
+				end
+				
+				if (num_d>0) then
+					D2[num_z*num_y+i][1]=d2[1]
+				end
+				
+				if (num_d>1) then
+					for j=2,num_d do
+						if (math.abs(d2[j])<math.abs(D2[num_z*num_y+i][1])) then
+							D2[num_z*num_y+i][1]=d2[j]
+						end
+					end
+				end
+				
+			end
+		end
+
+		for i=1,(num_z*num_y) do
+			local MPT=Vec3(PTS1[i][1],PTS1[i][2],PTS1[i][3])
+			MPT=MPT+N_21*DPL-N_23*0.001
+			local r = Ray(MPT, N_23)
+			local t = rayIntersect(Stage.SceneNode, r, false, true)
+			
+			if (t~= nil) then
+				local num_t=1
+				local num_d=0
+				local d2={}
+				while (t[num_t]~=nil) do
+					if ((t[num_t].Entity~=MT_1)and(t[num_t].Entity~=MT_2)) then
+						num_d=num_d+1
+						d2[num_d]=t[num_t].IntersectedPoint.distance-0.001
+					end
+					num_t=num_t+1
+				end
+				
+				if (num_d>0) then
+					D2[num_z*num_y*2+i][1]=d2[1]
+				end
+				
+				if (num_d>1) then
+					for j=2,num_d do
+						if (math.abs(d2[j])<math.abs(D2[num_z*num_y*2+i][1])) then
+							D2[num_z*num_y*2+i][1]=d2[j]
+						end
+					end
+				end
+				
+			end
+		end
+
+		-- conduct association---------------------------------------
+		--	transform the variables from \"Vec3\" to \"matrix\"
+		--	so they could be used in \"metrology\" package
+		local C1=matrix{CT_1.x,CT_1.y,CT_1.z}
+		local C2=matrix{CT_2.x,CT_2.y,CT_2.z}
+		local N11=matrix{N_11.x,N_11.y,N_11.z}
+		local N12=matrix{N_12.x,N_12.y,N_12.z}
+		local N13=matrix{N_13.x,N_13.y,N_13.z}
+		local N21=matrix{N_21.x,N_21.y,N_21.z}
+		local N22=matrix{N_22.x,N_22.y,N_22.z}
+		local N23=matrix{N_23.x,N_23.y,N_23.z}
+
+		local min_D1=9e9
+		for i=1,(num_z*num_y*3) do
+			if (D1[i][1]<min_D1) then
+				min_D1=D1[i][1]
+			end
+		end
+		local min_D2=9e9
+		for i=1,(num_z*num_y*3) do
+			if (D2[i][1]<min_D2) then
+				min_D2=D2[i][1]
+			end
+		end
+		if ((min_D1+min_D2+DPL)>measurement_range) then
+			empty=true
+		end
+
+		if (empty) then
+			print('Parts are beyond the measurement range !')
+			Result=matrix(7,1,0)
+			Result[7][1]=-DPL
+			CRT=0
+		else
+			Result,CRT = metrology.Caliper_B(C1,C2,N11,N12,N13,N21,N22,N23,D1,D2,DPL,PTS1)
+		end
+
+		-- Translation & Rotation: CT_1,CT_2,N_1,N_2,PTS1------------
+		--[[	After each step of association, update the
+				position and orientation of the points,
+				not the caliper									 ]]--
+		-- rotate N_1 & N_2------------------------------------------
+		N_11=N_11-N_11:cross(Vec3(Result[4][1],Result[5][1],Result[6][1]))
+		N_11:normalize()
+		N_21=Vec3(0,0,0)-N_11
+		N_21:normalize()
+		-- rotate N_1 & N_2------------------------------------------
+		N_12=N_12-N_12:cross(Vec3(Result[4][1],Result[5][1],Result[6][1]))
+		N_12:normalize()
+		N_22=Vec3(0,0,0)-N_12
+		N_22:normalize()
+		-- rotate N_1 & N_2------------------------------------------
+		N_13=N_13-N_13:cross(Vec3(Result[4][1],Result[5][1],Result[6][1]))
+		N_13:normalize()
+		N_23=Vec3(0,0,0)-N_13
+		N_23:normalize()
+		-- translate PTS1--------------------------------------------
+		for i=1,(num_z*num_y) do
+			-- translation caused by rotation
+			local r_PTS1=Vec3((CT_1.x-PTS1[i][1]),(CT_1.y-PTS1[i][2]),(CT_1.z-PTS1[i][3]))
+			r_PTS1=r_PTS1:cross(Vec3(Result[4][1],Result[5][1],Result[6][1]))
+			-- sum of translation for each point
+			local tr_PTS1=Vec3(Result[1][1],Result[2][1],Result[3][1])+r_PTS1
+			-- translate
+			PTS1[i][1]=PTS1[i][1]+tr_PTS1.x
+			PTS1[i][2]=PTS1[i][2]+tr_PTS1.y
+			PTS1[i][3]=PTS1[i][3]+tr_PTS1.z
+		end
+		-- translate CT_1--------------------------------------------
+		CT_1=CT_1+Vec3(Result[1][1],Result[2][1],Result[3][1])
+		-- translate CT_2--------------------------------------------
+		DPL=DPL+Result[7][1]
+		CT_2=CT_1+N_21*DPL
+		
+		-- mark the number of loop-----------------------------------
+		loop_num=loop_num+1
+	end
+
+	-- rotate the caliper--------------------------------------------
+	local v_1=Vec3(-1,0,0)
+	local a=MT_1:getOrientation()
+		  v_1=a:rotate(v_1)
+		  v_1:normalize()
+	local v_2=N_11
+	-- calculate the rotation axis
+	local r_axis=v_1:cross(v_2)
+		  r_axis:normalize()
+	-- translate World rotation axis to Local rotation axis
+	local M=MT_1:getLocalFrame()
+		  M:invert()
+		  r_axis=M*r_axis
+		  r_axis:normalize()
+	-- calculate the rotation angle
+	local r_angle=math.acos(v_1:dot(v_2))
+
+	-- translate the position of caliper-----------------------------
+	--[[	translation corresponding to the left
+			contact surface of the caliper
+			this considered:
+				1. changing of measurement surface
+				2. displacement caused by rotation				 ]]--
+	local tr_caliper=CT_1-MT_1:getStagePosition()-dir_cb+dir_cb:cross(r_axis*r_angle)
+	--[[	the displacement of slide is calculated by
+			changing of \"DPL\"									 ]]--
+	local v_1=Vec3(-1,0,0)
+	local a=MT_1:getOrientation()
+		  v_1=a:rotate(v_1)
+	local CT_1=MT_1:getStagePosition()
+	local CT_2=MT_2:getStagePosition()
+	local DPL2=(CT_1-CT_2)*v_1-0.025
+	local tr_slide=Vec3((DPL-DPL2),0,0)
+
+	local duration = 2
+	local time = 0
+	while (time<duration) do
+		local frametime=Simulation:getFrameTime()
+		local r_qt=Quat(r_axis,r_angle/duration*frametime)
+		--[[	if not using local rotation
+				additional displacement will be introduced		 ]]--
+		MT_1:rotateLocal(r_qt)
+		MT_1:translateWorld(tr_caliper/duration*frametime)
+		MT_2:translateParent(tr_slide/duration*frametime)
+		time=time+frametime
+		waitAndUpdate()
+	end
+	
+	--	output the result
+	Distance=DPL*1000
+	output('Distance',Distance)
+
+elseif (measurement_type=='Caliper_C') then
+
+	local CRT=9e9
+	local loop_num=1
+	local empty=false
+
+	local N_1=Vec3(-1,0,0)
+	local N_2=Vec3(-1,0,0)
+	
+	local a=MT_1:getOrientation()
+		N_1=a:rotate(N_1)
+		N_2=a:rotate(N_2)
+	--[[	dir_c1: direction from part center to the
+				center of measurement plane			 				
+			dir_c3: samilier to dir_c1							 ]]--
+	local dir_c1=Vec3(-0.0157,0.002,-0.055)
+	local dir_c3=Vec3(0,-0.006,0)
+		dir_c1=a:rotate(dir_c1)
+		dir_c3=a:rotate(dir_c3)
+
+	local CT_1=MT_1:getStagePosition()
+	local CT_2=MT_2:getStagePosition()
+	
+	local DPL=(CT_1-CT_2)*N_1
+		DPL=DPL-0.025
+
+	-- dir_c2: samilier to dir_c1	
+	dir_c2=dir_c1+dir_c3-N_2*DPL
+	
+	CT_2=CT_1+dir_c2
+	CT_1=CT_1+dir_c1
+
+	local num_z=8
+	
+	local range_z1=-0.004
+	local range_z2= 0.004
+	local dz=(range_z2-range_z1)/(num_z-1)
+	
+	local num_y=6
+	local range_y1=-0.002
+	local range_y2= 0.002
+	local dy=(range_y2-range_y1)/(num_y-1)
+
+	local PTS1=matrix(num_z*num_y,3,0)
+	local count=1
+	for i=1,num_z do
+		pst_z=range_z1+dz*(i-1)
+		for j=1,num_y do
+			pst_y=range_y1+dy*(j-1)
+			PTS1[count][1]=0
+			PTS1[count][2]=pst_y
+			PTS1[count][3]=pst_z
+			count=count+1
+		end
+	end
+	for i=1,(num_z*num_y) do
+		local MPT=Vec3(PTS1[i][1],PTS1[i][2],PTS1[i][3])
+		MPT=a:rotate(MPT)
+		PTS1[i][1]=MPT.x+CT_2.x
+		PTS1[i][2]=MPT.y+CT_2.y
+		PTS1[i][3]=MPT.z+CT_2.z
+	end
+
+	-- loop to associate---------------------------------------------
+	while ((CRT>1e-5) and (loop_num<10)) do
+
+		local D2=matrix(num_z*num_y,1,9e9)
+
+		for i=1,(num_z*num_y) do
+			local MPT=Vec3(PTS1[i][1],PTS1[i][2],PTS1[i][3])
+				MPT=MPT-N_2*0.001
+			local r = Ray(MPT, N_2)
+			local t = rayIntersect(Stage.SceneNode, r, false, true)
+
+			if (t~= nil) then
+				local num_t=1
+				local num_d=0
+				local d2={}
+				while (t[num_t]~=nil) do
+					if ((t[num_t].Entity~=MT_1)and(t[num_t].Entity~=MT_2)) then
+						num_d=num_d+1
+						d2[num_d]=t[num_t].IntersectedPoint.distance-0.001
+					end
+					num_t=num_t+1
+				end
+			
+				if (num_d>0) then
+					D2[i][1]=d2[1]
+				end
+				
+				if (num_d>1) then
+					for j=2,num_d do
+						if (math.abs(d2[j])<math.abs(D2[i][1])) then
+							D2[i][1]=d2[j]
+						end
+					end
+				end
+			
+			end
+		end
+
+		-- conduct association---------------------------------------
+		local C1=matrix{CT_1.x,CT_1.y,CT_1.z}
+		local C2=matrix{CT_2.x,CT_2.y,CT_2.z}
+		local N1=matrix{N_1.x,N_1.y,N_1.z}
+		local N2=matrix{N_2.x,N_2.y,N_2.z}
+
+		Result, Objective = metrology.Caliper_C2(C2,N2,D2,PTS1)
+		
+		if (loop_num==1) then
+			CRT=Objective
+		else
+			CRT=math.abs(CRT-Objective)
+		end
+
+		N_2=N_2-N_2:cross(Vec3(Result[4][1],Result[5][1],Result[6][1]))
+		N_2:normalize()
+		N_1=N_1-N_1:cross(Vec3(Result[4][1],Result[5][1],Result[6][1]))
+		N_1:normalize()
+
+		dir_c3=dir_c3-dir_c3:cross(Vec3(Result[4][1],Result[5][1],Result[6][1]))
+
+		-- translate PTS1--------------------------------------------
+		for i=1,(num_z*num_y) do
+			-- translation caused by rotation
+			local r_PTS1=Vec3((CT_2.x-PTS1[i][1]),(CT_2.y-PTS1[i][2]),(CT_2.z-PTS1[i][3]))
+			r_PTS1=r_PTS1:cross(Vec3(Result[4][1],Result[5][1],Result[6][1]))
+			-- sum of translation for each point
+			local tr_PTS1=Vec3(Result[1][1],Result[2][1],Result[3][1])+r_PTS1
+			-- translate
+			PTS1[i][1]=PTS1[i][1]+tr_PTS1.x
+			PTS1[i][2]=PTS1[i][2]+tr_PTS1.y
+			PTS1[i][3]=PTS1[i][3]+tr_PTS1.z
+		end
+		-- translate CT_2--------------------------------------------
+		CT_2=CT_2+Vec3(Result[1][1],Result[2][1],Result[3][1])
+		-- translate CT_1--------------------------------------------
+		CT_1=CT_2+N_2*DPL-dir_c3
+		
+		-- mark the number of loop-----------------------------------
+		loop_num=loop_num+1
+	end
+
+	-- rotate the caliper--------------------------------------------
+	local v_1=Vec3(-1,0,0)
+	local a=MT_1:getOrientation()
+		  v_1=a:rotate(v_1)
+		  v_1:normalize()
+	local v_2=N_2
+	-- calculate the rotation axis
+	local r_axis=v_1:cross(v_2)
+		  r_axis:normalize()
+	-- translate World rotation axis to Local rotation axis
+	local M=MT_1:getLocalFrame()
+		  M:invert()
+		  r_axis=M*r_axis
+		  r_axis:normalize()
+	-- calculate the rotation angle
+	local r_angle=math.acos(v_1:dot(v_2))
+
+	-- translate the position of caliper-----------------------------
+	local tr_caliper=CT_1-MT_1:getStagePosition()-dir_c1+dir_c1:cross(r_axis*r_angle)
+	if (math.abs(tr_caliper.x)>measurement_range) then
+		empty=true
+	end
+	if (math.abs(tr_caliper.y)>measurement_range) then
+		empty=true
+	end
+	if (math.abs(tr_caliper.z)>measurement_range) then
+		empty=true
+	end
+
+	if (empty==true) then
+		tr_caliper=Vec3(0,0,0)
+		r_angle=0
+		print('Too far from measurement part !')
+	end
+
+	local duration = 1
+	local time = 0
+	while (time<duration) do
+		local frametime=Simulation:getFrameTime()
+		local r_qt=Quat(r_axis,r_angle/duration*frametime)
+		--[[	if not using local rotation
+				additional displacement will be introduced		 ]]--
+		MT_1:rotateLocal(r_qt)
+		MT_1:translateWorld(tr_caliper/duration*frametime)
+		time=time+frametime
+		waitAndUpdate()
+	end
+
+	-- Second step---------------------------------------------------
+	local CRT=9e9
+	local loop_num=1
+
+	local N_1=Vec3(-1,0,0)
+	local N_2=Vec3(-1,0,0)
+	
+	local a=MT_1:getOrientation()
+		N_1=a:rotate(N_1)
+		N_2=a:rotate(N_2)
+
+	local dir_c1=Vec3(-0.0157,0.002,-0.055)
+	local dir_c3=Vec3(0,-0.006,0)
+		dir_c1=a:rotate(dir_c1)
+		dir_c3=a:rotate(dir_c3)
+
+	local CT_1=MT_1:getStagePosition()
+	local CT_2=MT_2:getStagePosition()
+	
+	local DPL=(CT_1-CT_2)*N_1
+		DPL=DPL-0.025
+
+	-- dir_c2
+	dir_c2=dir_c1+dir_c3-N_2*DPL
+	
+	CT_2=CT_1+dir_c2
+	CT_1=CT_1+dir_c1
+
+	local num_z=8
+	
+	local range_z1=-0.004
+	local range_z2= 0.004
+	local dz=(range_z2-range_z1)/(num_z-1)
+	
+	local num_y=6
+	local range_y1=-0.002
+	local range_y2= 0.002
+	local dy=(range_y2-range_y1)/(num_y-1)
+
+	local PTS1=matrix(num_z*num_y,3,0)
+	local count=1
+	for i=1,num_z do
+		pst_z=range_z1+dz*(i-1)
+		for j=1,num_y do
+			pst_y=range_y1+dy*(j-1)
+			PTS1[count][1]=0
+			PTS1[count][2]=pst_y
+			PTS1[count][3]=pst_z
+			count=count+1
+		end
+	end
+	for i=1,(num_z*num_y) do
+		local MPT=Vec3(PTS1[i][1],PTS1[i][2],PTS1[i][3])
+		MPT=a:rotate(MPT)
+		PTS1[i][1]=MPT.x+CT_1.x
+		PTS1[i][2]=MPT.y+CT_1.y
+		PTS1[i][3]=MPT.z+CT_1.z
+	end
+
+	-- loop to associate---------------------------------------------
+	while ((CRT>1e-5) and (loop_num<10) and (empty==false)) do
+
+		local D1=matrix(num_z*num_y,1,9e9)
+
+		for i=1,(num_z*num_y) do
+			local MPT=Vec3(PTS1[i][1],PTS1[i][2],PTS1[i][3])
+				MPT=MPT-N_1*0.001
+			local r = Ray(MPT, N_1)
+			local t = rayIntersect(Stage.SceneNode, r, false, true)
+
+			if (t~= nil) then
+				local num_t=1
+				local num_d=0
+				local d1={}
+				while (t[num_t]~=nil) do
+					if ((t[num_t].Entity~=MT_1)and(t[num_t].Entity~=MT_2)) then
+						num_d=num_d+1
+						d1[num_d]=t[num_t].IntersectedPoint.distance-0.001
+					end
+					num_t=num_t+1
+				end
+			
+				if (num_d>0) then
+					D1[i][1]=d1[1]
+				end
+				
+				if (num_d>1) then
+					for j=2,num_d do
+						if (math.abs(d1[j])<math.abs(D1[i][1])) then
+							D1[i][1]=d1[j]
+						end
+					end
+				end
+			
+			end
+		end
+
+		-- conduct association---------------------------------------
+		local C1=matrix{CT_1.x,CT_1.y,CT_1.z}
+		local C2=matrix{CT_2.x,CT_2.y,CT_2.z}
+		local N1=matrix{N_1.x,N_1.y,N_1.z}
+		local N2=matrix{N_2.x,N_2.y,N_2.z}
+
+		Result, Objective = metrology.Caliper_C1(C1,N1,D1,PTS1)
+		
+		if (loop_num==1) then
+			CRT=Objective
+		else
+			CRT=math.abs(CRT-Objective)
+		end
+
+		-- translate PTS1--------------------------------------------
+		for i=1,(num_z*num_y) do
+			-- sum of translation for each point
+			local tr_PTS1=Vec3(Result[1][1],Result[2][1],Result[3][1])
+			-- translate
+			PTS1[i][1]=PTS1[i][1]+tr_PTS1.x
+			PTS1[i][2]=PTS1[i][2]+tr_PTS1.y
+			PTS1[i][3]=PTS1[i][3]+tr_PTS1.z
+		end
+		-- translate CT_1--------------------------------------------
+		CT_1=CT_1+Vec3(Result[1][1],Result[2][1],Result[3][1])
+		
+		-- mark the number of loop-----------------------------------
+		loop_num=loop_num+1
+	end
+
+	-- translate the position of caliper-----------------------------
+	local tr_caliper=CT_1-MT_1:getStagePosition()-dir_c1
+	local tr_slide=Vec3(tr_caliper:dot(N_1),0,0)
+	if (math.abs(tr_caliper.x)>measurement_range) then
+		empty=true
+	end
+	if (math.abs(tr_caliper.y)>measurement_range) then
+		empty=true
+	end
+	if (math.abs(tr_caliper.z)>measurement_range) then
+		empty=true
+	end
+
+	if (empty==true) then
+		tr_caliper=Vec3(0,0,0)
+		tr_slide=Vec3(0,0,0)
+		print('Too far from measurement part !')
+	end
+	
+	local duration = 1
+	local time = 0
+	while (time<duration) do
+		local frametime=Simulation:getFrameTime()
+		MT_2:translateLocal(tr_slide/duration*frametime)
+		MT_1:translateWorld(tr_caliper/duration*frametime)
+		time=time+frametime
+		waitAndUpdate()
+	end
+
+	--	output the result
+	Distance=DPL*1000
+	output('Distance',Distance)
+
+elseif (measurement_type=='Caliper_D') then
+
+	local CRT=9e9
+	local loop_num=1
+	local empty=false
+
+	local N_1=Vec3(1,0,0)
+	local N_2=Vec3(1,0,0)
+	
+	local a=MT_1:getOrientation()
+		N_1=a:rotate(N_1)
+		N_2=a:rotate(N_2)
+	--[[	dir_c1: direction from part center to the
+				center of measurement plane			 				
+			dir_c3: samilier to dir_c1							 ]]--
+	local dir_c1=Vec3(0.2746,0.005,-0.055)
+	local dir_c3=Vec3(0,-0.006,0)
+		dir_c1=a:rotate(dir_c1)
+		dir_c3=a:rotate(dir_c3)
+
+	local CT_1=MT_1:getStagePosition()
+	local CT_2=MT_2:getStagePosition()
+	
+	local DPL=(CT_2-CT_1)*N_1
+		DPL=DPL-0.025
+
+	-- dir_c2: samilier to dir_c1	
+	dir_c2=dir_c1+dir_c3+N_1*DPL
+	
+	CT_2=CT_1+dir_c2
+	CT_1=CT_1+dir_c1
+
+	local num_z=8
+	
+	local range_z1=-0.004
+	local range_z2= 0.004
+	local dz=(range_z2-range_z1)/(num_z-1)
+	
+	local num_y=6
+	local range_y1=-0.002
+	local range_y2= 0.002
+	local dy=(range_y2-range_y1)/(num_y-1)
+
+	local PTS1=matrix(num_z*num_y,3,0)
+	local count=1
+	for i=1,num_z do
+		pst_z=range_z1+dz*(i-1)
+		for j=1,num_y do
+			pst_y=range_y1+dy*(j-1)
+			PTS1[count][1]=0
+			PTS1[count][2]=pst_y
+			PTS1[count][3]=pst_z
+			count=count+1
+		end
+	end
+	for i=1,(num_z*num_y) do
+		local MPT=Vec3(PTS1[i][1],PTS1[i][2],PTS1[i][3])
+		MPT=a:rotate(MPT)
+		PTS1[i][1]=MPT.x+CT_1.x
+		PTS1[i][2]=MPT.y+CT_1.y
+		PTS1[i][3]=MPT.z+CT_1.z
+	end
+
+	-- loop to associate---------------------------------------------
+	while ((CRT>1e-5) and (loop_num<10)) do
+
+		local D1=matrix(num_z*num_y,1,9e9)
+
+		for i=1,(num_z*num_y) do
+			local MPT=Vec3(PTS1[i][1],PTS1[i][2],PTS1[i][3])
+				MPT=MPT-N_1*0.001
+			local r = Ray(MPT, N_1)
+			local t = rayIntersect(Stage.SceneNode, r, false, true)
+
+			if (t~= nil) then
+				local num_t=1
+				local num_d=0
+				local d1={}
+				while (t[num_t]~=nil) do
+					if ((t[num_t].Entity~=MT_1)and(t[num_t].Entity~=MT_2)) then
+						num_d=num_d+1
+						d1[num_d]=t[num_t].IntersectedPoint.distance-0.001
+					end
+					num_t=num_t+1
+				end
+			
+				if (num_d>0) then
+					D1[i][1]=d1[1]
+				end
+				
+				if (num_d>1) then
+					for j=2,num_d do
+						if (math.abs(d1[j])<math.abs(D1[i][1])) then
+							D1[i][1]=d1[j]
+						end
+					end
+				end
+			
+			end
+		end
+
+		-- conduct association---------------------------------------
+		local C1=matrix{CT_1.x,CT_1.y,CT_1.z}
+		local C2=matrix{CT_2.x,CT_2.y,CT_2.z}
+		local N1=matrix{N_1.x,N_1.y,N_1.z}
+		local N2=matrix{N_2.x,N_2.y,N_2.z}
+
+		Result, Objective = metrology.Caliper_C2(C1,N1,D1,PTS1)
+		
+		if (loop_num==1) then
+			CRT=Objective
+		else
+			CRT=math.abs(CRT-Objective)
+		end
+
+		N_2=N_2-N_2:cross(Vec3(Result[4][1],Result[5][1],Result[6][1]))
+		N_2:normalize()
+		N_1=N_1-N_1:cross(Vec3(Result[4][1],Result[5][1],Result[6][1]))
+		N_1:normalize()
+
+		dir_c3=dir_c3-dir_c3:cross(Vec3(Result[4][1],Result[5][1],Result[6][1]))
+
+		-- translate PTS1--------------------------------------------
+		for i=1,(num_z*num_y) do
+			-- translation caused by rotation
+			local r_PTS1=Vec3((CT_1.x-PTS1[i][1]),(CT_1.y-PTS1[i][2]),(CT_1.z-PTS1[i][3]))
+			r_PTS1=r_PTS1:cross(Vec3(Result[4][1],Result[5][1],Result[6][1]))
+			-- sum of translation for each point
+			local tr_PTS1=Vec3(Result[1][1],Result[2][1],Result[3][1])+r_PTS1
+			-- translate
+			PTS1[i][1]=PTS1[i][1]+tr_PTS1.x
+			PTS1[i][2]=PTS1[i][2]+tr_PTS1.y
+			PTS1[i][3]=PTS1[i][3]+tr_PTS1.z
+		end
+		-- translate CT_1--------------------------------------------
+		CT_1=CT_1+Vec3(Result[1][1],Result[2][1],Result[3][1])
+		-- translate CT_2--------------------------------------------
+		CT_2=CT_1+N_1*DPL+dir_c3
+		
+		-- mark the number of loop-----------------------------------
+		loop_num=loop_num+1
+	end
+
+	-- rotate the caliper--------------------------------------------
+	local v_1=Vec3(1,0,0)
+	local a=MT_1:getOrientation()
+		  v_1=a:rotate(v_1)
+		  v_1:normalize()
+	local v_2=N_1
+	-- calculate the rotation axis
+	local r_axis=v_1:cross(v_2)
+		  r_axis:normalize()
+	-- translate World rotation axis to Local rotation axis
+	local M=MT_1:getLocalFrame()
+		  M:invert()
+		  r_axis=M*r_axis
+		  r_axis:normalize()
+	-- calculate the rotation angle
+	local r_angle=math.acos(v_1:dot(v_2))
+
+	-- translate the position of caliper-----------------------------
+	local tr_caliper=CT_1-MT_1:getStagePosition()-dir_c1+dir_c1:cross(r_axis*r_angle)
+	if (math.abs(tr_caliper.x)>measurement_range) then
+		empty=true
+	end
+	if (math.abs(tr_caliper.y)>measurement_range) then
+		empty=true
+	end
+	if (math.abs(tr_caliper.z)>measurement_range) then
+		empty=true
+	end
+
+	if (empty==true) then
+		tr_caliper=Vec3(0,0,0)
+		r_angle=0
+		print('Too far from measurement part !')
+	end
+
+	local duration = 1
+	local time = 0
+	while (time<duration) do
+		local frametime=Simulation:getFrameTime()
+		local r_qt=Quat(r_axis,r_angle/duration*frametime)
+		--[[	if not using local rotation
+				additional displacement will be introduced		 ]]--
+		MT_1:rotateLocal(r_qt)
+		MT_1:translateWorld(tr_caliper/duration*frametime)
+		time=time+frametime
+		waitAndUpdate()
+	end
+
+	-- Second step---------------------------------------------------
+	local CRT=9e9
+	local loop_num=1
+
+	local N_1=Vec3(1,0,0)
+	local N_2=Vec3(1,0,0)
+	
+	local a=MT_1:getOrientation()
+		N_1=a:rotate(N_1)
+		N_2=a:rotate(N_2)
+	
+	local dir_c1=Vec3(0.2746,0.005,-0.055)
+	local dir_c3=Vec3(0,-0.006,0)
+		dir_c1=a:rotate(dir_c1)
+		dir_c3=a:rotate(dir_c3)
+
+	local CT_1=MT_1:getStagePosition()
+	local CT_2=MT_2:getStagePosition()
+	
+	local DPL=(CT_2-CT_1)*N_1
+		DPL=DPL-0.025
+
+	-- dir_c2
+	dir_c2=dir_c1+dir_c3+N_1*DPL
+	
+	CT_2=CT_1+dir_c2
+	CT_1=CT_1+dir_c1
+
+	local num_z=2
+	
+	local range_z1=-0.001
+	local range_z2= 0.001
+	local dz=(range_z2-range_z1)/(num_z-1)
+	
+	local num_y=2
+	local range_y1=-0.001
+	local range_y2= 0.001
+	local dy=(range_y2-range_y1)/(num_y-1)
+
+	local PTS1=matrix(num_z*num_y,3,0)
+	local count=1
+	for i=1,num_z do
+		pst_z=range_z1+dz*(i-1)
+		for j=1,num_y do
+			pst_y=range_y1+dy*(j-1)
+			PTS1[count][1]=0
+			PTS1[count][2]=pst_y
+			PTS1[count][3]=pst_z
+			count=count+1
+		end
+	end
+	for i=1,(num_z*num_y) do
+		local MPT=Vec3(PTS1[i][1],PTS1[i][2],PTS1[i][3])
+		MPT=a:rotate(MPT)
+		PTS1[i][1]=MPT.x+CT_2.x
+		PTS1[i][2]=MPT.y+CT_2.y
+		PTS1[i][3]=MPT.z+CT_2.z
+	end
+
+	-- loop to associate---------------------------------------------
+	while ((CRT>1e-5) and (loop_num<10) and (empty==false)) do
+
+		local D2=matrix(num_z*num_y,1,9e9)
+
+		for i=1,(num_z*num_y) do
+			local MPT=Vec3(PTS1[i][1],PTS1[i][2],PTS1[i][3])
+				MPT=MPT-N_2*0.001
+			local r = Ray(MPT, N_2)
+			local t = rayIntersect(Stage.SceneNode, r, false, true)
+
+			if (t~= nil) then
+				local num_t=1
+				local num_d=0
+				local d2={}
+				while (t[num_t]~=nil) do
+					if ((t[num_t].Entity~=MT_1)and(t[num_t].Entity~=MT_2)) then
+						num_d=num_d+1
+						d2[num_d]=t[num_t].IntersectedPoint.distance-0.001
+					end
+					num_t=num_t+1
+				end
+			
+				if (num_d>0) then
+					D2[i][1]=d2[1]
+				end
+				
+				if (num_d>1) then
+					for j=2,num_d do
+						if (math.abs(d2[j])<math.abs(D2[i][1])) then
+							D2[i][1]=d2[j]
+						end
+					end
+				end
+			
+			end
+		end
+
+		-- conduct association---------------------------------------
+		local C1=matrix{CT_1.x,CT_1.y,CT_1.z}
+		local C2=matrix{CT_2.x,CT_2.y,CT_2.z}
+		local N1=matrix{N_1.x,N_1.y,N_1.z}
+		local N2=matrix{N_2.x,N_2.y,N_2.z}
+
+		Result, Objective = metrology.Caliper_C1(C2,N2,D2,PTS1)
+		
+		if (loop_num==1) then
+			CRT=Objective
+		else
+			CRT=math.abs(CRT-Objective)
+		end
+
+		-- translate PTS1--------------------------------------------
+		for i=1,(num_z*num_y) do
+			-- sum of translation for each point
+			local tr_PTS1=Vec3(Result[1][1],Result[2][1],Result[3][1])
+			-- translate
+			PTS1[i][1]=PTS1[i][1]+tr_PTS1.x
+			PTS1[i][2]=PTS1[i][2]+tr_PTS1.y
+			PTS1[i][3]=PTS1[i][3]+tr_PTS1.z
+		end
+		-- translate CT_2--------------------------------------------
+		CT_2=CT_2+Vec3(Result[1][1],Result[2][1],Result[3][1])
+		
+		-- mark the number of loop-----------------------------------
+		loop_num=loop_num+1
+	end
+
+	-- translate the position of caliper-----------------------------
+	local tr_slide=Vec3(N_2:dot(CT_2-MT_1:getStagePosition()-dir_c2),0,0)
+	if (math.abs(tr_slide.x)>measurement_range) then
+		empty=true
+	end
+	if (math.abs(tr_slide.y)>measurement_range) then
+		empty=true
+	end
+	if (math.abs(tr_slide.z)>measurement_range) then
+		empty=true
+	end
+
+	if (empty==true) then
+		tr_slide=Vec3(0,0,0)
+		print('Too far from measurement part !')
+	end
+	
+	local duration = 1
+	local time = 0
+	while (time<duration) do
+		local frametime=Simulation:getFrameTime()
+		MT_2:translateLocal(tr_slide/duration*frametime)
+		time=time+frametime
+		waitAndUpdate()
+	end
+
+	--	output the result
+	Distance=DPL*1000
+	output('Distance',Distance)
+
+elseif (measurement_type=='MicroMeter') then
+	-- measure the parts inside the measurement surfaces-------------
+
+	-- criteria to stop association----------------------------------
+	--[[	here CRT is the absolute value of
+			relative displacement of micro meter				 ]]--
+	local CRT=1
+	local loop_num=1
+	local empty=true
+
+	--[[	N_1:	normal direction of the
+			first measurement plane it is generated
+			by rotation from initial position     				 ]]--
+	local N_1=Vec3(0,0,-1)
+	local a=MT_1:getOrientation()
+		  N_1=a:rotate(N_1)
+	local N_2=Vec3(0,0,0)-N_1
+	
+	-- get position of two plane center------------------------------
+	local CT_1=MT_1:getStagePosition()
+	local CT_2=MT_2:getStagePosition()
+	
+	-- distance between two planes-----------------------------------
+	local DPL=(CT_2-CT_1)*N_1
+	-- re-calculate the CT_2 by offsetting
+		  CT_2=CT_1+N_1*DPL
+
+	--[[	measurement points on each plane
+			position is relative to the
+			plane center CT_1 and CT_2					         ]]--
+	-- correspond to radius
+	local num_r=3
+	--	!!! notice the direction for row
+	--	negetive direction is the longer direction
+	local range_r1= 0
+	local range_r2= 0.003
+	local dr=(range_r2-range_r1)/num_r
+	-- correspond to angle
+	local num_a=5
+	local range_a1= 0
+	local range_a2= math.pi*2
+	local da=(range_a2-range_a1)/num_a
+
+	-- construct measurement points on caliper-----------------------
+	-- PTS1 is for the first plane-----------------------------------
+	local PTS1=matrix(num_r*num_a,3,0)
+	local count=1
+	for i=1,num_r do
+		rds=dr*i
+		for j=1,num_a do
+			agl=da*j
+			PTS1[count][1]=math.cos(agl)*rds
+			PTS1[count][2]=math.sin(agl)*rds
+			PTS1[count][3]=0
+			count=count+1
+		end
+	end
+	for i=1,(num_r*num_a) do
+		local MPT=Vec3(PTS1[i][1],PTS1[i][2],PTS1[i][3])
+		MPT=a:rotate(MPT)
+		PTS1[i][1]=MPT.x+CT_1.x
+		PTS1[i][2]=MPT.y+CT_1.y
+		PTS1[i][3]=MPT.z+CT_1.z
+	end
+
+	-- loop to associate---------------------------------------------
+	while ((CRT>1e-5) and (loop_num<10)) do
+
+		-- measurement distance D1 by ray----------------------------
+		--	give D1 initially a large value
+		--	if find no intersection point, using this value
+		--	and the constraint will be satisfied
+		local D1=matrix(num_r*num_a,1,9e9)
+		for i=1,(num_r*num_a) do
+			local MPT=Vec3(PTS1[i][1],PTS1[i][2],PTS1[i][3])
+			--	slite move along normal direction, to avoid
+			--	\"rayIntersect\" find no point
+			MPT=MPT-N_1*0.001
+			local r = Ray(MPT, N_1)
+			local t = rayIntersect(Stage.SceneNode, r, false, true)
+
+			if (t~= nil) then
+				local num_t=1
+				local num_d=0
+				local d1={}
+				while (t[num_t]~=nil) do
+					if ((t[num_t].Entity~=MT_1)and(t[num_t].Entity~=MT_2)) then
+						num_d=num_d+1
+						--	\"-0.001\" corresponding to before
+						--	a distance was added to avoid empty intersection
+						d1[num_d]=t[num_t].IntersectedPoint.distance-0.001
+					end
+					num_t=num_t+1
+				end
+			
+				if (num_d>0) then
+					D1[i][1]=d1[1]
+				end
+				
+				if (num_d>1) then
+					for j=2,num_d do
+						if (math.abs(d1[j])<math.abs(D1[i][1])) then
+							D1[i][1]=d1[j]
+						end
+					end
+				end
+			
+			end
+		
+			if (D1[i][1]<DPL) then
+				empty=false
+			end
+
+		end
+	
+		-- measurement distance D2 by ray----------------------------
+		local D2=matrix(num_r*num_a,1,9e9)
+		for i=1,(num_r*num_a) do
+			local MPT=Vec3(PTS1[i][1],PTS1[i][2],PTS1[i][3])
+			MPT=MPT+N_1*(DPL+0.001)
+			local r = Ray(MPT, N_2)
+			local t = rayIntersect(Stage.SceneNode, r, false, true)
+			
+			if (t~= nil) then
+				local num_t=1
+				local num_d=0
+				local d2={}
+				while (t[num_t]~=nil) do
+					if ((t[num_t].Entity~=MT_1)and(t[num_t].Entity~=MT_2)) then
+						num_d=num_d+1
+						d2[num_d]=t[num_t].IntersectedPoint.distance-0.001
+					end
+					num_t=num_t+1
+				end
+				
+				if (num_d>0) then
+					D2[i][1]=d2[1]
+				end
+				
+				if (num_d>1) then
+					for j=2,num_d do
+						if (math.abs(d2[j])<math.abs(D2[i][1])) then
+							D2[i][1]=d2[j]
+						end
+					end
+				end
+				
+			end
+		
+			if (D2[i][1]<DPL) then
+				empty=false
+			end
+
+		end
+
+		-- conduct association---------------------------------------
+		--	transform the variables from \"Vec3\" to \"matrix\"
+		--	so they could be used in \"metrology\" package
+		local C1=matrix{CT_1.x,CT_1.y,CT_1.z}
+		local C2=matrix{CT_2.x,CT_2.y,CT_2.z}
+		local N1=matrix{N_1.x,N_1.y,N_1.z}
+		local N2=matrix{N_2.x,N_2.y,N_2.z}
+
+		if (empty) then
+			print('No measurement part !')
+			Result=matrix(7,1,0)
+			Result[7][1]=DPL
+			CRT=0
+		else
+			Result,CRT = metrology.Caliper_A(C1,C2,N1,N2,D1,D2,DPL,PTS1)
+		end
+
+		-- Translation & Rotation: CT_1,CT_2,N_1,N_2,PTS1------------
+		--[[	After each step of association, update the
+				position and orientation of the points			 ]]--
+		-- rotate N_1 & N_2------------------------------------------
+		N_1=N_1-N_1:cross(Vec3(Result[4][1],Result[5][1],Result[6][1]))
+		N_1:normalize()
+		N_2=Vec3(0,0,0)-N_1
+		N_2:normalize()
+		-- translate PTS1--------------------------------------------
+		for i=1,(num_r*num_a) do
+			-- translation caused by rotation
+			local r_PTS1=Vec3((CT_1.x-PTS1[i][1]),(CT_1.y-PTS1[i][2]),(CT_1.z-PTS1[i][3]))
+			r_PTS1=r_PTS1:cross(Vec3(Result[4][1],Result[5][1],Result[6][1]))
+			-- sum of translation for each point
+			local tr_PTS1=Vec3(Result[1][1],Result[2][1],Result[3][1])+r_PTS1
+			-- translate
+			PTS1[i][1]=PTS1[i][1]+tr_PTS1.x
+			PTS1[i][2]=PTS1[i][2]+tr_PTS1.y
+			PTS1[i][3]=PTS1[i][3]+tr_PTS1.z
+		end
+		-- translate CT_1--------------------------------------------
+		CT_1=CT_1+Vec3(Result[1][1],Result[2][1],Result[3][1])
+		-- translate CT_2--------------------------------------------
+		DPL=DPL-Result[7][1]
+		CT_2=CT_1+N_1*DPL
+		
+		-- mark the number of loop-----------------------------------
+		loop_num=loop_num+1
+	end
+
+	-- rotate the micro meter----------------------------------------
+	local v_1=Vec3(0,0,-1)
+	local a=MT_1:getOrientation()
+		  v_1=a:rotate(v_1)
+		  v_1:normalize()
+	local v_2=N_1
+	-- calculate the rotation axis
+	local r_axis=v_1:cross(v_2)
+		  r_axis:normalize()
+	-- translate World rotation axis to Local rotation axis
+	local M=MT_1:getLocalFrame()
+		  M:invert()
+		  r_axis=M*r_axis
+		  r_axis:normalize()
+	-- calculate the rotation angle
+	local r_angle=math.acos(v_1:dot(v_2))
+
+	-- translate the position of micro meter-------------------------
+	--[[	translation corresponding to the left
+			contact surface 									 ]]--
+	local tr_MM1=CT_1-MT_1:getStagePosition()
+	--[[	the displacement of MM2 is calculated by
+			changing of \"DPL\"									 ]]--
+	local v_1=Vec3(0,0,-1)
+	local a=MT_1:getOrientation()
+		  v_1=a:rotate(v_1)
+	local CT_1=MT_1:getStagePosition()
+	local CT_2=MT_2:getStagePosition()
+	local DPL2=(CT_2-CT_1)*v_1
+	local tr_MM2=Vec3(0,0,-(DPL-DPL2))
+
+	local duration = 2
+	local time = 0
+	while (time<duration) do
+		local frametime=Simulation:getFrameTime()
+		local r_qt=Quat(r_axis,r_angle/duration*frametime)
+		--[[	if not using local rotation
+				additional displacement will be introduced		 ]]--
+		MT_1:rotateLocal(r_qt)
+		MT_1:translateWorld(tr_MM1/duration*frametime)
+		MT_2:translateParent(tr_MM2/duration*frametime)
+		time=time+frametime
+		waitAndUpdate()
+	end
+	
+	--	output the result
+	Distance=DPL*1000
+	output('Distance',Distance)
+	
+elseif (measurement_type=='DialIndicator') then
+	local CRT=9e9
+	local loop_num=1
+	local empty=false
+
+	local CT_2=MT_2:getStagePosition()
+	local a=MT_2:getOrientation()
+	local N_2=Vec3(0,-1,0)
+		N_2=a:rotate(N_2)
+	local dir_c2=Vec3(0,-0.0003,0)
+		dir_c2=a:rotate(dir_c2)
+	CT_2=CT_2+dir_c2
+
+	local num_z=2
+	local range_z1=-0.0001
+	local range_z2= 0.0001
+	local dz=(range_z2-range_z1)/(num_z-1)
+	
+	local num_x=2
+	local range_x1=-0.0001
+	local range_x2= 0.0001
+	local dx=(range_x2-range_x1)/(num_x-1)
+
+	local PTS1=matrix(num_z*num_x,3,0)
+	local count=1
+	for i=1,num_z do
+		pst_z=range_z1+dz*(i-1)
+		for j=1,num_x do
+			pst_x=range_x1+dx*(j-1)
+			PTS1[count][1]=pst_x
+			PTS1[count][2]=0
+			PTS1[count][3]=pst_z
+			count=count+1
+		end
+	end
+	for i=1,(num_z*num_x) do
+		local MPT=Vec3(PTS1[i][1],PTS1[i][2],PTS1[i][3])
+		MPT=a:rotate(MPT)
+		PTS1[i][1]=MPT.x+CT_2.x
+		PTS1[i][2]=MPT.y+CT_2.y
+		PTS1[i][3]=MPT.z+CT_2.z
+	end
+
+	-- loop to associate---------------------------------------------
+	while ((CRT>1e-5) and (loop_num<10)) do
+
+		local D2=matrix(num_z*num_x,1,9e9)
+
+		for i=1,(num_z*num_x) do
+			local MPT=Vec3(PTS1[i][1],PTS1[i][2],PTS1[i][3])
+				MPT=MPT-N_2*0.001
+			local r = Ray(MPT, N_2)
+			local t = rayIntersect(Stage.SceneNode, r, false, true)
+
+			if (t~= nil) then
+				local num_t=1
+				local num_d=0
+				local d2={}
+				while (t[num_t]~=nil) do
+					if (t[num_t].Entity~=MT_2) then
+						num_d=num_d+1
+						d2[num_d]=t[num_t].IntersectedPoint.distance-0.001
+					end
+					num_t=num_t+1
+				end
+			
+				if (num_d>0) then
+					D2[i][1]=d2[1]
+				end
+				
+				if (num_d>1) then
+					for j=2,num_d do
+						if (math.abs(d2[j])<math.abs(D2[i][1])) then
+							D2[i][1]=d2[j]
+						end
+					end
+				end
+			
+			end
+		end
+
+		-- conduct association---------------------------------------
+		local C2=matrix{CT_2.x,CT_2.y,CT_2.z}
+		local N2=matrix{N_2.x,N_2.y,N_2.z}
+
+		Result, Objective = metrology.Caliper_C1(C2,N2,D2,PTS1)
+		
+		if (loop_num==1) then
+			CRT=Objective
+		else
+			CRT=math.abs(CRT-Objective)
+		end
+
+		-- translate PTS1--------------------------------------------
+		for i=1,(num_z*num_x) do
+			-- sum of translation for each point
+			local tr_PTS1=Vec3(Result[1][1],Result[2][1],Result[3][1])
+			-- translate
+			PTS1[i][1]=PTS1[i][1]+tr_PTS1.x
+			PTS1[i][2]=PTS1[i][2]+tr_PTS1.y
+			PTS1[i][3]=PTS1[i][3]+tr_PTS1.z
+		end
+		-- translate CT_1--------------------------------------------
+		CT_2=CT_2+Vec3(Result[1][1],Result[2][1],Result[3][1])
+		
+		-- mark the number of loop-----------------------------------
+		loop_num=loop_num+1
+	end
+
+	-- translate the position of Dial Indicator2---------------------
+	local tr_value=N_2:dot(CT_2-MT_2:getStagePosition()-dir_c2)
+	local tr_DialIndicator2=Vec3(0,0,-tr_value)
+	if (tr_value>measurement_range) then
+		empty=true
+		tr_DialIndicator2=Vec3(0,0,0)
+		print('Too far from measurement part !')
+	end
+	
+	local duration = 1
+	local time = 0
+	while (time<duration) do
+		local frametime=Simulation:getFrameTime()
+		MT_2:translateLocal(tr_DialIndicator2/duration*frametime)
+		time=time+frametime
+		waitAndUpdate()
+	end
+
+	--	output the result
+	Distance=tr_value*1000
+	output('Distance',Distance)
+end
+
+-- finish------------------------------------------------------------
+
+"
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhScriptTaskProto.0>
+</F>
+</A>
+ 
+<A "S" "AutoStart">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "StartPin">
+<F "VrObjectField">
+<VrBhControlInPin.0 def=" 51 " >
+<VrBhControlInPin>
+0
+</VrBhControlInPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 37 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhControlInPin.0>
+</F>
+</A>
+ 
+<A "S" "StopPin">
+<F "VrObjectField">
+<VrBhControlInPin.0 def=" 52 " >
+<VrBhControlInPin>
+0
+</VrBhControlInPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 37 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhControlInPin.0>
+</F>
+</A>
+ 
+<A "S" "PausePin">
+<F "VrObjectField">
+<VrBhControlInPin.0 def=" 53 " >
+<VrBhControlInPin>
+0
+</VrBhControlInPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 37 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhControlInPin.0>
+</F>
+</A>
+ 
+<A "S" "RestartPin">
+<F "VrObjectField">
+<VrBhControlInPin.0 def=" 54 " >
+<VrBhControlInPin>
+0
+</VrBhControlInPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 37 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhControlInPin.0>
+</F>
+</A>
+ 
+<A "S" "DonePin">
+<F "VrObjectField">
+<VrBhControlOutPin.1 def=" 55 " >
+<VrBhControlOutPin>
+1
+</VrBhControlOutPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 37 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "C" "ConnectedControlInPins">
+<R>
+<F "VrObjectField">
+<VrBhControlInPin.0 def=" 56 " >
+<VrBhControlInPin>
+0
+</VrBhControlInPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 def=" 57 " >
+<VrBhScriptTaskElement>
+0
+</VrBhScriptTaskElement>
+<VrBhTaskElement>
+0
+</VrBhTaskElement>
+<VrBhElement>
+2
+</VrBhElement>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Id">
+<F "VrStringField">
+"df5857f3eb154a9392905468f4bc9fe6"
+</F>
+</A>
+ 
+<A "S" "Position">
+<F "VrVec2dField">
+49.05555555555555700000 -73.83333333333334300000
+</F>
+</A>
+ 
+<A "S" "ParentGraph">
+<F "VrObjectField">
+<VrBhGraph.0 use=" 35 " >
+</VrBhGraph.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "TaskProto">
+<F "VrObjectField">
+<VrBhScriptTaskProto.0 def=" 58 " >
+<VrBhScriptTaskProto>
+0
+</VrBhScriptTaskProto>
+<VrBhTaskProto>
+0
+</VrBhTaskProto>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "TaskName">
+<F "VrStringField">
+"Output"
+</F>
+</A>
+ 
+<A "C" "Parameters">
+<R>
+<F "VrObjectField">
+<VrBhTaskParameter.0 def=" 59 " >
+<VrBhTaskParameter>
+0
+</VrBhTaskParameter>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParameterName">
+<F "VrStringField">
+"Distance"
+</F>
+</A>
+ 
+<A "S" "Settings">
+<F "VrInt32Field">
+-1
+</F>
+</A>
+ 
+<A "S" "MetaData">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "IsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "ParameterType">
+<F "VrObjectField">
+<VrBhType.0 def=" 60 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrDoubleField"
+</FieldIdentifier>
+<FieldValue>
+0.0000000000000000000000
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "Description">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Direction">
+<F "VrBhTaskParameterDirectionField">
+In
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhTaskParameter.0>
+</F>
+ 
+</R>
+</A>
+ 
+<A "S" "Description">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "C" "Tags">
+<R>
+</R>
+</A>
+ 
+<A "S" "TargetType">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "LogicPath">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "C" "OutputControls">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ScriptType">
+<F "VrBhScriptTaskProtoTypeField">
+Chunk
+</F>
+</A>
+ 
+<A "S" "Script">
+<F "VrStringField">
+"print(Distance)"
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhScriptTaskProto.0>
+</F>
+</A>
+ 
+<A "S" "AutoStart">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "StartPin">
+<F "VrObjectField">
+<VrBhControlInPin.0 use=" 56 " >
+</VrBhControlInPin.0>
+</F>
+</A>
+ 
+<A "S" "StopPin">
+<F "VrObjectField">
+<VrBhControlInPin.0 def=" 61 " >
+<VrBhControlInPin>
+0
+</VrBhControlInPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 57 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhControlInPin.0>
+</F>
+</A>
+ 
+<A "S" "PausePin">
+<F "VrObjectField">
+<VrBhControlInPin.0 def=" 62 " >
+<VrBhControlInPin>
+0
+</VrBhControlInPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 57 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhControlInPin.0>
+</F>
+</A>
+ 
+<A "S" "RestartPin">
+<F "VrObjectField">
+<VrBhControlInPin.0 def=" 63 " >
+<VrBhControlInPin>
+0
+</VrBhControlInPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 57 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhControlInPin.0>
+</F>
+</A>
+ 
+<A "S" "DonePin">
+<F "VrObjectField">
+<VrBhControlOutPin.1 def=" 64 " >
+<VrBhControlOutPin>
+1
+</VrBhControlOutPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 57 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "C" "ConnectedControlInPins">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhControlOutPin.1>
+</F>
+</A>
+ 
+<A "S" "AbortPin">
+<F "VrObjectField">
+<VrBhControlInPin.0 def=" 65 " >
+<VrBhControlInPin>
+0
+</VrBhControlInPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 57 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhControlInPin.0>
+</F>
+</A>
+ 
+<A "S" "MaxDuration">
+<F "VrDoubleField">
+0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "ShowDescriptionInGraph">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "C" "ParameterToDataInPinMap">
+<R>
+<F "VrObjectField">
+<VrBhParameterToDataInPinItem.0 def=" 66 " >
+<VrBhParameterToDataInPinItem>
+0
+</VrBhParameterToDataInPinItem>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Parameter">
+<F "VrObjectField">
+<VrBhTaskParameter.0 use=" 59 " >
+</VrBhTaskParameter.0>
+</F>
+</A>
+ 
+<A "S" "DataInPin">
+<F "VrObjectField">
+<VrBhDataInPin.0 def=" 67 " >
+<VrBhDataInPin>
+0
+</VrBhDataInPin>
+<VrBhDataPin>
+1
+</VrBhDataPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 57 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "PinType">
+<F "VrObjectField">
+<VrBhType.0 def=" 68 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrDoubleField"
+</FieldIdentifier>
+<FieldValue>
+0.0000000000000000000000
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "PinIsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "DataToControlMode">
+<F "VrBhDataToControlModeField">
+Disabled
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhDataInPin.0>
+</F>
+</A>
+ 
+<A "C" "DefaultValues">
+<R>
+<F "VrDoubleField">
+0.0000000000000000000000
+</F>
+ 
+</R>
+</A>
+ 
+<A "C" "DefaultValuesAreGraphOwner">
+<R>
+<F "VrBooleanField">
+0
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhParameterToDataInPinItem.0>
+</F>
+ 
+</R>
+</A>
+ 
+<A "C" "ParameterToDataOutPinMap">
+<R>
+</R>
+</A>
+ 
+<A "C" "ControlOutputToControlOutPinMap">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhControlInPin.0>
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhControlOutPin.1>
+</F>
+</A>
+ 
+<A "S" "AbortPin">
+<F "VrObjectField">
+<VrBhControlInPin.0 def=" 69 " >
+<VrBhControlInPin>
+0
+</VrBhControlInPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 37 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhControlInPin.0>
+</F>
+</A>
+ 
+<A "S" "MaxDuration">
+<F "VrDoubleField">
+0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "ShowDescriptionInGraph">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "C" "ParameterToDataInPinMap">
+<R>
+<F "VrObjectField">
+<VrBhParameterToDataInPinItem.0 def=" 70 " >
+<VrBhParameterToDataInPinItem>
+0
+</VrBhParameterToDataInPinItem>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Parameter">
+<F "VrObjectField">
+<VrBhTaskParameter.0 use=" 39 " >
+</VrBhTaskParameter.0>
+</F>
+</A>
+ 
+<A "S" "DataInPin">
+<F "VrObjectField">
+<VrBhDataInPin.0 def=" 71 " >
+<VrBhDataInPin>
+0
+</VrBhDataInPin>
+<VrBhDataPin>
+1
+</VrBhDataPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 37 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "PinType">
+<F "VrObjectField">
+<VrBhType.0 def=" 72 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrUrlField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "PinIsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "DataToControlMode">
+<F "VrBhDataToControlModeField">
+Disabled
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhDataInPin.0>
+</F>
+</A>
+ 
+<A "C" "DefaultValues">
+<R>
+<F "VrUrlField">
+"."
+</F>
+ 
+</R>
+</A>
+ 
+<A "C" "DefaultValuesAreGraphOwner">
+<R>
+<F "VrBooleanField">
+0
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhParameterToDataInPinItem.0>
+</F>
+ 
+<F "VrObjectField">
+<VrBhParameterToDataInPinItem.0 def=" 73 " >
+<VrBhParameterToDataInPinItem>
+0
+</VrBhParameterToDataInPinItem>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Parameter">
+<F "VrObjectField">
+<VrBhTaskParameter.0 use=" 41 " >
+</VrBhTaskParameter.0>
+</F>
+</A>
+ 
+<A "S" "DataInPin">
+<F "VrObjectField">
+<VrBhDataInPin.0 def=" 74 " >
+<VrBhDataInPin>
+0
+</VrBhDataInPin>
+<VrBhDataPin>
+1
+</VrBhDataPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 37 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "PinType">
+<F "VrObjectField">
+<VrBhType.0 def=" 75 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "PinIsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "DataToControlMode">
+<F "VrBhDataToControlModeField">
+Disabled
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhDataInPin.0>
+</F>
+</A>
+ 
+<A "C" "DefaultValues">
+<R>
+<F "VrStringField">
+""
+</F>
+ 
+</R>
+</A>
+ 
+<A "C" "DefaultValuesAreGraphOwner">
+<R>
+<F "VrBooleanField">
+0
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhParameterToDataInPinItem.0>
+</F>
+ 
+<F "VrObjectField">
+<VrBhParameterToDataInPinItem.0 def=" 76 " >
+<VrBhParameterToDataInPinItem>
+0
+</VrBhParameterToDataInPinItem>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Parameter">
+<F "VrObjectField">
+<VrBhTaskParameter.0 use=" 43 " >
+</VrBhTaskParameter.0>
+</F>
+</A>
+ 
+<A "S" "DataInPin">
+<F "VrObjectField">
+<VrBhDataInPin.0 def=" 77 " >
+<VrBhDataInPin>
+0
+</VrBhDataInPin>
+<VrBhDataPin>
+1
+</VrBhDataPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 37 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "PinType">
+<F "VrObjectField">
+<VrBhType.0 def=" 78 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrDoubleField"
+</FieldIdentifier>
+<FieldValue>
+0.0000000000000000000000
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "PinIsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "DataToControlMode">
+<F "VrBhDataToControlModeField">
+Disabled
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhDataInPin.0>
+</F>
+</A>
+ 
+<A "C" "DefaultValues">
+<R>
+<F "VrDoubleField">
+0.0000000000000000000000
+</F>
+ 
+</R>
+</A>
+ 
+<A "C" "DefaultValuesAreGraphOwner">
+<R>
+<F "VrBooleanField">
+0
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhParameterToDataInPinItem.0>
+</F>
+ 
+<F "VrObjectField">
+<VrBhParameterToDataInPinItem.0 def=" 79 " >
+<VrBhParameterToDataInPinItem>
+0
+</VrBhParameterToDataInPinItem>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Parameter">
+<F "VrObjectField">
+<VrBhTaskParameter.0 use=" 45 " >
+</VrBhTaskParameter.0>
+</F>
+</A>
+ 
+<A "S" "DataInPin">
+<F "VrObjectField">
+<VrBhDataInPin.0 def=" 80 " >
+<VrBhDataInPin>
+0
+</VrBhDataInPin>
+<VrBhDataPin>
+1
+</VrBhDataPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 37 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "PinType">
+<F "VrObjectField">
+<VrBhType.0 def=" 81 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"EmptyField"
+</FieldIdentifier>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+"VrObject"
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "PinIsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "DataToControlMode">
+<F "VrBhDataToControlModeField">
+Disabled
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhDataInPin.0>
+</F>
+</A>
+ 
+<A "C" "DefaultValues">
+<R>
+<F "VrObjectField">
+null
+</F>
+ 
+</R>
+</A>
+ 
+<A "C" "DefaultValuesAreGraphOwner">
+<R>
+<F "VrBooleanField">
+0
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhParameterToDataInPinItem.0>
+</F>
+ 
+<F "VrObjectField">
+<VrBhParameterToDataInPinItem.0 def=" 82 " >
+<VrBhParameterToDataInPinItem>
+0
+</VrBhParameterToDataInPinItem>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Parameter">
+<F "VrObjectField">
+<VrBhTaskParameter.0 use=" 47 " >
+</VrBhTaskParameter.0>
+</F>
+</A>
+ 
+<A "S" "DataInPin">
+<F "VrObjectField">
+<VrBhDataInPin.0 def=" 83 " >
+<VrBhDataInPin>
+0
+</VrBhDataInPin>
+<VrBhDataPin>
+1
+</VrBhDataPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 37 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "PinType">
+<F "VrObjectField">
+<VrBhType.0 def=" 84 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"EmptyField"
+</FieldIdentifier>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+"VrObject"
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "PinIsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "DataToControlMode">
+<F "VrBhDataToControlModeField">
+Disabled
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhDataInPin.0>
+</F>
+</A>
+ 
+<A "C" "DefaultValues">
+<R>
+<F "VrObjectField">
+null
+</F>
+ 
+</R>
+</A>
+ 
+<A "C" "DefaultValuesAreGraphOwner">
+<R>
+<F "VrBooleanField">
+0
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhParameterToDataInPinItem.0>
+</F>
+ 
+</R>
+</A>
+ 
+<A "C" "ParameterToDataOutPinMap">
+<R>
+<F "VrObjectField">
+<VrBhParameterToDataOutPinItem.0 def=" 85 " >
+<VrBhParameterToDataOutPinItem>
+0
+</VrBhParameterToDataOutPinItem>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Parameter">
+<F "VrObjectField">
+<VrBhTaskParameter.0 use=" 49 " >
+</VrBhTaskParameter.0>
+</F>
+</A>
+ 
+<A "S" "DataOutPin">
+<F "VrObjectField">
+<VrBhDataOutPin.0 def=" 86 " >
+<VrBhDataOutPin>
+0
+</VrBhDataOutPin>
+<VrBhDataPin>
+1
+</VrBhDataPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 37 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "PinType">
+<F "VrObjectField">
+<VrBhType.0 def=" 87 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrDoubleField"
+</FieldIdentifier>
+<FieldValue>
+0.0000000000000000000000
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "PinIsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "C" "ConnectedDataInPins">
+<R>
+<F "VrObjectField">
+<VrBhDataInPin.0 use=" 67 " >
+</VrBhDataInPin.0>
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhDataOutPin.0>
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhParameterToDataOutPinItem.0>
+</F>
+ 
+</R>
+</A>
+ 
+<A "C" "ControlOutputToControlOutPinMap">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+<A "S" "ParentGraphInstance">
+<F "VrObjectField">
+<VrBhGraphInstance.0 use=" 34 " >
+</VrBhGraphInstance.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "State">
+<F "VrBhTaskInstanceStateField">
+Enabled
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhScriptTaskInstance.0>
+</F>
+ 
+<F "VrObjectField">
+<VrBhScriptTaskInstance.0 def=" 88 " >
+<VrBhScriptTaskInstance>
+0
+</VrBhScriptTaskInstance>
+<VrBhTaskInstance>
+0
+</VrBhTaskInstance>
+<VrBhElementInstance>
+0
+</VrBhElementInstance>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Element">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 def=" 89 " >
+<VrBhScriptTaskElement>
+0
+</VrBhScriptTaskElement>
+<VrBhTaskElement>
+0
+</VrBhTaskElement>
+<VrBhElement>
+2
+</VrBhElement>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Id">
+<F "VrStringField">
+"f8c36e90ab39474aa351c3479a4fbc90"
+</F>
+</A>
+ 
+<A "S" "Position">
+<F "VrVec2dField">
+-470.8333333333334300000 -73.83333333333331400000
+</F>
+</A>
+ 
+<A "S" "ParentGraph">
+<F "VrObjectField">
+<VrBhGraph.0 use=" 35 " >
+</VrBhGraph.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "TaskProto">
+<F "VrObjectField">
+<VrBhScriptTaskProto.0 def=" 90 " >
+<VrBhScriptTaskProto>
+0
+</VrBhScriptTaskProto>
+<VrBhTaskProto>
+0
+</VrBhTaskProto>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "TaskName">
+<F "VrStringField">
+"Input"
+</F>
+</A>
+ 
+<A "C" "Parameters">
+<R>
+<F "VrObjectField">
+<VrBhTaskParameter.0 def=" 91 " >
+<VrBhTaskParameter>
+0
+</VrBhTaskParameter>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParameterName">
+<F "VrStringField">
+"measurement_type"
+</F>
+</A>
+ 
+<A "S" "Settings">
+<F "VrInt32Field">
+-1
+</F>
+</A>
+ 
+<A "S" "MetaData">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "IsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "ParameterType">
+<F "VrObjectField">
+<VrBhType.0 def=" 92 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "Description">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Direction">
+<F "VrBhTaskParameterDirectionField">
+Out
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhTaskParameter.0>
+</F>
+ 
+<F "VrObjectField">
+<VrBhTaskParameter.0 def=" 93 " >
+<VrBhTaskParameter>
+0
+</VrBhTaskParameter>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParameterName">
+<F "VrStringField">
+"measurement_range"
+</F>
+</A>
+ 
+<A "S" "Settings">
+<F "VrInt32Field">
+-1
+</F>
+</A>
+ 
+<A "S" "MetaData">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "IsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "ParameterType">
+<F "VrObjectField">
+<VrBhType.0 def=" 94 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrDoubleField"
+</FieldIdentifier>
+<FieldValue>
+0.0000000000000000000000
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "Description">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Direction">
+<F "VrBhTaskParameterDirectionField">
+Out
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhTaskParameter.0>
+</F>
+ 
+<F "VrObjectField">
+<VrBhTaskParameter.0 def=" 95 " >
+<VrBhTaskParameter>
+0
+</VrBhTaskParameter>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParameterName">
+<F "VrStringField">
+"MT_1"
+</F>
+</A>
+ 
+<A "S" "Settings">
+<F "VrInt32Field">
+-1
+</F>
+</A>
+ 
+<A "S" "MetaData">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "IsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "ParameterType">
+<F "VrObjectField">
+<VrBhType.0 def=" 96 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"EmptyField"
+</FieldIdentifier>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+"VrObject"
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "Description">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Direction">
+<F "VrBhTaskParameterDirectionField">
+Out
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhTaskParameter.0>
+</F>
+ 
+<F "VrObjectField">
+<VrBhTaskParameter.0 def=" 97 " >
+<VrBhTaskParameter>
+0
+</VrBhTaskParameter>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParameterName">
+<F "VrStringField">
+"MT_2"
+</F>
+</A>
+ 
+<A "S" "Settings">
+<F "VrInt32Field">
+-1
+</F>
+</A>
+ 
+<A "S" "MetaData">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "IsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "ParameterType">
+<F "VrObjectField">
+<VrBhType.0 def=" 98 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"EmptyField"
+</FieldIdentifier>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+"VrObject"
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "Description">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Direction">
+<F "VrBhTaskParameterDirectionField">
+Out
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhTaskParameter.0>
+</F>
+ 
+</R>
+</A>
+ 
+<A "S" "Description">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "C" "Tags">
+<R>
+</R>
+</A>
+ 
+<A "S" "TargetType">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "LogicPath">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "C" "OutputControls">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ScriptType">
+<F "VrBhScriptTaskProtoTypeField">
+Chunk
+</F>
+</A>
+ 
+<A "S" "Script">
+<F "VrStringField">
+"local measurement_type='Caliper_A'
+local measurement_range=0.1
+local MT_1=Caliper1
+local MT_2=Caliper2
+
+output('measurement_type',measurement_type)
+output('measurement_range',measurement_range)
+output('MT_1',MT_1)
+output('MT_2',MT_2)"
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhScriptTaskProto.0>
+</F>
+</A>
+ 
+<A "S" "AutoStart">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "StartPin">
+<F "VrObjectField">
+<VrBhControlInPin.0 def=" 99 " >
+<VrBhControlInPin>
+0
+</VrBhControlInPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 89 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhControlInPin.0>
+</F>
+</A>
+ 
+<A "S" "StopPin">
+<F "VrObjectField">
+<VrBhControlInPin.0 def=" 100 " >
+<VrBhControlInPin>
+0
+</VrBhControlInPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 89 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhControlInPin.0>
+</F>
+</A>
+ 
+<A "S" "PausePin">
+<F "VrObjectField">
+<VrBhControlInPin.0 def=" 101 " >
+<VrBhControlInPin>
+0
+</VrBhControlInPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 89 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhControlInPin.0>
+</F>
+</A>
+ 
+<A "S" "RestartPin">
+<F "VrObjectField">
+<VrBhControlInPin.0 def=" 102 " >
+<VrBhControlInPin>
+0
+</VrBhControlInPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 89 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhControlInPin.0>
+</F>
+</A>
+ 
+<A "S" "DonePin">
+<F "VrObjectField">
+<VrBhControlOutPin.1 def=" 103 " >
+<VrBhControlOutPin>
+1
+</VrBhControlOutPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 89 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "C" "ConnectedControlInPins">
+<R>
+<F "VrObjectField">
+<VrBhControlInPin.0 use=" 51 " >
+</VrBhControlInPin.0>
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhControlOutPin.1>
+</F>
+</A>
+ 
+<A "S" "AbortPin">
+<F "VrObjectField">
+<VrBhControlInPin.0 def=" 104 " >
+<VrBhControlInPin>
+0
+</VrBhControlInPin>
+<VrBhControlPin>
+1
+</VrBhControlPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 89 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhControlInPin.0>
+</F>
+</A>
+ 
+<A "S" "MaxDuration">
+<F "VrDoubleField">
+0.0000000000000000000000
+</F>
+</A>
+ 
+<A "S" "ShowDescriptionInGraph">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "C" "ParameterToDataInPinMap">
+<R>
+</R>
+</A>
+ 
+<A "C" "ParameterToDataOutPinMap">
+<R>
+<F "VrObjectField">
+<VrBhParameterToDataOutPinItem.0 def=" 105 " >
+<VrBhParameterToDataOutPinItem>
+0
+</VrBhParameterToDataOutPinItem>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Parameter">
+<F "VrObjectField">
+<VrBhTaskParameter.0 use=" 91 " >
+</VrBhTaskParameter.0>
+</F>
+</A>
+ 
+<A "S" "DataOutPin">
+<F "VrObjectField">
+<VrBhDataOutPin.0 def=" 106 " >
+<VrBhDataOutPin>
+0
+</VrBhDataOutPin>
+<VrBhDataPin>
+1
+</VrBhDataPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 89 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "PinType">
+<F "VrObjectField">
+<VrBhType.0 def=" 107 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "PinIsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "C" "ConnectedDataInPins">
+<R>
+<F "VrObjectField">
+<VrBhDataInPin.0 use=" 74 " >
+</VrBhDataInPin.0>
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhDataOutPin.0>
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhParameterToDataOutPinItem.0>
+</F>
+ 
+<F "VrObjectField">
+<VrBhParameterToDataOutPinItem.0 def=" 108 " >
+<VrBhParameterToDataOutPinItem>
+0
+</VrBhParameterToDataOutPinItem>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Parameter">
+<F "VrObjectField">
+<VrBhTaskParameter.0 use=" 93 " >
+</VrBhTaskParameter.0>
+</F>
+</A>
+ 
+<A "S" "DataOutPin">
+<F "VrObjectField">
+<VrBhDataOutPin.0 def=" 109 " >
+<VrBhDataOutPin>
+0
+</VrBhDataOutPin>
+<VrBhDataPin>
+1
+</VrBhDataPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 89 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "PinType">
+<F "VrObjectField">
+<VrBhType.0 def=" 110 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrDoubleField"
+</FieldIdentifier>
+<FieldValue>
+0.0000000000000000000000
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+""
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "PinIsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "C" "ConnectedDataInPins">
+<R>
+<F "VrObjectField">
+<VrBhDataInPin.0 use=" 77 " >
+</VrBhDataInPin.0>
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhDataOutPin.0>
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhParameterToDataOutPinItem.0>
+</F>
+ 
+<F "VrObjectField">
+<VrBhParameterToDataOutPinItem.0 def=" 111 " >
+<VrBhParameterToDataOutPinItem>
+0
+</VrBhParameterToDataOutPinItem>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Parameter">
+<F "VrObjectField">
+<VrBhTaskParameter.0 use=" 95 " >
+</VrBhTaskParameter.0>
+</F>
+</A>
+ 
+<A "S" "DataOutPin">
+<F "VrObjectField">
+<VrBhDataOutPin.0 def=" 112 " >
+<VrBhDataOutPin>
+0
+</VrBhDataOutPin>
+<VrBhDataPin>
+1
+</VrBhDataPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 89 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "PinType">
+<F "VrObjectField">
+<VrBhType.0 def=" 113 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"EmptyField"
+</FieldIdentifier>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+"VrObject"
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "PinIsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "C" "ConnectedDataInPins">
+<R>
+<F "VrObjectField">
+<VrBhDataInPin.0 use=" 80 " >
+</VrBhDataInPin.0>
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhDataOutPin.0>
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhParameterToDataOutPinItem.0>
+</F>
+ 
+<F "VrObjectField">
+<VrBhParameterToDataOutPinItem.0 def=" 114 " >
+<VrBhParameterToDataOutPinItem>
+0
+</VrBhParameterToDataOutPinItem>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Parameter">
+<F "VrObjectField">
+<VrBhTaskParameter.0 use=" 97 " >
+</VrBhTaskParameter.0>
+</F>
+</A>
+ 
+<A "S" "DataOutPin">
+<F "VrObjectField">
+<VrBhDataOutPin.0 def=" 115 " >
+<VrBhDataOutPin>
+0
+</VrBhDataOutPin>
+<VrBhDataPin>
+1
+</VrBhDataPin>
+<VrBhPin>
+0
+</VrBhPin>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Visible">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "S" "Parent">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 89 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "PinType">
+<F "VrObjectField">
+<VrBhType.0 def=" 116 " >
+<VrBhType>
+0
+</VrBhType>
+<Attributes>
+<R>
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"RTTITypeField"
+</Name>
+<Value>
+<FieldIdentifier>
+"EmptyField"
+</FieldIdentifier>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"VrTypeString"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrStringField"
+</FieldIdentifier>
+<FieldValue>
+"VrObject"
+</FieldValue>
+</Value>
+</Attribute>
+ 
+<Attribute>
+<Type>
+"Single"
+</Type>
+<Name>
+"Any"
+</Name>
+<Value>
+<FieldIdentifier>
+"VrBooleanField"
+</FieldIdentifier>
+<FieldValue>
+0
+</FieldValue>
+</Value>
+</Attribute>
+ 
+</R>
+</Attributes>
+</VrBhType.0>
+</F>
+</A>
+ 
+<A "S" "PinIsContainer">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "C" "ConnectedDataInPins">
+<R>
+<F "VrObjectField">
+<VrBhDataInPin.0 use=" 83 " >
+</VrBhDataInPin.0>
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhDataOutPin.0>
+</F>
+</A>
+ 
+</R>
+</As>
+</VrBhParameterToDataOutPinItem.0>
+</F>
+ 
+</R>
+</A>
+ 
+<A "C" "ControlOutputToControlOutPinMap">
+<R>
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+<A "S" "ParentGraphInstance">
+<F "VrObjectField">
+<VrBhGraphInstance.0 use=" 34 " >
+</VrBhGraphInstance.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "State">
+<F "VrBhTaskInstanceStateField">
+Enabled
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhScriptTaskInstance.0>
+</F>
+ 
+<F "VrObjectField">
+<VrBhScriptTaskInstance.0 def=" 117 " >
+<VrBhScriptTaskInstance>
+0
+</VrBhScriptTaskInstance>
+<VrBhTaskInstance>
+0
+</VrBhTaskInstance>
+<VrBhElementInstance>
+0
+</VrBhElementInstance>
+<VrBhObject>
+0
+</VrBhObject>
+<As>
+<R>
+</R>
+</As>
+<As>
+<R>
+<A "S" "Element">
+<F "VrObjectField">
+<VrBhScriptTaskElement.0 use=" 57 " >
+</VrBhScriptTaskElement.0>
+</F>
+</A>
+ 
+<A "S" "ParentGraphInstance">
+<F "VrObjectField">
+<VrBhGraphInstance.0 use=" 34 " >
+</VrBhGraphInstance.0>
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "State">
+<F "VrBhTaskInstanceStateField">
+Enabled
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+</R>
+</As>
+</VrBhScriptTaskInstance.0>
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+</VrBhGraphInstance.0>
+<InSimulation.1 use=" 2 " >
+</InSimulation.1>
+ 
+</R>
+</OpenedInstances>
+<Focused>
+0
+</Focused>
+</BehaviourEditor>
+<InEntity>
+0
+</InEntity>
+<VrBhEntity>
+0
+</VrBhEntity>
+<VrDynamicObject>
+1
+</VrDynamicObject>
+<As>
+<R>
+<A "S" "Name">
+<F "VrStringField">
+"Simulation"
+</F>
+</A>
+ 
+</R>
+</As>
+<Ds>
+<R>
+</R>
+</Ds>
+<Components>
+<R>
+</R>
+</Components>
+<UserEvents>
+<R>
+</R>
+</UserEvents>
+<As>
+<R>
+<A "S" "GUID">
+<F "VrStringField">
+"{47f26139-54ca-4fb5-977e-bb450620a63a}"
+</F>
+</A>
+ 
+<A "S" "Enabled">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+<A "C" "GraphInstances">
+<R>
+<F "VrObjectField">
+<VrBhGraphInstance.0 use=" 34 " >
+</VrBhGraphInstance.0>
+</F>
+ 
+</R>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "ParentGUID">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Expanded">
+<F "VrBooleanField">
+1
+</F>
+</A>
+ 
+</R>
+</As>
+<As>
+<R>
+<A "S" "TimeStep">
+<F "VrDoubleField">
+0.02000000000000000000000
+</F>
+</A>
+ 
+<A "S" "CentralWidget">
+<F "VrObjectField">
+<InQ3DStageWindow.1 use=" 32 " >
+</InQ3DStageWindow.1>
+</F>
+</A>
+ 
+<A "S" "TimeIncrementMode">
+<F "InTimeIncrementModeField">
+Realtime
+</F>
+</A>
+ 
+<A "C" "TranslationFiles">
+<R>
+</R>
+</A>
+ 
+<A "S" "PlayerDefaultContextMenu">
+<F "VrBooleanField">
+0
+</F>
+</A>
+ 
+<A "S" "Language">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "SpeedFactor">
+<F "VrDoubleField">
+1.000000000000000000000
+</F>
+</A>
+ 
+<A "S" "SoundListener">
+<F "VrObjectField">
+<In3DView.1 use=" 33 " >
+</In3DView.1>
+</F>
+</A>
+ 
+<A "C" "ChildEntities">
+<R>
+<F "VrObjectField">
+<In3DStage.0 use=" 3 " >
+</In3DStage.0>
+</F>
+ 
+<F "VrObjectField">
+<InQ3DStageWindow.1 use=" 32 " >
+</InQ3DStageWindow.1>
+</F>
+ 
+</R>
+</A>
+ 
+<A "S" "SplashScreen">
+<F "VrUrlField">
+""
+</F>
+</A>
+ 
+</R>
+</As>
+</InSimulation.1>
+</F>
+</A>
+ 
+<A "S" "AndroidPackageName">
+<F "VrStringField">
+""
+</F>
+</A>
+ 
+<A "S" "Version">
+<F "VrVersionField">
+1099511627776
+</F>
+</A>
+ 
+<A "S" "Icon">
+<F "VrUrlField">
+""
+</F>
+</A>
+ 
+</R>
+</As>
+<SimuMainWindowState>
+"000000ff00000000fd00000001000000020000000000000000fc0100000001fb000000160053007400610067006500570069006e0064006f00770000000000ffffffff0000005c00ffffff000005d10000038100000004000000040000000800000008fc00000000"
+</SimuMainWindowState>
+<SimuMainWindowGeometry>
+"01d9d0cb000200000000000200000002000005d2000003840000000200000002000005d20000038400000000000000000780"
+</SimuMainWindowGeometry>
+<HashKey>
+"6599f31d020f8dd019cb1b4d57e26d3e6b0addbb"
+</HashKey>
+</InProject.5>
+ 
+</R>
+</VOA_File_1.0>

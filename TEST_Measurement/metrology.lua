@@ -2,7 +2,7 @@
 metrology = {}
 
 -- Function Associate-------------------------------
-function metrology.Caliper_A(C1,C2,N1,N2,D1,D2,DPL,PTS1)
+function metrology.Caliper_Outside(C1,C2,N1,N2,D1,D2,DPL,PTS1)
     
     -- Caliper_A:-----------------------------------
     --  conduct measurement by two measurement planes
@@ -157,7 +157,7 @@ end
 -- -------------------------------------------------
 
 -- Function Associate-------------------------------
-function metrology.Caliper_B(C1,C2,N11,N12,N13,N21,N22,N23,D1,D2,DPL,PTS1)
+function metrology.Caliper_Inside(C1,C2,N11,N12,N13,N21,N22,N23,D1,D2,DPL,PTS1)
     
     -- Caliper_B:-----------------------------------
     --  conduct measurement by two measurement planes
@@ -427,7 +427,7 @@ end
 -- -------------------------------------------------
 
 -- Function Associate-------------------------------
-function metrology.Caliper_C2(C2,N2,D2,PTS1)
+function metrology.Caliper_Shoulder2(C2,N2,D2,PTS1)
     
     -- Caliper_A:-----------------------------------
     --  conduct measurement by two measurement planes
@@ -564,7 +564,7 @@ end
 -- -------------------------------------------------
 
 -- Function Associate-------------------------------
-function metrology.Caliper_C1(C1,N1,D1,PTS1)
+function metrology.Caliper_Shoulder1(C1,N1,D1,PTS1)
     
     -- Caliper_A:-----------------------------------
     --  conduct measurement by two measurement planes
